@@ -4,7 +4,7 @@ Este projeto foi desenvolvido não apenas para divulgar minhas habilidades e exp
 
 ## Breve Descrição do Projeto
 
-Utilizando as linguagens HTML 5 e CSS3, exploro no decorrer do desenvolvimento conceitos importantes de diagramação e posicionamento de elementos no documento, tais como Flexbox e Grid. Além disso, a responsividade também foi trabalhada neste projeto.
+Utilizando as linguagens HTML5 e CSS3, exploro no decorrer do desenvolvimento conceitos importantes de diagramação e posicionamento de elementos no documento, tais como Flexbox e Grid. Além disso, a responsividade também foi trabalhada neste projeto.
 
 ## Tecnologias Utilizadas
 
