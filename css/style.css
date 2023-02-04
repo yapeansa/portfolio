@@ -40,7 +40,7 @@ ul, ol {
 }
 
 .botao__topo {
-  background-color: #8758FF;
+  background-color: #F73859;
   position: fixed;
   bottom: 1rem;
   right: 1rem;
@@ -88,13 +88,13 @@ header nav .menu__principal .menu__link {
   color: #FFF;
   display: block;
   text-transform: uppercase;
-  border-bottom: 3.5px solid #8758FF;
+  border-bottom: 3.5px solid #F73859;
   font-size: 1.1em;
   padding: 0.7em 0.7em;
   transition: all 0.4s ease-in-out;
 }
 header nav .menu__principal .menu__link:hover {
-  background: #8758FF;
+  background: #F73859;
   color: #000;
   border-radius: 11px;
   border-color: #000;
@@ -153,12 +153,12 @@ header .banner .banner__texto {
 }
 .introducao .titulo__intro:before {
   content: "( ";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.7em;
 }
 .introducao .titulo__intro:after {
   content: " )";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.7em;
 }
 .introducao .texto__intro {
@@ -170,15 +170,15 @@ header .banner .banner__texto {
 }
 .introducao .texto__intro .user_name:before {
   content: "@";
-  color: #8758FF;
+  color: #F73859;
 }
 .introducao .texto__intro .enfase:before {
   content: "(";
-  color: #8758FF;
+  color: #F73859;
 }
 .introducao .texto__intro .enfase:after {
   content: ")";
-  color: #8758FF;
+  color: #F73859;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
@@ -210,7 +210,7 @@ header .banner .banner__texto {
 }
 .sobre .titulo__sobre:before {
   content: "/ ";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.7em;
 }
 .sobre .texto__sobre {
@@ -225,7 +225,7 @@ header .banner .banner__texto {
   grid-area: imagem;
   align-self: center;
   border-radius: 100%;
-  border: 4px solid #8758FF;
+  border: 4px solid #F73859;
   padding: 0.8rem;
   margin: 0 auto;
 }
@@ -267,12 +267,12 @@ header .banner .banner__texto {
 }
 .formacao .titulo__formacao:before {
   content: "( ";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.7em;
 }
 .formacao .titulo__formacao:after {
   content: " )";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.7em;
 }
 .formacao .container__cards {
@@ -289,7 +289,7 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__titulo {
   font: 1.8em "Inter Semibold";
-  color: #8758FF;
+  color: #F73859;
   margin: 2rem 0;
 }
 .formacao .container__cards .card .card__subtitulo {
@@ -335,7 +335,7 @@ header .banner .banner__texto {
 }
 .contato .titulo__contato:before {
   content: "/ ";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.7em;
 }
 .contato .container__contato {
@@ -350,11 +350,11 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__info:before {
   content: "[ ";
-  color: #8758FF;
+  color: #F73859;
 }
 .contato .container__contato .titulo__info:after {
   content: " ]";
-  color: #8758FF;
+  color: #F73859;
 }
 .contato .container__contato .alt {
   grid-area: 1/2/2/3;
@@ -404,8 +404,9 @@ header .banner .banner__texto {
 }
 .contato .container__contato form input[type=reset], .contato .container__contato form input[type=submit] {
   font-size: 1.2em;
-  padding: 1em 2.5em;
-  background: #8758FF;
+  width: 9.5em;
+  padding: 1em 0;
+  background: #F73859;
   color: #FFF;
   border: 4px solid #000;
   cursor: pointer;
@@ -413,8 +414,8 @@ header .banner .banner__texto {
   transition: all 0.3s ease-in-out;
 }
 .contato .container__contato form input[type=reset]:hover, .contato .container__contato form input[type=submit]:hover {
-  color: #8758FF;
-  border-color: #8758FF;
+  color: #F73859;
+  border-color: #F73859;
   background-color: #000;
 }
 .contato .container__contato .titulo__pessoal {
@@ -424,11 +425,11 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__pessoal:before {
   content: "[ ";
-  color: #8758FF;
+  color: #F73859;
 }
 .contato .container__contato .titulo__pessoal:after {
   content: " ]";
-  color: #8758FF;
+  color: #F73859;
 }
 .contato .container__contato .lattes__info {
   grid-area: 2/3/3/4;
@@ -436,7 +437,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link {
   color: #FFF;
-  background-color: #8758FF;
+  background-color: #F73859;
   font-size: 1.2em;
   display: inline-block;
   margin-top: 1em;
@@ -446,8 +447,8 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link:hover {
   background-color: #000;
-  color: #8758FF;
-  border-color: #8758FF;
+  color: #F73859;
+  border-color: #F73859;
 }
 
 @media screen and (max-width: 1024px) {
@@ -496,12 +497,12 @@ footer .titulo__footer {
 }
 footer .titulo__footer:before {
   content: "( ";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.8em;
 }
 footer .titulo__footer:after {
   content: " )";
-  color: #8758FF;
+  color: #F73859;
   font-size: 1.8em;
 }
 footer .rodape__texto {
