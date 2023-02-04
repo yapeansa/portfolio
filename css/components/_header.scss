@@ -1,0 +1,96 @@
+@mixin raio($valor) {
+    border-radius: $valor;
+}
+
+header {
+    width: 100%;
+    background: url('../img/bg2.png') bottom center / 13vw repeat-x;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 3fr;
+    .container__logo {
+        background: $preto;
+        display: flex;
+        padding: 1rem 0 0;
+        .logo {
+            width: 9vw;
+            margin: 0 auto;
+            align-self: center;
+        }
+    }
+    nav {
+        background: $preto;
+        display: flex;
+        padding: 2rem 0 3rem;
+        .menu__principal {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            column-gap: 3rem;
+            margin: 0 auto;
+            align-self: center;
+            .menu__link {
+                color: $branco;
+                display: block;
+                text-transform: uppercase;
+                border-bottom: 3.5px solid $cor-primaria;
+                font-size: 1.1em;
+                padding: .7em .7em;
+                transition: all .4s ease-in-out;
+                &:hover {
+                    background: $cor-primaria;
+                    color: $preto;
+                    @include raio(11px);
+                    border-color: $preto;
+                }
+            }
+        }
+    }
+    .banner {
+        background: url('../img/bg1.png') top center / 13vw repeat-x;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        .banner__texto {
+            color: $cinza;
+            background: rgba(0,0,0,.4);
+            display: inline-block;
+            padding: .5rem 1.5rem;
+            font-size: 3.5em;
+            line-height: 1;
+            margin: 0 0 1em;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        background-size: 20vw;
+        .container__logo {
+            .logo {
+                width: 12em;
+            }
+        }
+        nav {
+            padding: 1rem 0 2rem;
+            .menu__principal {
+                display: block;
+                width: 90%;
+                .menu__link {
+                    padding: 1em 0;
+                    text-align: center;
+                    font-size: .9em;
+                }
+            }
+        }
+        .banner {
+            background-size: 20vw;
+            .banner__texto {
+                font-size: 1.5em;
+                margin: 0 1rem 1em;
+            }
+        }
+    }
+}

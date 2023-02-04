@@ -1,0 +1,62 @@
+.sobre {
+    display: grid;
+    grid-template-areas: 'titulo titulo titulo' 'texto texto imagem';
+    background-color: $preto;
+    padding: 6rem 3rem;
+    .titulo__sobre {
+        color: $branco;
+        grid-area: titulo;
+        &:before {
+            content: '/ ';
+            color: $cor-primaria;
+            font-size: 1.7em;
+        }
+    }
+    .texto__sobre {
+        color: $branco;
+        text-align: justify;
+        grid-area: texto;
+        align-self: center;
+        margin-right: 2rem;
+    }
+    .foto__perfil {
+        max-width: 65%;
+        grid-area: imagem;
+        align-self: center;
+        @include raio(100%);
+        border: 4px solid $cor-primaria;
+        padding: .8rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .sobre {
+        .titulo__sobre {
+            font-size: 2em;
+        }
+        .texto__sobre {
+            font-size: 1.1em;
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sobre {
+        display: block;
+        padding: 2rem;
+        text-align: center;
+        .titulo__sobre {
+            font-size: 1.9em;
+            margin-bottom: 2rem;
+        }
+        .texto__sobre {
+            margin: 0;
+            text-align: center;
+        }
+        .foto__perfil {
+            margin-top: 2rem;
+        }
+    }
+}

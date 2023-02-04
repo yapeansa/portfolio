@@ -1,0 +1,162 @@
+.contato {
+    width: 100%;
+    background: $preto url('../img/bg3.png') top center / 13vw repeat-x;
+    padding: 12rem 3rem 0;
+    .titulo__contato {
+        color: $branco;
+        text-align: center;
+        margin-bottom: 3rem;
+        &:before {
+            content: '/ ';
+            color: $cor-primaria;
+            font-size: 1.7em;
+        }
+    }
+    .container__contato {
+        display: grid;
+        grid-template-columns: 30% auto 30%;
+        grid-template-rows: auto auto;
+        color: $branco;
+        .titulo__info {
+            grid-area: 1/1/2/2;
+            font-size: 2em;
+            &:before {
+                content: '[ ';
+                color: $cor-primaria;
+            }
+            &:after {
+                content: ' ]';
+                color: $cor-primaria;
+            }
+        }
+        .alt {
+            grid-area: 1/2/2/3;
+            text-align: center;
+            margin: 0 0 2em;
+        }
+        .info__pessoal {
+            grid-area: 2/1/3/2;
+            .lista__pessoal {
+                font-size: 1.2em;
+                li {
+                    margin-bottom: 1em;
+                }
+            }
+        }
+        form {
+            grid-area: 2/2/3/3;
+            display: grid;
+            fieldset {
+                border: none;
+            }
+            .centraliza {
+                display: flex;
+                column-gap: 2rem;
+                margin-top: 1.5rem;
+                justify-content: center;
+            }
+            input[type=text], input[type=email], textarea {
+                display: block;
+                width: 100%;
+                margin: 0 auto 1rem;
+                font-size: 1.1em;
+                padding: 1.1em 1.3em;
+                border: 5px solid $preto;
+                outline: none;
+                transition: all .3s ease-in-out;
+                color: $preto;
+                -webkit-text-fill-color: $preto;
+                &:focus {
+                    background-color: $preto;
+                    color: $branco;
+                    border-color: $branco;
+                    -webkit-text-fill-color: $branco;
+                }
+            }
+            input[type=reset], input[type=submit] {
+                font-size: 1.2em;
+                padding: 1em 2.5em;
+                background: $cor-primaria;
+                color: $branco;
+                border: 4px solid $preto;
+                cursor: pointer;
+                font-weight: 700;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    color: $cor-primaria;
+                    border-color: $cor-primaria;
+                    background-color: $preto;
+                }
+            }
+        }
+        .titulo__pessoal {
+            grid-area: 1/3/2/4;
+            text-align: right;
+            font-size: 2em;
+            &:before {
+                content: '[ ';
+                color: $cor-primaria;
+            }
+            &:after {
+                content: ' ]';
+                color: $cor-primaria;
+            }
+        }
+        .lattes__info {
+            grid-area: 2/3/3/4;
+            text-align: right;
+            .lattes__link {
+                color: $branco;
+                background-color: $cor-primaria;
+                font-size: 1.2em;
+                display: inline-block;
+                margin-top: 1em;
+                padding: .2em 1em;
+                border: 2px solid $preto;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    background-color: $preto;
+                    color: $cor-primaria;
+                    border-color: $cor-primaria;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contato {
+        background-size: 20vw;
+        padding: 5rem 5rem 0;
+        .titulo__contato {
+            font-size: 2.5em;
+        }
+        .container__contato {
+            display: block;
+            .titulo__info {
+                text-align: center;
+            }
+            .info__pessoal {
+                margin: 2rem 0;
+                text-align: center;
+            }
+            .titulo__pessoal {
+                text-align: center;
+                margin: 3rem 0;
+            }
+            .lattes__info {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contato {
+        padding: 2rem 0 0;
+        .container__contato {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

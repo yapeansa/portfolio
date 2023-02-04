@@ -1,0 +1,59 @@
+@import './variaveis';
+
+@font-face {
+    src: url('../fonts/Inter-Regular.ttf');
+    font-family: 'Inter Regular';
+}
+
+@font-face {
+    src: url('../fonts/Inter-SemiBold.ttf');
+    font-family: 'Inter Semibold';
+}
+
+@font-face {
+    src: url('../fonts/Inter-Medium.ttf');
+    font-family: 'Inter Medium';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font: 16px $fonte-texto;
+    background: url('../img/bg.jpg') bottom center / cover no-repeat fixed;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.titulo__principal {
+    font: 3.2em $fonte-titulo;
+}
+
+.texto__principal {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.botao__topo {
+    background-color: $cor-primaria;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.6em;
+    display: none;
+    a {
+        color: $branco;
+        padding: 1.2rem 1.3rem;
+        display: block;
+    }
+}
