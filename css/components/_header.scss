@@ -13,7 +13,7 @@ header {
         display: flex;
         padding: 1rem 0 0;
         .logo {
-            width: 9vw;
+            width: 11em;
             margin: 0 auto;
             align-self: center;
         }
@@ -34,8 +34,8 @@ header {
                 display: block;
                 text-transform: uppercase;
                 border-bottom: 3.5px solid $cor-primaria;
-                font-size: 1.1em;
-                padding: .7em .7em;
+                font-size: 1.2rem;
+                padding: .7rem;
                 transition: all .4s ease-in-out;
                 &:hover {
                     background: $cor-primaria;
@@ -57,40 +57,10 @@ header {
             background: rgba(0,0,0,.4);
             display: inline-block;
             padding: .5rem 1.5rem;
-            font-size: 3.5em;
+            font-size: 3.2rem;
             line-height: 1;
-            margin: 0 0 1em;
+            margin: 0 0 3rem;
             text-align: center;
-        }
-    }
-}
-
-@media screen and (max-width: 500px) {
-    header {
-        background-size: 20vw;
-        .container__logo {
-            .logo {
-                width: 12em;
-            }
-        }
-        nav {
-            padding: 1rem 0 2rem;
-            .menu__principal {
-                display: block;
-                width: 90%;
-                .menu__link {
-                    padding: 1em 0;
-                    text-align: center;
-                    font-size: .9em;
-                }
-            }
-        }
-        .banner {
-            background-size: 20vw;
-            .banner__texto {
-                font-size: 1.5em;
-                margin: 0 1rem 1em;
-            }
         }
     }
 }

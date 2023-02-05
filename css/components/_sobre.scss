@@ -1,6 +1,6 @@
 .sobre {
     display: grid;
-    grid-template-areas: 'titulo titulo titulo' 'texto texto imagem';
+    grid-template-areas: 'titulo titulo titulo' 'titulo titulo titulo' 'texto texto imagem';
     background-color: $preto;
     padding: 6rem 3rem;
     .titulo__sobre {
@@ -9,7 +9,7 @@
         &:before {
             content: '/ ';
             color: $cor-primaria;
-            font-size: 1.7em;
+            font-size: 5.5rem;
         }
     }
     .texto__sobre {
@@ -27,24 +27,5 @@
         border: 4px solid $cor-primaria;
         padding: .8rem;
         margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .sobre {
-        display: block;
-        padding: 2rem;
-        text-align: center;
-        .titulo__sobre {
-            font-size: 1.9em;
-            margin-bottom: 2rem;
-        }
-        .texto__sobre {
-            margin: 0;
-            text-align: center;
-        }
-        .foto__perfil {
-            margin-top: 2rem;
-        }
     }
 }

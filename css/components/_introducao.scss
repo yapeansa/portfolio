@@ -6,12 +6,12 @@
         &:before {
             content: '( ';
             color: $cor-primaria;
-            font-size: 1.7em;
+            font-size: 5.5rem;
         }
         &:after {
             content: ' )';
             color: $cor-primaria;
-            font-size: 1.7em;
+            font-size: 5.5rem;
         }
     }
     .texto__intro {
@@ -33,18 +33,6 @@
                 content: ')';
                 color: $cor-primaria;
             }
-        }
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .introducao {
-        padding: 2rem 0;
-        .titulo__intro {
-            font-size: 1.6em;
-        }
-        .texto__intro {
-            margin: 2rem 2rem;
         }
     }
 }
