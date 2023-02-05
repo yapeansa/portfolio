@@ -1,5 +1,9 @@
 # Yago Pereira | Desenvolvedor Web Front-end
 
+<p align="center">
+  <img src="./img/logo3.png" alt="Logo Yago" width="30%">
+</p>
+
 Este projeto foi desenvolvido não apenas para divulgar minhas habilidades e experiências profissionais, mas também colocar em prática tudo o que venho aprendendo constantemente.
 
 ## Breve Descrição do Projeto
@@ -13,6 +17,11 @@ Utilizando as linguagens HTML5 e CSS3, exploro no decorrer do desenvolvimento co
 ## Acesso ao Projeto
 
 Você pode acesar a página do projeto clicando no seguinte link: [Portfolio](https://yapeansa.github.io/portfolio/)
+
+## Desenvolvedor do Projeto
+
+[<img src="./img/yago.jpg" width=115 > <br> <sub> Yago Pereira </sub>](https://github.com/yapeansa) |
+| :---: |  
 
 ## Contato
 
