@@ -37,16 +37,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
-    .introducao {
-        .texto__intro {
-            margin: 3rem 5rem 0;
-            font-size: 1.1em;
-        }
-    }
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .introducao {
         padding: 2rem 0;
         .titulo__intro {

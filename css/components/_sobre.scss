@@ -30,19 +30,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
-    .sobre {
-        .titulo__sobre {
-            font-size: 2em;
-        }
-        .texto__sobre {
-            font-size: 1.1em;
-            margin-right: 0;
-        }
-    }
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .sobre {
         display: block;
         padding: 2rem;

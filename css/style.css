@@ -181,13 +181,7 @@ header .banner .banner__texto {
   color: #F73859;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
-  .introducao .texto__intro {
-    margin: 3rem 5rem 0;
-    font-size: 1.1em;
-  }
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .introducao {
     padding: 2rem 0;
   }
@@ -230,16 +224,7 @@ header .banner .banner__texto {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
-  .sobre .titulo__sobre {
-    font-size: 2em;
-  }
-  .sobre .texto__sobre {
-    font-size: 1.1em;
-    margin-right: 0;
-  }
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .sobre {
     display: block;
     padding: 2rem;
@@ -384,6 +369,22 @@ header .banner .banner__texto {
   margin-top: 1.5rem;
   justify-content: center;
 }
+.contato .container__contato form .centraliza input[type=reset], .contato .container__contato form .centraliza input[type=submit] {
+  font-size: 1.2em;
+  width: 9.5em;
+  padding: 1em 0;
+  background: #F73859;
+  color: #FFF;
+  border: 4px solid #000;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+.contato .container__contato form .centraliza input[type=reset]:hover, .contato .container__contato form .centraliza input[type=submit]:hover {
+  color: #F73859;
+  border-color: #F73859;
+  background-color: #000;
+}
 .contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
   display: block;
   width: 100%;
@@ -401,22 +402,6 @@ header .banner .banner__texto {
   color: #FFF;
   border-color: #FFF;
   -webkit-text-fill-color: #FFF;
-}
-.contato .container__contato form input[type=reset], .contato .container__contato form input[type=submit] {
-  font-size: 1.2em;
-  width: 9.5em;
-  padding: 1em 0;
-  background: #F73859;
-  color: #FFF;
-  border: 4px solid #000;
-  cursor: pointer;
-  font-weight: 700;
-  transition: all 0.3s ease-in-out;
-}
-.contato .container__contato form input[type=reset]:hover, .contato .container__contato form input[type=submit]:hover {
-  color: #F73859;
-  border-color: #F73859;
-  background-color: #000;
 }
 .contato .container__contato .titulo__pessoal {
   grid-area: 1/3/2/4;
@@ -451,10 +436,10 @@ header .banner .banner__texto {
   border-color: #F73859;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 500px) {
   .contato {
     background-size: 20vw;
-    padding: 5rem 5rem 0;
+    padding: 5rem 1rem 0;
   }
   .contato .titulo__contato {
     font-size: 2.5em;
@@ -476,14 +461,41 @@ header .banner .banner__texto {
   .contato .container__contato .lattes__info {
     text-align: center;
   }
+  .contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
+    font-size: 1em;
+  }
+  .contato .container__contato form .centraliza {
+    gap: 1rem;
+  }
+  .contato .container__contato form .centraliza input[type=reset], .contato .container__contato form .centraliza input[type=submit] {
+    width: 7em;
+    font-size: 1.1em;
+  }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 501px) and (max-width: 800px) {
   .contato {
-    padding: 2rem 0 0;
+    background-size: 20vw;
+    padding: 5rem 3rem 0;
+  }
+  .contato .titulo__contato {
+    font-size: 2.5em;
   }
   .contato .container__contato {
-    display: flex;
-    flex-direction: column;
+    display: block;
+  }
+  .contato .container__contato .titulo__info {
+    text-align: center;
+  }
+  .contato .container__contato .info__pessoal {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .contato .container__contato .titulo__pessoal {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .contato .container__contato .lattes__info {
+    text-align: center;
   }
 }
 footer {
