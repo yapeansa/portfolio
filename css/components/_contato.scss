@@ -89,6 +89,9 @@
                     -webkit-text-fill-color: $branco;
                 }
             }
+            textarea {
+                resize: none;
+            }
         }
         .titulo__pessoal {
             grid-area: 1/3/2/4;

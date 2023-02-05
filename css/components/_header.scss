@@ -40,7 +40,7 @@ header {
                 &:hover {
                     background: $cor-primaria;
                     color: $preto;
-                    @include raio(11px);
+                    @include raio(12px);
                     border-color: $preto;
                 }
             }
