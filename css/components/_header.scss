@@ -68,6 +68,7 @@ header {
 
 @media screen and (max-width: 1023px) {
     header {
+        background-size: 8rem;
         .container__logo {
             .logo {
                 width: 8rem;
@@ -85,8 +86,10 @@ header {
             }
         }
         .banner {
+            background-size: 8rem;
             .banner__texto {
-                font-size: 1rem;
+                font-size: 1.3rem;
+                margin: 0 0 2rem;
             }
         }
     }
