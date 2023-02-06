@@ -65,14 +65,14 @@
                     font-weight: 700;
                     transition: all .3s ease-in-out;
                     &:hover {
-                        color: $cor-secundaria;
-                        border-color: $cor-secundaria;
+                        color: $cor-primaria;
+                        border-color: $cor-primaria;
                         background-color: $preto;
                     }
                     &:active {
                         transition: none;
                         color: $preto;
-                        background-color: $cor-secundaria;
+                        background-color: $cor-primaria;
                         border-color: $preto;
                     }
                 }

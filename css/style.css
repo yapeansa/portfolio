@@ -18,7 +18,7 @@
 
 html, body {
   font: 16px "Inter Regular";
-  background: url("../img/bg.jpg") bottom center/cover no-repeat fixed;
+  background: url("../img/bg.jpg") top center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
 
@@ -40,7 +40,7 @@ ul, ol {
 }
 
 .botao__topo {
-  background-color: #7743DB;
+  background-color: #FB2576;
   position: fixed;
   bottom: 1rem;
   right: 1rem;
@@ -55,23 +55,23 @@ ul, ol {
 
 header {
   width: 100%;
-  background: url("../img/bg2.png") bottom center/13vw repeat-x;
+  background: url("../img/bg2.png") bottom center/13.5rem repeat-x;
   height: 100vh;
   display: grid;
   grid-template-rows: auto auto 3fr;
 }
 header .container__logo {
-  background: #000;
+  background-color: #000;
   display: flex;
   padding: 1rem 0 0;
 }
 header .container__logo .logo {
-  width: 11em;
+  width: 12.5em;
   margin: 0 auto;
   align-self: center;
 }
 header nav {
-  background: #000;
+  background-color: #000;
   display: flex;
   padding: 2rem 0 3rem;
 }
@@ -79,8 +79,8 @@ header nav .menu__principal {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
   margin: 0 auto;
   align-self: center;
 }
@@ -88,19 +88,20 @@ header nav .menu__principal .menu__link {
   color: #FFF;
   display: block;
   text-transform: uppercase;
-  border-bottom: 3.5px solid #7743DB;
-  font-size: 1.2rem;
-  padding: 0.7rem;
-  transition: all 0.4s ease-in-out;
+  border-bottom: 3px solid #FB2576;
+  background-color: #000;
+  font-size: 1.1rem;
+  padding: 1rem 0.8rem 0.9rem;
+  transition: all 0.3s ease-in-out;
 }
 header nav .menu__principal .menu__link:hover {
-  background: #7743DB;
+  background-color: #FB2576;
   color: #000;
-  border-radius: 12px;
   border-color: #000;
+  border-radius: 16px;
 }
 header .banner {
-  background: url("../img/bg1.png") top center/13vw repeat-x;
+  background: url("../img/bg1.png") top center/13.5rem repeat-x;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -108,7 +109,7 @@ header .banner {
 }
 header .banner .banner__texto {
   color: #ccc;
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   display: inline-block;
   padding: 0.5rem 1.5rem;
   font-size: 3.2rem;
@@ -126,12 +127,12 @@ header .banner .banner__texto {
 }
 .introducao .titulo__intro:before {
   content: "( ";
-  color: #7743DB;
+  color: #7209b7;
   font-size: 5.5rem;
 }
 .introducao .titulo__intro:after {
   content: " )";
-  color: #7743DB;
+  color: #7209b7;
   font-size: 5.5rem;
 }
 .introducao .texto__intro {
@@ -143,15 +144,15 @@ header .banner .banner__texto {
 }
 .introducao .texto__intro .user_name:before {
   content: "@";
-  color: #7743DB;
+  color: #7209b7;
 }
 .introducao .texto__intro .enfase:before {
   content: "(";
-  color: #7743DB;
+  color: #7209b7;
 }
 .introducao .texto__intro .enfase:after {
   content: ")";
-  color: #7743DB;
+  color: #7209b7;
 }
 
 .sobre {
@@ -166,7 +167,7 @@ header .banner .banner__texto {
 }
 .sobre .titulo__sobre:before {
   content: "/ ";
-  color: #7743DB;
+  color: #FB2576;
   font-size: 5.5rem;
 }
 .sobre .texto__sobre {
@@ -181,7 +182,7 @@ header .banner .banner__texto {
   grid-area: imagem;
   align-self: center;
   border-radius: 100%;
-  border: 4px solid #7743DB;
+  border: 4px solid #FB2576;
   padding: 0.8rem;
   margin: 0 auto;
 }
@@ -196,12 +197,12 @@ header .banner .banner__texto {
 }
 .formacao .titulo__formacao:before {
   content: "( ";
-  color: #7743DB;
+  color: #7209b7;
   font-size: 5.5rem;
 }
 .formacao .titulo__formacao:after {
   content: " )";
-  color: #7743DB;
+  color: #7209b7;
   font-size: 5.5rem;
 }
 .formacao .container__cards {
@@ -218,7 +219,7 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__titulo {
   font: 1.7rem "Inter Semibold";
-  color: #7743DB;
+  color: #7209b7;
   margin: 1rem 0;
 }
 .formacao .container__cards .card .card__subtitulo {
@@ -241,7 +242,7 @@ header .banner .banner__texto {
 }
 .contato .titulo__contato:before {
   content: "/ ";
-  color: #7743DB;
+  color: #FB2576;
   font-size: 5.5rem;
 }
 .contato .container__contato {
@@ -256,11 +257,11 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__info:before {
   content: "[ ";
-  color: #7743DB;
+  color: #FB2576;
 }
 .contato .container__contato .titulo__info:after {
   content: " ]";
-  color: #7743DB;
+  color: #FB2576;
 }
 .contato .container__contato .alt {
   grid-area: 1/2/2/3;
@@ -294,7 +295,7 @@ header .banner .banner__texto {
   font-size: 1.1rem;
   width: 10rem;
   padding: 1.2rem 0;
-  background: #7743DB;
+  background: #FB2576;
   color: #FFF;
   border: 4px solid #000;
   cursor: pointer;
@@ -302,14 +303,14 @@ header .banner .banner__texto {
   transition: all 0.3s ease-in-out;
 }
 .contato .container__contato form .centraliza input[type=reset]:hover, .contato .container__contato form .centraliza input[type=submit]:hover {
-  color: #FFC93C;
-  border-color: #FFC93C;
+  color: #FB2576;
+  border-color: #FB2576;
   background-color: #000;
 }
 .contato .container__contato form .centraliza input[type=reset]:active, .contato .container__contato form .centraliza input[type=submit]:active {
   transition: none;
   color: #000;
-  background-color: #FFC93C;
+  background-color: #FB2576;
   border-color: #000;
 }
 .contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
@@ -340,11 +341,11 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__pessoal:before {
   content: "[ ";
-  color: #7743DB;
+  color: #FB2576;
 }
 .contato .container__contato .titulo__pessoal:after {
   content: " ]";
-  color: #7743DB;
+  color: #FB2576;
 }
 .contato .container__contato .lattes__info {
   grid-area: 2/3/3/4;
@@ -352,7 +353,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link {
   color: #FFF;
-  background-color: #7743DB;
+  background-color: #FB2576;
   font-size: 1.2rem;
   display: inline-block;
   margin-top: 1rem;
@@ -362,8 +363,8 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link:hover {
   background-color: #000;
-  color: #7743DB;
-  border-color: #7743DB;
+  color: #FB2576;
+  border-color: #FB2576;
 }
 
 footer {
@@ -377,12 +378,12 @@ footer .titulo__footer {
 }
 footer .titulo__footer:before {
   content: "( ";
-  color: #7743DB;
+  color: #FB2576;
   font-size: 5.5rem;
 }
 footer .titulo__footer:after {
   content: " )";
-  color: #7743DB;
+  color: #FB2576;
   font-size: 5.5rem;
 }
 footer .rodape__texto {

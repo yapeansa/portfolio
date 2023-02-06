@@ -6,12 +6,12 @@
         margin-bottom: 4rem;
         &:before {
             content: '( ';
-            color: $cor-primaria;
+            color: $cor-terciaria;
             font-size: 5.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor-primaria;
+            color: $cor-terciaria;
             font-size: 5.5rem;
         }
     }
@@ -27,7 +27,7 @@
             align-self: start;
             .card__titulo {
                 font: 1.7rem $fonte-titulo ;
-                color: $cor-primaria;
+                color: $cor-terciaria;
                 margin: 1rem 0;
             }
             .card__subtitulo {
