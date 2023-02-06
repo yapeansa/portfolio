@@ -65,3 +65,28 @@ header {
         }
     }
 }
+
+@media screen and (max-width: 1023px) {
+    header {
+        .container__logo {
+            .logo {
+                width: 8rem;
+            }
+        }
+        nav {
+            padding: 1rem 0 2rem;
+            .menu__principal {
+                display: block;
+                width: 90%;
+                .menu__link {
+                    text-align: center;
+                }
+            }
+        }
+        .banner {
+            .banner__texto {
+                font-size: 1rem;
+            }
+        }
+    }
+}

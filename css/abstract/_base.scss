@@ -57,3 +57,9 @@ ul, ol {
         display: block;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .texto__principal {
+        font-size: 1rem;
+    }
+}

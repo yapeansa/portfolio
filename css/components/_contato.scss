@@ -1,6 +1,6 @@
 .contato {
     width: 100%;
-    background: $preto url('../img/bg3.png') top center / 13vw repeat-x;
+    background: $preto url('../img/bg3.png') top center / 13.5rem repeat-x;
     padding: 12rem 3rem 0;
     .titulo__contato {
         color: $branco;
@@ -48,55 +48,55 @@
             display: grid;
             fieldset {
                 border: none;
-            }
-            .centraliza {
-                display: flex;
-                column-gap: 2rem;
-                margin-top: 1.5rem;
-                justify-content: center;
-                input[type=reset], input[type=submit] {
+                .centraliza {
+                    display: flex;
+                    column-gap: 2rem;
+                    margin-top: 1.5rem;
+                    justify-content: center;
+                    input[type=reset], input[type=submit] {
+                        font-size: 1.1rem;
+                        width: 10rem;
+                        padding: 1.2rem 0;
+                        background: $cor-primaria;
+                        color: $branco;
+                        border: 4px solid $preto;
+                        cursor: pointer;
+                        font-weight: 700;
+                        transition: all .3s ease-in-out;
+                        &:hover {
+                            color: $cor-primaria;
+                            border-color: $cor-primaria;
+                            background-color: $preto;
+                        }
+                        &:active {
+                            transition: none;
+                            color: $preto;
+                            background-color: $cor-primaria;
+                            border-color: $preto;
+                        }
+                    }
+                }
+                input[type=text], input[type=email], textarea {
+                    display: block;
+                    width: 100%;
+                    margin: 0 auto 1rem;
                     font-size: 1.1rem;
-                    width: 10rem;
-                    padding: 1.2rem 0;
-                    background: $cor-primaria;
-                    color: $branco;
-                    border: 4px solid $preto;
-                    cursor: pointer;
-                    font-weight: 700;
+                    padding: 1.2rem 1.6rem;
+                    border: 5px solid $preto;
+                    outline: none;
                     transition: all .3s ease-in-out;
-                    &:hover {
-                        color: $cor-primaria;
-                        border-color: $cor-primaria;
+                    color: $preto;
+                    -webkit-text-fill-color: $preto;
+                    &:focus {
                         background-color: $preto;
-                    }
-                    &:active {
-                        transition: none;
-                        color: $preto;
-                        background-color: $cor-primaria;
-                        border-color: $preto;
+                        color: $branco;
+                        border-color: $branco;
+                        -webkit-text-fill-color: $branco;
                     }
                 }
-            }
-            input[type=text], input[type=email], textarea {
-                display: block;
-                width: 100%;
-                margin: 0 auto 1rem;
-                font-size: 1.1rem;
-                padding: 1.2rem 1.6rem;
-                border: 5px solid $preto;
-                outline: none;
-                transition: all .3s ease-in-out;
-                color: $preto;
-                -webkit-text-fill-color: $preto;
-                &:focus {
-                    background-color: $preto;
-                    color: $branco;
-                    border-color: $branco;
-                    -webkit-text-fill-color: $branco;
+                textarea {
+                    resize: none;
                 }
-            }
-            textarea {
-                resize: none;
             }
         }
         .titulo__pessoal {
@@ -129,6 +129,40 @@
                     color: $cor-primaria;
                     border-color: $cor-primaria;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .contato {
+        padding: 7rem 2rem 0;
+        .titulo__contato {
+            font-size: 1.8rem;
+            &:before {
+                font-size: 2.5rem;
+            }
+        }
+        .container__contato {
+            display: block;
+            .titulo__info {
+                font-size: 1.5rem;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+            .info__pessoal {
+                text-align: center;
+                .lista__pessoal {
+                    font-size: 1rem;
+                }
+            }
+            .titulo__pessoal {
+                font-size: 1.5rem;
+                text-align: center;
+                margin: 3rem 0;
+            }
+            .lattes__info {
+                text-align: center;
             }
         }
     }

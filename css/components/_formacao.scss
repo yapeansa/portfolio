@@ -40,3 +40,23 @@
         }
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .formacao {
+        padding: 2rem 2rem 3rem;
+        .titulo__formacao {
+            font-size: 1.8rem;
+            &:before, &:after {
+                font-size: 2.5rem;
+            }
+        }
+        .container__cards {
+            flex-flow: column nowrap;
+            gap: 0;
+            .card {
+                width: 100%;
+                padding: 0 2rem 2rem;
+            }
+        }
+    }
+}

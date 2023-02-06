@@ -53,6 +53,11 @@ ul, ol {
   display: block;
 }
 
+@media screen and (max-width: 1023px) {
+  .texto__principal {
+    font-size: 1rem;
+  }
+}
 header {
   width: 100%;
   background: url("../img/bg2.png") bottom center/13.5rem repeat-x;
@@ -118,6 +123,24 @@ header .banner .banner__texto {
   text-align: center;
 }
 
+@media screen and (max-width: 1023px) {
+  header .container__logo .logo {
+    width: 8rem;
+  }
+  header nav {
+    padding: 1rem 0 2rem;
+  }
+  header nav .menu__principal {
+    display: block;
+    width: 90%;
+  }
+  header nav .menu__principal .menu__link {
+    text-align: center;
+  }
+  header .banner .banner__texto {
+    font-size: 1rem;
+  }
+}
 .introducao {
   padding: 6rem 0;
   background-color: #FFF;
@@ -155,6 +178,21 @@ header .banner .banner__texto {
   color: #7209b7;
 }
 
+@media screen and (max-width: 1023px) {
+  .introducao {
+    padding: 2rem 0 3rem;
+  }
+  .introducao .titulo__intro {
+    font-size: 1.8rem;
+  }
+  .introducao .titulo__intro:before, .introducao .titulo__intro:after {
+    font-size: 2.5rem;
+  }
+  .introducao .texto__intro {
+    margin: 3rem 2rem 0;
+    text-align: justify;
+  }
+}
 .sobre {
   display: grid;
   grid-template-areas: "titulo titulo titulo" "titulo titulo titulo" "texto texto imagem";
@@ -175,18 +213,35 @@ header .banner .banner__texto {
   text-align: justify;
   grid-area: texto;
   align-self: center;
-  margin-right: 2rem;
 }
 .sobre .foto__perfil {
-  max-width: 65%;
+  width: 23rem;
   grid-area: imagem;
-  align-self: center;
   border-radius: 100%;
   border: 4px solid #FB2576;
   padding: 0.8rem;
-  margin: 0 auto;
+  margin: 0 0 0 7rem;
 }
 
+@media screen and (max-width: 1023px) {
+  .sobre {
+    display: block;
+    padding: 2rem 2rem 3rem;
+  }
+  .sobre .titulo__sobre {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sobre .titulo__sobre:before {
+    font-size: 2.5rem;
+  }
+  .sobre .foto__perfil {
+    margin: 2rem auto 0;
+    width: 11rem;
+    display: block;
+  }
+}
 .formacao {
   background: #FFF;
   padding: 6rem 3rem;
@@ -230,9 +285,28 @@ header .banner .banner__texto {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 1023px) {
+  .formacao {
+    padding: 2rem 2rem 3rem;
+  }
+  .formacao .titulo__formacao {
+    font-size: 1.8rem;
+  }
+  .formacao .titulo__formacao:before, .formacao .titulo__formacao:after {
+    font-size: 2.5rem;
+  }
+  .formacao .container__cards {
+    flex-flow: column nowrap;
+    gap: 0;
+  }
+  .formacao .container__cards .card {
+    width: 100%;
+    padding: 0 2rem 2rem;
+  }
+}
 .contato {
   width: 100%;
-  background: #000 url("../img/bg3.png") top center/13vw repeat-x;
+  background: #000 url("../img/bg3.png") top center/13.5rem repeat-x;
   padding: 12rem 3rem 0;
 }
 .contato .titulo__contato {
@@ -284,14 +358,14 @@ header .banner .banner__texto {
 .contato .container__contato form fieldset {
   border: none;
 }
-.contato .container__contato form .centraliza {
+.contato .container__contato form fieldset .centraliza {
   display: flex;
   -moz-column-gap: 2rem;
        column-gap: 2rem;
   margin-top: 1.5rem;
   justify-content: center;
 }
-.contato .container__contato form .centraliza input[type=reset], .contato .container__contato form .centraliza input[type=submit] {
+.contato .container__contato form fieldset .centraliza input[type=reset], .contato .container__contato form fieldset .centraliza input[type=submit] {
   font-size: 1.1rem;
   width: 10rem;
   padding: 1.2rem 0;
@@ -302,18 +376,18 @@ header .banner .banner__texto {
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
-.contato .container__contato form .centraliza input[type=reset]:hover, .contato .container__contato form .centraliza input[type=submit]:hover {
+.contato .container__contato form fieldset .centraliza input[type=reset]:hover, .contato .container__contato form fieldset .centraliza input[type=submit]:hover {
   color: #FB2576;
   border-color: #FB2576;
   background-color: #000;
 }
-.contato .container__contato form .centraliza input[type=reset]:active, .contato .container__contato form .centraliza input[type=submit]:active {
+.contato .container__contato form fieldset .centraliza input[type=reset]:active, .contato .container__contato form fieldset .centraliza input[type=submit]:active {
   transition: none;
   color: #000;
   background-color: #FB2576;
   border-color: #000;
 }
-.contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
+.contato .container__contato form fieldset input[type=text], .contato .container__contato form fieldset input[type=email], .contato .container__contato form fieldset textarea {
   display: block;
   width: 100%;
   margin: 0 auto 1rem;
@@ -325,13 +399,13 @@ header .banner .banner__texto {
   color: #000;
   -webkit-text-fill-color: #000;
 }
-.contato .container__contato form input[type=text]:focus, .contato .container__contato form input[type=email]:focus, .contato .container__contato form textarea:focus {
+.contato .container__contato form fieldset input[type=text]:focus, .contato .container__contato form fieldset input[type=email]:focus, .contato .container__contato form fieldset textarea:focus {
   background-color: #000;
   color: #FFF;
   border-color: #FFF;
   -webkit-text-fill-color: #FFF;
 }
-.contato .container__contato form textarea {
+.contato .container__contato form fieldset textarea {
   resize: none;
 }
 .contato .container__contato .titulo__pessoal {
@@ -367,6 +441,39 @@ header .banner .banner__texto {
   border-color: #FB2576;
 }
 
+@media screen and (max-width: 1023px) {
+  .contato {
+    padding: 7rem 2rem 0;
+  }
+  .contato .titulo__contato {
+    font-size: 1.8rem;
+  }
+  .contato .titulo__contato:before {
+    font-size: 2.5rem;
+  }
+  .contato .container__contato {
+    display: block;
+  }
+  .contato .container__contato .titulo__info {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .contato .container__contato .info__pessoal {
+    text-align: center;
+  }
+  .contato .container__contato .info__pessoal .lista__pessoal {
+    font-size: 1rem;
+  }
+  .contato .container__contato .titulo__pessoal {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .contato .container__contato .lattes__info {
+    text-align: center;
+  }
+}
 footer {
   background-color: #000;
   padding: 7rem 0 5rem;
@@ -406,4 +513,19 @@ footer .copyright {
   text-align: center;
   margin: 4.5rem 0 0;
   display: block;
+}
+
+@media screen and (max-width: 1023px) {
+  footer {
+    padding: 2rem 2rem 3rem;
+  }
+  footer .titulo__footer {
+    font-size: 1.5rem;
+  }
+  footer .titulo__footer:before, footer .titulo__footer:after {
+    font-size: 2.5rem;
+  }
+  footer .rodape__texto {
+    margin: 2rem 0;
+  }
 }/*# sourceMappingURL=style.css.map */

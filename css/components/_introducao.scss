@@ -36,3 +36,19 @@
         }
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .introducao {
+        padding: 2rem 0 3rem;
+        .titulo__intro {
+            font-size: 1.8rem;
+            &:before, &:after {
+                font-size: 2.5rem;
+            }
+        }
+        .texto__intro {
+            margin: 3rem 2rem 0;
+            text-align: justify;
+        }
+    }
+}
