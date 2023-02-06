@@ -46,57 +46,54 @@
         form {
             grid-area: 2/2/3/3;
             display: grid;
-            fieldset {
-                border: none;
-                .centraliza {
-                    display: flex;
-                    column-gap: 2rem;
-                    margin-top: 1.5rem;
-                    justify-content: center;
-                    input[type=reset], input[type=submit] {
-                        font-size: 1.1rem;
-                        width: 10rem;
-                        padding: 1.2rem 0;
-                        background: $cor-primaria;
-                        color: $branco;
-                        border: 4px solid $preto;
-                        cursor: pointer;
-                        font-weight: 700;
-                        transition: all .3s ease-in-out;
-                        &:hover {
-                            color: $cor-primaria;
-                            border-color: $cor-primaria;
-                            background-color: $preto;
-                        }
-                        &:active {
-                            transition: none;
-                            color: $preto;
-                            background-color: $cor-primaria;
-                            border-color: $preto;
-                        }
-                    }
-                }
-                input[type=text], input[type=email], textarea {
-                    display: block;
-                    width: 100%;
-                    margin: 0 auto 1rem;
+            .centraliza {
+                display: flex;
+                column-gap: 2rem;
+                margin-top: 1.5rem;
+                justify-content: center;
+                input[type=reset], input[type=submit] {
                     font-size: 1.1rem;
-                    padding: 1.2rem 1.6rem;
-                    border: 5px solid $preto;
-                    outline: none;
+                    width: 10rem;
+                    padding: 1.2rem 0;
+                    background: $cor-primaria;
+                    color: $branco;
+                    border: 4px solid $preto;
+                    cursor: pointer;
+                    font-weight: 700;
                     transition: all .3s ease-in-out;
-                    color: $preto;
-                    -webkit-text-fill-color: $preto;
-                    &:focus {
+                    &:hover {
+                        color: $cor-primaria;
+                        border-color: $cor-primaria;
                         background-color: $preto;
-                        color: $branco;
-                        border-color: $branco;
-                        -webkit-text-fill-color: $branco;
+                    }
+                    &:active {
+                        transition: none;
+                        color: $preto;
+                        background-color: $cor-primaria;
+                        border-color: $preto;
                     }
                 }
-                textarea {
-                    resize: none;
+            }
+            input[type=text], input[type=email], textarea {
+                display: block;
+                width: 100%;
+                margin: 0 auto 1rem;
+                font-size: 1.1rem;
+                padding: 1.2rem 1.6rem;
+                border: 5px solid $preto;
+                outline: none;
+                transition: all .3s ease-in-out;
+                color: $preto;
+                -webkit-text-fill-color: $preto;
+                &:focus {
+                    background-color: $preto;
+                    color: $branco;
+                    border-color: $branco;
+                    -webkit-text-fill-color: $branco;
                 }
+            }
+            textarea {
+                resize: none;
             }
         }
         .titulo__pessoal {

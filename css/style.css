@@ -136,6 +136,7 @@ header .banner .banner__texto {
   }
   header nav .menu__principal .menu__link {
     text-align: center;
+    font-size: 1rem;
   }
   header .banner .banner__texto {
     font-size: 1rem;
@@ -301,7 +302,7 @@ header .banner .banner__texto {
   }
   .formacao .container__cards .card {
     width: 100%;
-    padding: 0 2rem 2rem;
+    padding: 0 0 2rem;
   }
 }
 .contato {
@@ -355,17 +356,14 @@ header .banner .banner__texto {
   grid-area: 2/2/3/3;
   display: grid;
 }
-.contato .container__contato form fieldset {
-  border: none;
-}
-.contato .container__contato form fieldset .centraliza {
+.contato .container__contato form .centraliza {
   display: flex;
   -moz-column-gap: 2rem;
        column-gap: 2rem;
   margin-top: 1.5rem;
   justify-content: center;
 }
-.contato .container__contato form fieldset .centraliza input[type=reset], .contato .container__contato form fieldset .centraliza input[type=submit] {
+.contato .container__contato form .centraliza input[type=reset], .contato .container__contato form .centraliza input[type=submit] {
   font-size: 1.1rem;
   width: 10rem;
   padding: 1.2rem 0;
@@ -376,18 +374,18 @@ header .banner .banner__texto {
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
-.contato .container__contato form fieldset .centraliza input[type=reset]:hover, .contato .container__contato form fieldset .centraliza input[type=submit]:hover {
+.contato .container__contato form .centraliza input[type=reset]:hover, .contato .container__contato form .centraliza input[type=submit]:hover {
   color: #FB2576;
   border-color: #FB2576;
   background-color: #000;
 }
-.contato .container__contato form fieldset .centraliza input[type=reset]:active, .contato .container__contato form fieldset .centraliza input[type=submit]:active {
+.contato .container__contato form .centraliza input[type=reset]:active, .contato .container__contato form .centraliza input[type=submit]:active {
   transition: none;
   color: #000;
   background-color: #FB2576;
   border-color: #000;
 }
-.contato .container__contato form fieldset input[type=text], .contato .container__contato form fieldset input[type=email], .contato .container__contato form fieldset textarea {
+.contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
   display: block;
   width: 100%;
   margin: 0 auto 1rem;
@@ -399,13 +397,13 @@ header .banner .banner__texto {
   color: #000;
   -webkit-text-fill-color: #000;
 }
-.contato .container__contato form fieldset input[type=text]:focus, .contato .container__contato form fieldset input[type=email]:focus, .contato .container__contato form fieldset textarea:focus {
+.contato .container__contato form input[type=text]:focus, .contato .container__contato form input[type=email]:focus, .contato .container__contato form textarea:focus {
   background-color: #000;
   color: #FFF;
   border-color: #FFF;
   -webkit-text-fill-color: #FFF;
 }
-.contato .container__contato form fieldset textarea {
+.contato .container__contato form textarea {
   resize: none;
 }
 .contato .container__contato .titulo__pessoal {
