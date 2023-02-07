@@ -57,11 +57,12 @@ header {
             color: $cinza;
             background-color: rgba(0,0,0,.4);
             display: inline-block;
-            padding: .5rem 1.5rem;
+            padding: .5rem;
             font-size: 3.2rem;
             line-height: 1;
             margin: 0 0 3rem;
             text-align: center;
+            word-spacing: 1.2rem;
         }
     }
 }
@@ -90,6 +91,7 @@ header {
             .banner__texto {
                 font-size: 1.3rem;
                 margin: 0 0 2rem;
+                word-spacing: normal;
             }
         }
     }

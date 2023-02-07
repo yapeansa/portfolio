@@ -116,11 +116,12 @@ header .banner .banner__texto {
   color: #ccc;
   background-color: rgba(0, 0, 0, 0.4);
   display: inline-block;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem;
   font-size: 3.2rem;
   line-height: 1;
   margin: 0 0 3rem;
   text-align: center;
+  word-spacing: 1.2rem;
 }
 
 @media screen and (max-width: 1023px) {
@@ -147,6 +148,7 @@ header .banner .banner__texto {
   header .banner .banner__texto {
     font-size: 1.3rem;
     margin: 0 0 2rem;
+    word-spacing: normal;
   }
 }
 .introducao {
