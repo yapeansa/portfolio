@@ -448,7 +448,7 @@ header .banner .banner__texto {
 
 @media screen and (max-width: 1023px) {
   .contato {
-    padding: 7rem 2rem 0;
+    padding: 7rem 1rem 0;
   }
   .contato .titulo__contato {
     font-size: 1.8rem;
@@ -477,6 +477,9 @@ header .banner .banner__texto {
   }
   .contato .container__contato .lattes__info {
     text-align: center;
+  }
+  .contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
+    width: 100%;
   }
 }
 footer {
@@ -525,10 +528,10 @@ footer .copyright {
     padding: 2rem 2rem 3rem;
   }
   footer .titulo__footer {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   footer .titulo__footer:before, footer .titulo__footer:after {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   footer .rodape__texto {
     margin: 2rem 0;
