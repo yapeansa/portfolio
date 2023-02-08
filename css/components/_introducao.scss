@@ -6,12 +6,12 @@
         &:before {
             content: '( ';
             color: $cor-terciaria;
-            font-size: 5.5rem;
+            font-size: 3.5rem;
         }
         &:after {
             content: ' )';
             color: $cor-terciaria;
-            font-size: 5.5rem;
+            font-size: 3.5rem;
         }
     }
     .texto__intro {

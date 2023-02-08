@@ -13,7 +13,7 @@ header {
         display: flex;
         padding: 1rem 0 0;
         .logo {
-            width: 12.5em;
+            width: 10em;
             margin: 0 auto;
             align-self: center;
         }
@@ -26,7 +26,7 @@ header {
             display: flex;
             flex-flow: row wrap;
             justify-content: center;
-            column-gap: 2rem;
+            column-gap: 2.2rem;
             margin: 0 auto;
             align-self: center;
             .menu__link {
@@ -35,7 +35,7 @@ header {
                 text-transform: uppercase;
                 border-bottom: 3px solid $cor-primaria;
                 background-color: $preto;
-                font-size: 1.1rem;
+                font-size: .9rem;
                 padding: 1rem .8rem .9rem;
                 transition: all .3s ease-in-out;
                 &:hover {
@@ -58,9 +58,9 @@ header {
             background-color: rgba(0,0,0,.4);
             display: inline-block;
             padding: .5rem;
-            font-size: 3.2rem;
+            font-size: 2.5rem;
             line-height: 1;
-            margin: 0 0 3rem;
+            margin: 0 0 2.5rem;
             text-align: center;
             word-spacing: 1.2rem;
         }

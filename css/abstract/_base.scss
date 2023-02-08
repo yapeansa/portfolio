@@ -22,7 +22,7 @@
 }
 
 html, body {
-    font: 16px $fonte-texto;
+    font: 1vw $fonte-texto;
     background: url('../img/bg.jpg') top center / cover no-repeat fixed;
     scroll-behavior: smooth;
 }
@@ -36,11 +36,11 @@ ul, ol {
 }
 
 .titulo__principal {
-    font: 3rem $fonte-titulo;
+    font: 2.5rem $fonte-titulo;
 }
 
 .texto__principal {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -49,11 +49,12 @@ ul, ol {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     display: none;
+    opacity: .95;
     a {
         color: $branco;
-        padding: 1.2rem 1.3rem;
+        padding: 1.1rem 1.2rem;
         display: block;
     }
 }

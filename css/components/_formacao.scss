@@ -7,12 +7,12 @@
         &:before {
             content: '( ';
             color: $cor-terciaria;
-            font-size: 5.5rem;
+            font-size: 3.5rem;
         }
         &:after {
             content: ' )';
             color: $cor-terciaria;
-            font-size: 5.5rem;
+            font-size: 3.5rem;
         }
     }
     .container__cards {
@@ -26,15 +26,15 @@
             text-align: center;
             align-self: start;
             .card__titulo {
-                font: 1.7rem $fonte-titulo ;
+                font: 1.5rem $fonte-titulo ;
                 color: $cor-terciaria;
                 margin: 1rem 0;
             }
             .card__subtitulo {
-                font: 1.1rem $fonte-subtitulo;
+                font: .95rem $fonte-subtitulo;
             }
             .card__texto {
-                font-size: 1.1rem;
+                font-size: .94rem;
                 line-height: 1.5;
                 .link__tcc {
                     color: $preto;
