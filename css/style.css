@@ -17,7 +17,7 @@
 }
 
 html, body {
-  font: 1vw "Inter Regular";
+  font: 17px "Inter Regular";
   background: url("../img/bg.jpg") top center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
@@ -142,6 +142,9 @@ header .banner .banner__texto {
   header nav .menu__principal .menu__link {
     text-align: center;
     font-size: 1rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2.5px solid #FB2576;
   }
   header .banner {
     background-size: 8rem;

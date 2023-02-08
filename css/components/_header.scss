@@ -83,6 +83,9 @@ header {
                 .menu__link {
                     text-align: center;
                     font-size: 1rem;
+                    @include raio(0);
+                    border: none;
+                    border-bottom: 2.5px solid $cor-primaria;
                 }
             }
         }
