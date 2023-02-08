@@ -36,6 +36,17 @@
             .card__texto {
                 font-size: 1.1rem;
                 line-height: 1.5;
+                .link__tcc {
+                    color: $preto;
+                    border-bottom: 2px solid $preto;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        color: $cor-terciaria;
+                    }
+                    strong {
+                        font-weight: normal;
+                    }
+                }
             }
         }
     }

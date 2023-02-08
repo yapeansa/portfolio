@@ -224,8 +224,21 @@ header .banner .banner__texto {
   grid-area: texto;
   align-self: center;
 }
+.sobre .texto__sobre .link__sobre {
+  border: 2px solid #000;
+  color: #000;
+  background: #FB2576;
+  padding: 0 3px;
+  transition: all 0.3s ease-in-out;
+}
+.sobre .texto__sobre .link__sobre:hover {
+  background: #000;
+  color: #FFF;
+  border-color: #FB2576;
+}
 .sobre .foto__perfil {
   width: 23rem;
+  display: block;
   grid-area: imagem;
   border-radius: 100%;
   border: 4px solid #FB2576;
@@ -293,6 +306,17 @@ header .banner .banner__texto {
 .formacao .container__cards .card .card__texto {
   font-size: 1.1rem;
   line-height: 1.5;
+}
+.formacao .container__cards .card .card__texto .link__tcc {
+  color: #000;
+  border-bottom: 2px solid #000;
+  transition: all 0.3s ease-in-out;
+}
+.formacao .container__cards .card .card__texto .link__tcc:hover {
+  color: #7209b7;
+}
+.formacao .container__cards .card .card__texto .link__tcc strong {
+  font-weight: normal;
 }
 
 @media screen and (max-width: 1023px) {
@@ -434,18 +458,18 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link {
   color: #FFF;
-  background-color: #FB2576;
+  background-color: #000;
   font-size: 1.2rem;
   display: inline-block;
   margin-top: 1rem;
   padding: 0.2rem 1rem;
-  border: 2px solid #000;
+  border: 2px solid #FB2576;
   transition: all 0.3s ease-in-out;
 }
 .contato .container__contato .lattes__info .lattes__link:hover {
-  background-color: #000;
-  color: #FB2576;
-  border-color: #FB2576;
+  background-color: #FB2576;
+  color: #000;
+  border-color: #000;
 }
 
 @media screen and (max-width: 1023px) {

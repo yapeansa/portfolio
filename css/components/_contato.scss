@@ -114,17 +114,17 @@
             text-align: right;
             .lattes__link {
                 color: $branco;
-                background-color: $cor-primaria;
+                background-color: $preto;
                 font-size: 1.2rem;
                 display: inline-block;
                 margin-top: 1rem;
                 padding: .2rem 1rem;
-                border: 2px solid $preto;
+                border: 2px solid $cor-primaria;
                 transition: all .3s ease-in-out;
                 &:hover {
-                    background-color: $preto;
-                    color: $cor-primaria;
-                    border-color: $cor-primaria;
+                    background-color: $cor-primaria;
+                    color: $preto;
+                    border-color: $preto;
                 }
             }
         }

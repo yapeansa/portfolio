@@ -17,9 +17,22 @@
         text-align: justify;
         grid-area: texto;
         align-self: center;
+        .link__sobre {
+            border: 2px solid $preto;
+            color: $preto;
+            background: $cor-primaria;
+            padding: 0 3px;
+            transition: all .3s ease-in-out;
+            &:hover {
+                background: $preto;
+                color: $branco;
+                border-color: $cor-primaria;
+            }
+        }
     }
     .foto__perfil {
         width: 23rem;
+        display: block;
         grid-area: imagem;
         @include raio(100%);
         border: 4px solid $cor-primaria;
