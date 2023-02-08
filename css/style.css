@@ -94,17 +94,17 @@ header nav .menu__principal .menu__link {
   color: #FFF;
   display: block;
   text-transform: uppercase;
-  border-bottom: 3px solid #FB2576;
+  border: 2.5px solid #FB2576;
   background-color: #000;
   font-size: 0.9rem;
-  padding: 1rem 0.8rem 0.9rem;
+  padding: 0.8rem;
   transition: all 0.3s ease-in-out;
+  border-radius: 17px;
 }
 header nav .menu__principal .menu__link:hover {
   background-color: #FB2576;
   color: #000;
   border-color: #000;
-  border-radius: 16px;
 }
 header .banner {
   background: url("../img/bg1.png") top center/13.5rem repeat-x;

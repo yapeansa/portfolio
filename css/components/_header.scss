@@ -33,16 +33,16 @@ header {
                 color: $branco;
                 display: block;
                 text-transform: uppercase;
-                border-bottom: 3px solid $cor-primaria;
+                border: 2.5px solid $cor-primaria;
                 background-color: $preto;
                 font-size: .9rem;
-                padding: 1rem .8rem .9rem;
+                padding: .8rem;
                 transition: all .3s ease-in-out;
+                @include raio(17px);
                 &:hover {
                     background-color: $cor-primaria;
                     color: $preto;
                     border-color: $preto;
-                    @include raio(16px);
                 }
             }
         }
