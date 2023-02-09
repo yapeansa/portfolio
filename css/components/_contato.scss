@@ -1,6 +1,6 @@
 .contato {
     width: 100%;
-    background: $preto url('../img/bg3.png') top center / 13.5rem repeat-x;
+    background: $cor3 url('../img/bg3.png') top center / 13.5rem repeat-x;
     padding: 12rem 3rem 0;
     .titulo__contato {
         color: $branco;
@@ -8,7 +8,7 @@
         margin-bottom: 3rem;
         &:before {
             content: '/ ';
-            color: $cor-primaria;
+            color: $cor4;
             font-size: 3.5rem;
         }
     }
@@ -22,11 +22,11 @@
             font-size: 1.4rem;
             &:before {
                 content: '[ ';
-                color: $cor-primaria;
+                color: $cor4;
             }
             &:after {
                 content: ' ]';
-                color: $cor-primaria;
+                color: $cor4;
             }
         }
         .alt {
@@ -55,22 +55,20 @@
                     font-size: 1rem;
                     width: 9rem;
                     padding: 1.1rem 0;
-                    background: $cor-primaria;
-                    color: $branco;
-                    border: 4px solid $preto;
+                    background: $cor3;
+                    color: $cor4;
+                    border: 4px solid $cor4;
                     cursor: pointer;
                     font-weight: 500;
                     transition: all .3s ease-in-out;
                     &:hover {
-                        color: $cor-primaria;
-                        border-color: $cor-primaria;
-                        background-color: $preto;
+                        color: $cor3;
+                        border-color: $cor3;
+                        background-color: $cor4;
                     }
                     &:active {
                         transition: none;
-                        color: $preto;
-                        background-color: $cor-primaria;
-                        border-color: $preto;
+                        border-color: $cor4;
                     }
                 }
             }
@@ -80,15 +78,16 @@
                 margin: 0 auto 1rem;
                 font-size: .9rem;
                 padding: 1.2rem 1.6rem;
-                border: 5px solid $preto;
+                border: 5px solid $cor3;
                 outline: none;
                 transition: all .3s ease-in-out;
-                color: $preto;
-                -webkit-text-fill-color: $preto;
+                color: $cor3;
+                background-color: $cor4;
+                -webkit-text-fill-color: $cor3;
                 &:focus {
-                    background-color: $preto;
-                    color: $branco;
-                    border-color: $branco;
+                    background-color: $cor3;
+                    color: $cor1;
+                    border-color: $cor4;
                     -webkit-text-fill-color: $branco;
                 }
             }
@@ -103,11 +102,11 @@
             font-size: 1.4rem;
             &:before {
                 content: '[ ';
-                color: $cor-primaria;
+                color: $cor4;
             }
             &:after {
                 content: ' ]';
-                color: $cor-primaria;
+                color: $cor4;
             }
         }
         .lattes__info {
@@ -115,17 +114,17 @@
             text-align: right;
             .lattes__link {
                 color: $branco;
-                background-color: $preto;
+                background-color: $cor3;
                 font-size: 1rem;
                 display: inline-block;
                 margin-top: 1rem;
                 padding: .2rem 1rem;
-                border: 2px solid $cor-primaria;
+                border: 2px solid $cor4;
                 transition: all .3s ease-in-out;
                 &:hover {
-                    background-color: $cor-primaria;
-                    color: $preto;
-                    border-color: $preto;
+                    background-color: $cor4;
+                    color: $cor3;
+                    border-color: $cor3;
                 }
             }
         }

@@ -9,7 +9,7 @@ header {
     display: grid;
     grid-template-rows: auto auto 3fr;
     .container__logo {
-        background-color: $preto;
+        background-color: $cor3;
         display: flex;
         padding: 1rem 0 0;
         .logo {
@@ -19,7 +19,7 @@ header {
         }
     }
     nav {
-        background-color: $preto;
+        background-color: $cor3;
         display: flex;
         padding: 2rem 0 3rem;
         .menu__principal {
@@ -33,16 +33,16 @@ header {
                 color: $branco;
                 display: block;
                 text-transform: uppercase;
-                border: 2.5px solid $cor-primaria;
-                background-color: $preto;
+                border: 2.5px solid $cor4;
+                background-color: $cor3;
                 font-size: .9rem;
                 padding: .8rem;
                 transition: all .3s ease-in-out;
                 @include raio(17px);
                 &:hover {
-                    background-color: $cor-primaria;
-                    color: $preto;
-                    border-color: $preto;
+                    background-color: $cor4;
+                    color: $cor3;
+                    border-color: $cor3;
                 }
             }
         }

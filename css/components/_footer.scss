@@ -1,5 +1,5 @@
 footer {
-    background-color: $preto;
+    background-color: $cor3;
     padding: 7rem 0 5rem;
     .titulo__footer {
         font-size: 2rem;
@@ -7,12 +7,12 @@ footer {
         text-align: center;
         &:before {
             content: '( ';
-            color: $cor-primaria;
+            color: $cor4;
             font-size: 3.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor-primaria;
+            color: $cor4;
             font-size: 3.5rem;
         }
     }
