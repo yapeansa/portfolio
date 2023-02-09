@@ -7,4 +7,10 @@ $(document).ready(function(){
             $('.botao__topo').fadeOut('slow');
         }
     });
+    $('.abrir').on('click', function(){
+        $('.menu__mobile').stop().fadeIn('slow');
+    });
+    $('.fechar').on('click', function(){
+        $('.menu__mobile').stop().fadeOut('slow');
+    })
 });

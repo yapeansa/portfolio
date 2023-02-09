@@ -71,24 +71,33 @@ header {
   background: url("../img/bg2.png") bottom center/13.5rem repeat-x;
   height: 100vh;
   display: grid;
-  grid-template-rows: auto auto 3fr;
+  grid-template-rows: auto 3fr;
 }
-header .container__logo {
+header .container__header {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #222222;
+}
+header .container__header .container__logo {
   background-color: #222222;
   display: flex;
   padding: 1rem 0 0;
 }
-header .container__logo .logo {
+header .container__header .container__logo .logo {
   width: 10em;
   margin: 0 auto;
   align-self: center;
 }
-header nav {
+header .container__header nav {
   background-color: #222222;
   display: flex;
   padding: 2rem 0 3rem;
+  justify-content: center;
 }
-header nav .menu__principal {
+header .container__header nav .abrir {
+  display: none;
+}
+header .container__header nav .menu__mobile .menu__principal {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -97,7 +106,7 @@ header nav .menu__principal {
   margin: 0 auto;
   align-self: center;
 }
-header nav .menu__principal .menu__link {
+header .container__header nav .menu__mobile .menu__principal .menu__link {
   color: #FFF;
   display: block;
   text-transform: uppercase;
@@ -108,10 +117,13 @@ header nav .menu__principal .menu__link {
   transition: all 0.3s ease-in-out;
   border-radius: 17px;
 }
-header nav .menu__principal .menu__link:hover {
+header .container__header nav .menu__mobile .menu__principal .menu__link:hover {
   background-color: #22A39F;
   color: #222222;
   border-color: #222222;
+}
+header .container__header nav .menu__mobile .fechar {
+  display: none;
 }
 header .banner {
   background: url("../img/bg1.png") top center/13.5rem repeat-x;
@@ -135,23 +147,75 @@ header .banner .banner__texto {
 @media screen and (max-width: 1023px) {
   header {
     background-size: 8rem;
+    position: relative;
   }
-  header .container__logo .logo {
+  header .container__header {
+    padding-bottom: 2rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container__header .container__logo {
+    width: auto;
+  }
+  header .container__header .container__logo .logo {
     width: 8rem;
+    margin: 0 0 0 2rem;
   }
-  header nav {
-    padding: 1rem 0 2rem;
+  header .container__header nav {
+    padding: 0;
+    height: 100%;
+    align-items: center;
   }
-  header nav .menu__principal {
+  header .container__header nav .abrir {
     display: block;
-    width: 90%;
+    background-color: #222222;
+    border: 2.5px solid #22A39F;
+    color: #F3EFE0;
+    padding: 0.8rem 1rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    border-radius: 16px;
   }
-  header nav .menu__principal .menu__link {
+  header .container__header nav .menu__mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #222222;
+  }
+  header .container__header nav .menu__mobile .menu__principal {
+    position: relative;
+    top: 50vh;
+    flex-flow: column nowrap;
+    width: 80%;
+    align-items: center;
+    margin-top: -11rem;
+    display: block;
+  }
+  header .container__header nav .menu__mobile .menu__principal .menu__link {
+    display: block;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     border-radius: 0;
     border: none;
-    border-bottom: 2.5px solid #6C00FF;
+    border-bottom: 2.5px solid #22A39F;
+  }
+  header .container__header nav .menu__mobile .fechar {
+    display: block;
+    position: absolute;
+    width: 9rem;
+    margin-left: -4.5rem;
+    left: 50vw;
+    top: 5%;
+    background-color: #222222;
+    border: 2.5px solid #22A39F;
+    color: #F3EFE0;
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
   }
   header .banner {
     background-size: 8rem;
