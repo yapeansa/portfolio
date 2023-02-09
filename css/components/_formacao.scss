@@ -38,10 +38,12 @@
                 line-height: 1.5;
                 .link__tcc {
                     color: $preto;
-                    border-bottom: 2px solid $preto;
+                    border-bottom: 2px solid $cor-terciaria;
                     transition: all .3s ease-in-out;
                     &:hover {
-                        color: $cor-terciaria;
+                        color: $branco;
+                        background-color: $cor-terciaria;
+                        border-color: $branco;
                     }
                     strong {
                         font-weight: normal;

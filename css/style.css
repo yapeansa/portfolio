@@ -313,11 +313,13 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__texto .link__tcc {
   color: #000;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #7209b7;
   transition: all 0.3s ease-in-out;
 }
 .formacao .container__cards .card .card__texto .link__tcc:hover {
-  color: #7209b7;
+  color: #FFF;
+  background-color: #7209b7;
+  border-color: #FFF;
 }
 .formacao .container__cards .card .card__texto .link__tcc strong {
   font-weight: normal;
