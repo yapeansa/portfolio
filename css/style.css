@@ -160,7 +160,7 @@ header .banner .banner__texto {
   }
   header .container__header .container__logo .logo {
     width: 8rem;
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 1rem;
   }
   header .container__header nav {
     padding: 0;
@@ -171,11 +171,11 @@ header .banner .banner__texto {
     display: block;
     background-color: #222222;
     border: 2.5px solid #22A39F;
-    color: #F3EFE0;
+    color: #FFF;
     padding: 0.8rem 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     font-size: 1.3rem;
-    border-radius: 16px;
+    text-transform: uppercase;
   }
   header .container__header nav .menu__mobile {
     display: none;

@@ -94,7 +94,7 @@ header {
                 width: auto;
                 .logo {
                     width: 8rem;
-                    margin: 0 0 0 2rem;
+                    margin: 0 0 0 1rem;
                 }
             }
             nav {
@@ -105,11 +105,11 @@ header {
                     display: block;
                     background-color: $cor3;
                     border: 2.5px solid $cor4;
-                    color: $cor1;
+                    color: $branco;
                     padding: .8rem 1rem;
-                    margin-right: 2rem;
+                    margin-right: 1rem;
                     font-size: 1.3rem;
-                    @include raio(16px);
+                    text-transform: uppercase;
                 }
                 .menu__mobile {
                     display: none;
