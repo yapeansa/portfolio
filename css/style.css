@@ -24,7 +24,7 @@ $cor4: #F7F7F7;
 
 html, body {
   font: 17px "Inter Regular";
-  background: url("../img/bg.jpg") top center/cover no-repeat fixed;
+  background: url("../img/bg.jpg") center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
 
@@ -52,7 +52,6 @@ ul, ol {
   right: 1rem;
   font-size: 1.2rem;
   display: none;
-  opacity: 0.95;
   border: 2px solid #222222;
 }
 .botao__topo a {

@@ -23,7 +23,7 @@
 
 html, body {
     font: 17px $fonte-texto;
-    background: url('../img/bg.jpg') top center / cover no-repeat fixed;
+    background: url('../img/bg.jpg') center / cover no-repeat fixed;
     scroll-behavior: smooth;
 }
 
@@ -51,7 +51,6 @@ ul, ol {
     right: 1rem;
     font-size: 1.2rem;
     display: none;
-    opacity: .95;
     border: 2px solid $cor3;
     a {
         color: $cor3;
