@@ -17,7 +17,7 @@
 }
 
 html, body {
-  font: 17px "Inter Regular";
+  font: 1rem "Inter Regular";
   background: url("../img/bg.jpg") top center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
@@ -36,7 +36,7 @@ ul, ol {
 }
 
 .texto__principal {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 
@@ -106,7 +106,7 @@ header .container__header nav .menu__mobile .menu__principal .menu__link {
   text-transform: uppercase;
   border: 2.5px solid #22A39F;
   background-color: #222222;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0.8rem;
   transition: all 0.3s ease-in-out;
   border-radius: 17px;
@@ -131,7 +131,7 @@ header .banner .banner__texto {
   background-color: rgba(0, 0, 0, 0.3);
   display: inline-block;
   padding: 0.5rem;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   line-height: 1;
   margin: 0 0 2.8rem;
   word-spacing: 0.5rem;
@@ -374,10 +374,10 @@ header .banner .banner__texto {
   margin: 1rem 0;
 }
 .formacao .container__cards .card .card__subtitulo {
-  font: 0.95rem "Inter Medium";
+  font: 1.07rem "Inter Medium";
 }
 .formacao .container__cards .card .card__texto {
-  font-size: 0.94rem;
+  font-size: 1.02rem;
   line-height: 1.5;
 }
 .formacao .container__cards .card .card__texto .link__tcc {
@@ -436,7 +436,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__info {
   grid-area: 1/1/2/2;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 .contato .container__contato .titulo__info:before {
   content: "[ ";
@@ -455,7 +455,7 @@ header .banner .banner__texto {
   grid-area: 2/1/3/2;
 }
 .contato .container__contato .info__pessoal .lista__pessoal {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .contato .container__contato .info__pessoal .lista__pessoal li {
   margin-bottom: 1.5rem;
@@ -463,7 +463,7 @@ header .banner .banner__texto {
 .contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link {
   color: #F3EFE0;
   background-color: #222222;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: 2px solid #22A39F;
   padding: 0.2rem 1rem;
   transition: all 0.3s ease-in-out;
@@ -486,7 +486,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato form .centraliza input[type=reset], .contato .container__contato form .centraliza input[type=submit] {
   outline: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   width: 9rem;
   padding: 1.1rem 0;
   background-color: #22A39F;
@@ -511,7 +511,7 @@ header .banner .banner__texto {
   display: block;
   width: 100%;
   margin: 0 auto 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 1.2rem 1.6rem;
   border: 5px solid #222222;
   outline: none;
@@ -529,7 +529,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato form textarea {
   resize: none;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 .contato .container__contato .titulo__pessoal {
   grid-area: 1/3/2/4;
@@ -551,7 +551,7 @@ header .banner .banner__texto {
 .contato .container__contato .lattes__info .lattes__link {
   color: #F3EFE0;
   background-color: #222222;
-  font-size: 1rem;
+  font-size: 1.1rem;
   display: inline-block;
   margin-top: 1rem;
   padding: 0.2rem 1rem;
@@ -635,7 +635,7 @@ footer .social__list img {
 }
 footer .copyright {
   color: #F3EFE0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   margin: 4.5rem 0 0;
   display: block;

@@ -22,7 +22,7 @@
 }
 
 html, body {
-    font: 17px $fonte-texto;
+    font: 1rem $fonte-texto;
     background: url('../img/bg.jpg') top center / cover no-repeat fixed;
     scroll-behavior: smooth;
 }
@@ -41,7 +41,7 @@ ul, ol {
 }
 
 .texto__principal {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 

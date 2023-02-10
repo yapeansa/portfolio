@@ -44,7 +44,7 @@ header {
                         text-transform: uppercase;
                         border: 2.5px solid $cor-terciaria;
                         background-color: $cor-primaria;
-                        font-size: .9rem;
+                        font-size: 1rem;
                         padding: .8rem;
                         transition: all .3s ease-in-out;
                         @include raio(17px);
@@ -72,7 +72,7 @@ header {
             background-color: rgba(0,0,0,.3);
             display: inline-block;
             padding: .5rem;
-            font-size: 2.2rem;
+            font-size: 2.3rem;
             line-height: 1;
             margin: 0 0 2.8rem;
             word-spacing: .5rem;
