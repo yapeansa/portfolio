@@ -1,16 +1,17 @@
 .introducao {
     padding: 6rem 0;
-    background-color: $cor1;
+    background-color: $cor-quaternaria;
     .titulo__intro {
         text-align: center;
+        color: $cor-primaria;
         &:before {
             content: '( ';
-            color: $cor4;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor4;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
     }
@@ -21,17 +22,17 @@
             font-size: 1.5em;
             &:before {
                 content: '@';
-                color: $cor4;
+                color: $cor-terciaria;
             }
         }
         .enfase {
             &:before {
                 content: '(';
-                color: $cor4;
+                color: $cor-terciaria;
             }
             &:after {
                 content: ')';
-                color: $cor4;
+                color: $cor-terciaria;
             }
         }
     }

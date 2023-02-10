@@ -1,30 +1,32 @@
 .sobre {
     display: grid;
     grid-template-areas: 'titulo titulo titulo' 'titulo titulo titulo' 'texto texto imagem';
-    background-color: $cor4;
+    background-color: $cor-primaria;
     padding: 6rem 3rem;
     .titulo__sobre {
-        color: $cor3;
+        color: $cor-quaternaria;
         grid-area: titulo;
         &:before {
             content: '/ ';
-            color: $cor3;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
     }
     .texto__sobre {
-        color: $cor3;
+        color: $cor-quaternaria;
         text-align: justify;
         grid-area: texto;
         align-self: center;
         .link__sobre {
-            border: 2px solid $cor4;
-            color: $cor3;
-            background: $cor1;
+            border: 2px solid $cor-terciaria;
+            color: $cor-quaternaria;
+            background: $cor-primaria;
             padding: 0 3px;
             transition: all .3s ease-in-out;
             &:hover {
-                border-color: $cor3;
+                border-color: $cor-primaria;
+                color: $cor-primaria;
+                background-color: $cor-terciaria;
             }
         }
     }
@@ -33,7 +35,7 @@
         display: block;
         grid-area: imagem;
         @include raio(100%);
-        border: 4px solid $cor3;
+        border: 4px solid $cor-terciaria;
         padding: .8rem;
         margin: 0 0 0 7rem;
     }

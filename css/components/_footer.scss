@@ -1,23 +1,23 @@
 footer {
-    background-color: $cor3;
+    background-color: $cor-primaria;
     padding: 7rem 0 5rem;
     .titulo__footer {
         font-size: 2rem;
-        color: $branco;
+        color: $cor-quaternaria;
         text-align: center;
         &:before {
             content: '( ';
-            color: $cor4;
+            color: $cor-primaria;
             font-size: 3.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor4;
+            color: $cor-primaria;
             font-size: 3.5rem;
         }
     }
     .rodape__texto {
-        color: $branco;
+        color: $cor-quaternaria;
         text-align: center;
         margin: 4.5rem 0;
     }
@@ -31,7 +31,7 @@ footer {
         }
     }
     .copyright {
-        color: $branco;
+        color: $cor-quaternaria;
         font-size: 1rem;
         text-align: center;
         margin: 4.5rem 0 0;

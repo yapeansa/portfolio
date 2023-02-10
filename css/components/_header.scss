@@ -11,9 +11,9 @@ header {
     .container__header {
         display: flex;
         flex-flow: column nowrap;
-        background-color: $cor3;
+        background-color: $cor-primaria;
         .container__logo {
-            background-color: $cor3;
+            background-color: $cor-primaria;
             display: flex;
             padding: 1rem 0 0;
             .logo {
@@ -23,7 +23,7 @@ header {
             }
         }
         nav {
-            background-color: $cor3;
+            background-color: $cor-primaria;
             display: flex;
             padding: 2rem 0 3rem;
             justify-content: center;
@@ -42,16 +42,16 @@ header {
                         color: $branco;
                         display: block;
                         text-transform: uppercase;
-                        border: 2.5px solid $cor4;
-                        background-color: $cor3;
+                        border: 2.5px solid $cor-terciaria;
+                        background-color: $cor-primaria;
                         font-size: .9rem;
                         padding: .8rem;
                         transition: all .3s ease-in-out;
                         @include raio(17px);
                         &:hover {
-                            background-color: $cor4;
-                            color: $cor3;
-                            border-color: $cor3;
+                            background-color: $cor-terciaria;
+                            color: $cor-primaria;
+                            border-color: $cor-primaria;
                         }
                     }
                 }
@@ -103,8 +103,8 @@ header {
                 align-items: center;
                 .abrir {
                     display: block;
-                    background-color: $cor3;
-                    border: 2.5px solid $cor4;
+                    background-color: $cor-primaria;
+                    border: 2.5px solid $cor-secundaria;
                     color: $branco;
                     padding: .8rem 1rem;
                     margin: 1rem 1rem 0 0;
@@ -118,7 +118,7 @@ header {
                     left: 0;
                     width: 100%;
                     height: 100vh;
-                    background: $cor3;
+                    background: $cor-secundaria;
                     .menu__principal {
                         position: relative;
                         top: 50vh;
@@ -133,7 +133,7 @@ header {
                             font-size: 2rem;
                             @include raio(0);
                             border: none;
-                            border-bottom: 2.5px solid $cor4;
+                            border-bottom: 2.5px solid $cor-primaria;
                         }
                     }
                     .fechar {
@@ -143,8 +143,8 @@ header {
                         margin-left: -4.5rem;
                         left: 50vw; 
                         top: 5%;
-                        background-color: $cor3;
-                        color: $cor4;
+                        background-color: $cor-primaria;
+                        color: $cor-primaria;
                         padding: .5rem;
                         font-size: 3.6rem;
                         text-align: center;

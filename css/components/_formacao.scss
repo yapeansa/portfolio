@@ -1,17 +1,18 @@
 .formacao {
-    background: $cor1;
+    background: $cor-quaternaria;
     padding: 5rem 3rem;
     .titulo__formacao {
         text-align: center;
         margin-bottom: 4rem;
+        color: $cor-primaria;
         &:before {
             content: '( ';
-            color: $cor4;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor4;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
     }
@@ -27,7 +28,7 @@
             align-self: start;
             .card__titulo {
                 font: 1.5rem $fonte-titulo ;
-                color: $cor4;
+                color: $cor-primaria;
                 margin: 1rem 0;
             }
             .card__subtitulo {
@@ -38,12 +39,12 @@
                 line-height: 1.5;
                 .link__tcc {
                     color: $preto;
-                    border-bottom: 2px solid $cor3;
+                    border-bottom: 2px solid $cor-primaria;
                     transition: all .3s ease-in-out;
                     &:hover {
-                        color: $cor1;
-                        background-color: $cor4;
-                        border-color: $cor1;
+                        color: $cor-quaternaria;
+                        background-color: $cor-primaria;
+                        border-color: $cor-primaria;
                     }
                     strong {
                         font-weight: normal;

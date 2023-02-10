@@ -45,15 +45,15 @@ ul, ol {
 }
 
 .botao__topo {
-    background-color: $cor4;
+    background-color: $cor-terciaria;
     position: fixed;
     bottom: 1rem;
     right: 1rem;
     font-size: 1.2rem;
     display: none;
-    border: 2px solid $cor3;
+    border: 2px solid $cor-primaria;
     a {
-        color: $cor3;
+        color: $cor-primaria;
         padding: 1.1rem 1.2rem;
         display: block;
     }
