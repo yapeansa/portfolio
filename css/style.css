@@ -24,6 +24,7 @@ html, body {
 
 a {
   text-decoration: none;
+  outline: none;
 }
 
 ul, ol {
@@ -163,7 +164,7 @@ header .banner .banner__texto {
   header .container__header nav .abrir {
     display: block;
     background-color: #222222;
-    border: 2.5px solid #434242;
+    border: 2.5px solid #22A39F;
     color: #FFF;
     padding: 0.8rem 1rem;
     margin: 1rem 1rem 0 0;
@@ -177,7 +178,7 @@ header .banner .banner__texto {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #434242;
+    background: #222222;
   }
   header .container__header nav .menu__mobile .menu__principal {
     position: relative;
@@ -194,7 +195,7 @@ header .banner .banner__texto {
     font-size: 2rem;
     border-radius: 0;
     border: none;
-    border-bottom: 2.5px solid #222222;
+    border-bottom: 2.5px solid #22A39F;
   }
   header .container__header nav .menu__mobile .fechar {
     display: block;
@@ -204,7 +205,7 @@ header .banner .banner__texto {
     left: 50vw;
     top: 5%;
     background-color: #222222;
-    color: #222222;
+    color: #22A39F;
     padding: 0.5rem;
     font-size: 3.6rem;
     text-align: center;
@@ -481,6 +482,7 @@ header .banner .banner__texto {
   justify-content: center;
 }
 .contato .container__contato form .centraliza input[type=reset], .contato .container__contato form .centraliza input[type=submit] {
+  outline: none;
   font-size: 1rem;
   width: 9rem;
   padding: 1.1rem 0;

@@ -104,7 +104,7 @@ header {
                 .abrir {
                     display: block;
                     background-color: $cor-primaria;
-                    border: 2.5px solid $cor-secundaria;
+                    border: 2.5px solid $cor-terciaria;
                     color: $branco;
                     padding: .8rem 1rem;
                     margin: 1rem 1rem 0 0;
@@ -118,7 +118,7 @@ header {
                     left: 0;
                     width: 100%;
                     height: 100vh;
-                    background: $cor-secundaria;
+                    background: $cor-primaria;
                     .menu__principal {
                         position: relative;
                         top: 50vh;
@@ -133,7 +133,7 @@ header {
                             font-size: 2rem;
                             @include raio(0);
                             border: none;
-                            border-bottom: 2.5px solid $cor-primaria;
+                            border-bottom: 2.5px solid $cor-terciaria;
                         }
                     }
                     .fechar {
@@ -144,7 +144,7 @@ header {
                         left: 50vw; 
                         top: 5%;
                         background-color: $cor-primaria;
-                        color: $cor-primaria;
+                        color: $cor-terciaria;
                         padding: .5rem;
                         font-size: 3.6rem;
                         text-align: center;
