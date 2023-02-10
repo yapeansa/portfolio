@@ -16,7 +16,10 @@ Utilizando as linguagens HTML5 e CSS3, exploro no decorrer do desenvolvimento co
 
 ## Acesso ao Projeto
 
-Você pode acesar a página do projeto clicando no seguinte link: [https://yapeansa.github.io/portfolio/](https://yapeansa.github.io/portfolio/)
+Você pode acesar a página do projeto clicando nos seguintes links:
+
+[https://yapeansa.github.io/portfolio/](https://yapeansa.github.io/portfolio/)
+[https://yapeansa.vercel.app/](https://yapeansa.vercel.app/)
 
 ## Desenvolvedor do Projeto
 
