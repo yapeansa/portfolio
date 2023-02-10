@@ -19,6 +19,7 @@
         align-self: center;
         .link__sobre {
             border: 2px solid $cor-terciaria;
+            display: inline-block;
             color: $cor-quaternaria;
             background: $cor-primaria;
             padding: 0 3px;
@@ -30,14 +31,17 @@
             }
         }
     }
-    .foto__perfil {
-        max-width: 55%;
-        display: block;
+    .container__foto {
+        align-self: center;
         grid-area: imagem;
-        @include raio(100%);
-        border: 4px solid $cor-terciaria;
-        padding: .8rem;
-        margin: 0 auto;
+        .foto__perfil {
+            max-width: 55%;
+            display: block;
+            @include raio(100%);
+            border: 4px solid $cor-terciaria;
+            padding: .8rem;
+            margin: 0 auto;
+        }
     }
 }
 
@@ -53,14 +57,10 @@
                 font-size: 2.5rem;
             }
         }
-        .texto__sobre {
-            .link__sobre {
-                display: inline-block;
+        .container__foto {
+            .foto__perfil {
+                margin: 2rem auto 0;
             }
-        }
-        .foto__perfil {
-            margin: 2rem auto 0;
-            display: block;
         }
     }
 }
