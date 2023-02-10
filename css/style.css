@@ -24,7 +24,7 @@ $cor4: #F7F7F7;
 
 html, body {
   font: 17px "Inter Regular";
-  background: url("../img/bg.jpg") center/cover no-repeat fixed;
+  background: url("../img/bg.jpg") top center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
 
@@ -133,10 +133,10 @@ header .banner {
 }
 header .banner .banner__texto {
   color: #ccc;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   display: inline-block;
   padding: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 1;
   margin: 0 0 2.8rem;
   word-spacing: 1.2rem;
