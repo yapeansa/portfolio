@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: 'titulo titulo titulo' 'titulo titulo titulo' 'texto texto imagem';
     background-color: $cor-primaria;
-    padding: 6rem 3rem;
+    padding: 6rem 0 6rem 3rem;
     .titulo__sobre {
         color: $cor-quaternaria;
         grid-area: titulo;

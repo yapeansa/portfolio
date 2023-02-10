@@ -276,7 +276,7 @@ header .banner .banner__texto {
   display: grid;
   grid-template-areas: "titulo titulo titulo" "titulo titulo titulo" "texto texto imagem";
   background-color: #222222;
-  padding: 6rem 3rem;
+  padding: 6rem 0 6rem 3rem;
 }
 .sobre .titulo__sobre {
   color: #F3EFE0;
