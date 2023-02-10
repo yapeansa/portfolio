@@ -606,12 +606,12 @@ footer .titulo__footer {
 }
 footer .titulo__footer:before {
   content: "( ";
-  color: #222222;
+  color: #22A39F;
   font-size: 3.5rem;
 }
 footer .titulo__footer:after {
   content: " )";
-  color: #222222;
+  color: #22A39F;
   font-size: 3.5rem;
 }
 footer .rodape__texto {

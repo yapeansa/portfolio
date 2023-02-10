@@ -7,12 +7,12 @@ footer {
         text-align: center;
         &:before {
             content: '( ';
-            color: $cor-primaria;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor-primaria;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
     }
