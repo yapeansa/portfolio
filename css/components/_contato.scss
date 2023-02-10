@@ -61,8 +61,8 @@
             display: grid;
             .centraliza {
                 display: flex;
-                column-gap: 2rem;
-                margin-top: 1.5rem;
+                column-gap: 1rem;
+                margin-top: 0;
                 justify-content: center;
                 input[type=reset], input[type=submit] {
                     font-size: 1rem;
@@ -98,6 +98,7 @@
                 transition: all .3s ease-in-out;
                 color: $cor3;
                 background-color: $cor1;
+                -moz-text-fill-color: $cor3;
                 -webkit-text-fill-color: $cor3;
                 &:focus {
                     background-color: $cor3;
