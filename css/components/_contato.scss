@@ -40,6 +40,19 @@
                 font-size: 1rem;
                 li {
                     margin-bottom: 1.5rem;
+                    .pessoal__link {
+                        color: $branco;
+                        background-color: $cor3;
+                        font-size: 1rem;
+                        border: 2px solid $cor4;
+                        padding: .2rem 1rem;
+                        transition: all .3s ease-in-out;
+                        &:hover {
+                            background-color: $cor4;
+                            color: $cor3;
+                            border-color: $cor3;
+                        }
+                    }
                 }
             }
         }

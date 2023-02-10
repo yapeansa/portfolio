@@ -458,6 +458,19 @@ header .banner .banner__texto {
 .contato .container__contato .info__pessoal .lista__pessoal li {
   margin-bottom: 1.5rem;
 }
+.contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link {
+  color: #FFF;
+  background-color: #222222;
+  font-size: 1rem;
+  border: 2px solid #22A39F;
+  padding: 0.2rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link:hover {
+  background-color: #22A39F;
+  color: #222222;
+  border-color: #222222;
+}
 .contato .container__contato form {
   grid-area: 2/2/3/3;
   display: grid;
