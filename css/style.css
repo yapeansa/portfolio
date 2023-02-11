@@ -104,15 +104,16 @@ header .container__header nav .menu__mobile .menu__principal .menu__link {
   color: #FFF;
   display: block;
   text-transform: uppercase;
-  border: 2.5px solid #22A39F;
+  border: 2.8px solid transparent;
+  border-bottom-color: #22A39F;
   background-color: #222222;
   font-size: 1rem;
   padding: 0.8rem;
   transition: all 0.3s ease-in-out;
-  border-radius: 17px;
 }
 header .container__header nav .menu__mobile .menu__principal .menu__link:hover {
   background-color: #22A39F;
+  border-radius: 17px;
   color: #222222;
   border-color: #222222;
 }

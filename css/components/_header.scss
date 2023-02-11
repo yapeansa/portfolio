@@ -42,14 +42,15 @@ header {
                         color: $branco;
                         display: block;
                         text-transform: uppercase;
-                        border: 2.5px solid $cor-terciaria;
+                        border: 2.8px solid transparent;
+                        border-bottom-color: $cor-terciaria;
                         background-color: $cor-primaria;
                         font-size: 1rem;
                         padding: .8rem;
                         transition: all .3s ease-in-out;
-                        @include raio(17px);
                         &:hover {
                             background-color: $cor-terciaria;
+                            @include raio(17px);
                             color: $cor-primaria;
                             border-color: $cor-primaria;
                         }
