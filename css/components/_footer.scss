@@ -25,7 +25,6 @@ footer {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
-        gap: 2rem;
         img {
             max-width: 3.4rem;
         }
@@ -50,6 +49,12 @@ footer {
         }
         .rodape__texto {
             margin: 2rem 0;
+        }
+        .social__list {
+            gap: 4rem;
+            img {
+                max-width: 5rem;
+            }
         }
     }
 }

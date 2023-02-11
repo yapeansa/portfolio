@@ -627,7 +627,6 @@ footer .social__list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  gap: 2rem;
 }
 footer .social__list img {
   max-width: 3.4rem;
@@ -652,5 +651,11 @@ footer .copyright {
   }
   footer .rodape__texto {
     margin: 2rem 0;
+  }
+  footer .social__list {
+    gap: 4rem;
+  }
+  footer .social__list img {
+    max-width: 5rem;
   }
 }/*# sourceMappingURL=style.css.map */
