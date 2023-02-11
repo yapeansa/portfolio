@@ -59,6 +59,31 @@
         form {
             grid-area: 2/2/3/3;
             display: grid;
+            input[type=text], input[type=email], textarea {
+                display: block;
+                width: 100%;
+                margin: 0 auto 1rem;
+                font-size: 1rem;
+                padding: 1.2rem 1.6rem;
+                border: 5px solid $cor-primaria;
+                outline: none;
+                transition: all .3s ease-in-out;
+                color: $cor-primaria;
+                background-color: $cor-quaternaria;
+                -webkit-text-fill-color: $cor-primaria;
+                &:focus {
+                    background-color: $cor-primaria;
+                    color: $cor-quaternaria;
+                    border-color: $cor-terciaria;
+                    -webkit-text-fill-color: $cor-quaternaria;
+                }
+                &::placeholder {
+                    opacity: 1;
+                }
+            }
+            textarea {
+                resize: none;
+            }
             .centraliza {
                 display: flex;
                 column-gap: 1rem;
@@ -87,30 +112,6 @@
                         color: $cor-primaria;
                     }
                 }
-            }
-            input[type=text], input[type=email], textarea {
-                display: block;
-                width: 100%;
-                margin: 0 auto 1rem;
-                font-size: 1rem;
-                padding: 1.2rem 1.6rem;
-                border: 5px solid $cor-primaria;
-                outline: none;
-                transition: all .3s ease-in-out;
-                color: $cor-primaria;
-                background-color: $cor-quaternaria;
-                -moz-text-fill-color: $cor-primaria;
-                -webkit-text-fill-color: $cor-primaria;
-                &:focus {
-                    background-color: $cor-primaria;
-                    color: $cor-quaternaria;
-                    border-color: $cor-terciaria;
-                    -webkit-text-fill-color: $cor-quaternaria;
-                }
-            }
-            textarea {
-                resize: none;
-                font-size: 1rem;
             }
         }
         .titulo__pessoal {
