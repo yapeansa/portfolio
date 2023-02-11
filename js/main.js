@@ -1,16 +1,17 @@
 $(document).ready(function(){
     $(window).on('scroll', function(){
-        if($(this).scrollTop() > screen.availHeight){
-            $('.botao__topo').fadeIn('slow');
+        const altura = screen.availHeight - 100
+        if($(this).scrollTop() > altura){
+            $('.botao__topo').fadeIn('slow')
         }
         else {
-            $('.botao__topo').fadeOut('slow');
+            $('.botao__topo').fadeOut('slow')
         }
     });
     $('.abrir').on('click', function(){
-        $('.menu__mobile').stop().fadeIn('slow');
+        $('.menu__mobile').stop().fadeIn('slow')
     });
     $('.fechar').on('click', function(){
-        $('.menu__mobile').stop().fadeOut('slow');
+        $('.menu__mobile').stop().fadeOut('slow')
     })
 });
