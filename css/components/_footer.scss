@@ -35,6 +35,17 @@ footer {
         text-align: center;
         margin: 4.5rem 0 0;
         display: block;
+        .email__contact {
+            color: $cor-terciaria;
+            border-bottom: 2px solid $cor-terciaria;
+            padding-bottom: .2rem;
+            transition: all .3s ease-in-out;
+            &:hover {
+                background-color: $cor-terciaria;
+                color: $cor-primaria;
+                border-color: $cor-primaria;
+            }
+        }
     }
 }
 

@@ -645,6 +645,17 @@ footer .copyright {
   margin: 4.5rem 0 0;
   display: block;
 }
+footer .copyright .email__contact {
+  color: #22A39F;
+  border-bottom: 2px solid #22A39F;
+  padding-bottom: 0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+footer .copyright .email__contact:hover {
+  background-color: #22A39F;
+  color: #222222;
+  border-color: #222222;
+}
 
 @media screen and (max-width: 1023px) {
   footer {
