@@ -40,7 +40,7 @@ header {
                     margin: 0 auto;
                     align-self: center;
                     .menu__link {
-                        color: $branco;
+                        color: $cor-quaternaria;
                         display: block;
                         text-transform: uppercase;
                         border: 2.8px solid transparent;
@@ -52,7 +52,7 @@ header {
                         &:hover {
                             background-color: $cor-terciaria;
                             @include raio(17px);
-                            color: $cor-primaria;
+                            color: $cor-quaternaria;
                             border-color: $cor-primaria;
                         }
                     }

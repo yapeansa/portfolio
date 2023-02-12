@@ -19,7 +19,7 @@
 
 html, body {
   font: 1rem "Inter Regular";
-  background: url("../img/bg.jpg") top center/cover no-repeat fixed;
+  background: url("../img/bg.jpg") center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
 
@@ -103,7 +103,7 @@ header .container__header nav .menu__mobile .menu__principal {
   align-self: center;
 }
 header .container__header nav .menu__mobile .menu__principal .menu__link {
-  color: #FFF;
+  color: #E7DFDD;
   display: block;
   text-transform: uppercase;
   border: 2.8px solid transparent;
@@ -116,7 +116,7 @@ header .container__header nav .menu__mobile .menu__principal .menu__link {
 header .container__header nav .menu__mobile .menu__principal .menu__link:hover {
   background-color: #A239CA;
   border-radius: 17px;
-  color: #0E0B16;
+  color: #E7DFDD;
   border-color: #0E0B16;
 }
 header .container__header nav .menu__mobile .fechar {
