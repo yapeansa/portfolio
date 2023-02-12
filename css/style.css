@@ -51,7 +51,7 @@ ul, ol {
   border: 2px solid #0E0B16;
 }
 .botao__topo a {
-  color: #0E0B16;
+  color: #E7DFDD;
   padding: 1.1rem 1.2rem;
   display: block;
 }
@@ -77,7 +77,7 @@ header .container__header {
 header .container__header .container__logo {
   background-color: #0E0B16;
   display: flex;
-  padding: 1rem 0 0;
+  padding: 2rem 0 0;
 }
 header .container__header .container__logo .logo {
   width: 10em;
@@ -87,7 +87,7 @@ header .container__header .container__logo .logo {
 header .container__header nav {
   background-color: #0E0B16;
   display: flex;
-  padding: 2rem 0 3rem;
+  padding: 2rem 0 2.6rem;
   justify-content: center;
 }
 header .container__header nav .abrir {
