@@ -1,9 +1,9 @@
 .formacao {
     background: $cor-quaternaria;
-    padding: 5rem 3rem;
+    padding: 5rem 3rem 8rem;
     .titulo__formacao {
         text-align: center;
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
         color: $cor-primaria;
         &:before {
             content: '( ';
@@ -19,13 +19,14 @@
     .container__cards {
         display: flex;
         flex-flow: row wrap;
-        gap: 0 4rem;
+        gap: 4rem;
         .card {
             flex-grow: 1;
             width: 30%;
             padding: 2rem;
             text-align: center;
-            align-self: start;
+            border: 2px solid $cor-terciaria;
+            @include raio(12px);
             .card__titulo {
                 font: 1.5rem $fonte-titulo ;
                 color: $cor-primaria;
@@ -70,6 +71,7 @@
             .card {
                 width: 100%;
                 padding: 0 0 2rem;
+                border: none;
             }
         }
     }
