@@ -43,17 +43,17 @@ header {
                         color: $cor-quaternaria;
                         display: block;
                         text-transform: uppercase;
-                        border: 2.8px solid transparent;
+                        border: 3px solid transparent;
                         border-bottom-color: $cor-terciaria;
                         background-color: $cor-primaria;
                         font-size: 1rem;
-                        padding: .8rem;
+                        padding: .8rem 1.1rem;
                         transition: all .3s ease-in-out;
                         &:hover {
                             background-color: $cor-terciaria;
-                            @include raio(17px);
                             color: $cor-quaternaria;
                             border-color: $cor-primaria;
+                            @include raio(17px);
                         }
                     }
                 }
@@ -131,6 +131,7 @@ header {
                         display: block;
                         .menu__link {
                             display: block;
+                            width: 100%;
                             text-align: center;
                             font-size: 2rem;
                             @include raio(0);

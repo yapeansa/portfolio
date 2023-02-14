@@ -106,18 +106,18 @@ header .container__header nav .menu__mobile .menu__principal .menu__link {
   color: #E7DFDD;
   display: block;
   text-transform: uppercase;
-  border: 2.8px solid transparent;
+  border: 3px solid transparent;
   border-bottom-color: #A239CA;
   background-color: #0E0B16;
   font-size: 1rem;
-  padding: 0.8rem;
+  padding: 0.8rem 1.1rem;
   transition: all 0.3s ease-in-out;
 }
 header .container__header nav .menu__mobile .menu__principal .menu__link:hover {
   background-color: #A239CA;
-  border-radius: 17px;
   color: #E7DFDD;
   border-color: #0E0B16;
+  border-radius: 17px;
 }
 header .container__header nav .menu__mobile .fechar {
   display: none;
@@ -194,6 +194,7 @@ header .banner .banner__texto {
   }
   header .container__header nav .menu__mobile .menu__principal .menu__link {
     display: block;
+    width: 100%;
     text-align: center;
     font-size: 2rem;
     border-radius: 0;
@@ -653,14 +654,14 @@ footer .copyright {
   display: block;
 }
 footer .copyright .email__contact {
-  color: #A239CA;
+  color: #E7DFDD;
   border-bottom: 2px solid #A239CA;
   padding-bottom: 0.2rem;
   transition: all 0.3s ease-in-out;
 }
 footer .copyright .email__contact:hover {
   background-color: #A239CA;
-  color: #0E0B16;
+  color: #E7DFDD;
   border-color: #0E0B16;
 }
 
