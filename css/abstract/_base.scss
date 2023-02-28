@@ -1,5 +1,9 @@
 @import './variaveis';
 
+@mixin raio($valor) {
+    border-radius: $valor;
+}
+
 @font-face {
     src: url('../fonts/Inter-Regular.ttf');
     font-family: 'Inter Regular';
@@ -22,8 +26,8 @@
 }
 
 html, body {
-    font: 1rem $fonte-texto;
-    background: url('../img/bg.jpg') center / cover no-repeat fixed;
+    font-family: $fonte-texto;
+    background: url('../img/bg.jpg') bottom center / cover no-repeat fixed;
     scroll-behavior: smooth;
 }
 
@@ -50,13 +54,12 @@ ul, ol {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    font-size: 1.2rem;
     display: none;
-    border: 2px solid $cor-primaria;
     a {
         color: $cor-quaternaria;
-        padding: 1.1rem 1.2rem;
         display: block;
+        font-size: 1.6rem;
+        padding: .8rem 1rem;
     }
 }
 

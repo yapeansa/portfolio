@@ -1,7 +1,4 @@
 /* Header */
-@mixin raio($valor) {
-    border-radius: $valor;
-}
 
 header {
     width: 100%;
@@ -31,35 +28,31 @@ header {
             .abrir {
                 display: none;
             }
-            .menu__mobile {
-                .menu__principal {
-                    display: flex;
-                    flex-flow: row wrap;
-                    justify-content: center;
-                    column-gap: 2.2rem;
-                    margin: 0 auto;
-                    align-self: center;
-                    .menu__link {
-                        color: $cor-quaternaria;
-                        display: block;
-                        text-transform: uppercase;
-                        border: 3px solid transparent;
-                        border-bottom-color: $cor-terciaria;
-                        background-color: $cor-primaria;
-                        font-size: 1rem;
-                        padding: .8rem 1.1rem;
-                        transition: all .3s ease-in-out;
-                        &:hover {
-                            background-color: $cor-terciaria;
-                            color: $cor-quaternaria;
-                            border-color: $cor-primaria;
-                            @include raio(17px);
-                        }
+            .menu__principal {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                column-gap: 2.2rem;
+                margin: 0 auto;
+                align-self: center;
+                .menu__link {
+                    color: $cor-quaternaria;
+                    display: block;
+                    text-transform: uppercase;
+                    border-bottom: 3px solid $cor-terciaria;
+                    background-color: $cor-primaria;
+                    font-size: 1rem;
+                    padding: .8rem .5rem;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        background-color: $cor-terciaria;
+                        color: $cor-primaria;
+                        border-color: $cor-primaria;
                     }
                 }
-                .fechar {
-                    display: none;
-                }
+            }
+            .fechar {
+                display: none;
             }
         }
     }
@@ -134,7 +127,6 @@ header {
                             width: 100%;
                             text-align: center;
                             font-size: 2rem;
-                            @include raio(0);
                             border: none;
                             border-bottom: 2.5px solid $cor-terciaria;
                         }
