@@ -113,7 +113,7 @@ header .container__header nav .menu__principal .menu__link {
 }
 header .container__header nav .menu__principal .menu__link:hover {
   background-color: #DE354C;
-  color: #0E0B16;
+  color: white;
   border-color: #0E0B16;
 }
 header .container__header nav .fechar {
@@ -475,7 +475,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link:hover {
   background-color: #DE354C;
-  color: #0E0B16;
+  color: white;
   border-color: #0E0B16;
 }
 .contato .container__contato form {
@@ -569,7 +569,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link:hover {
   background-color: #DE354C;
-  color: #0E0B16;
+  color: white;
   border-color: #0E0B16;
 }
 
