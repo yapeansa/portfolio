@@ -39,14 +39,14 @@ header {
                     color: $cor-quaternaria;
                     display: block;
                     text-transform: uppercase;
-                    border-bottom: 3px solid $cor-terciaria;
+                    border-bottom: 3px solid $cor-secundaria;
                     background-color: $cor-primaria;
                     font-size: 1rem;
                     padding: .8rem .5rem;
                     transition: all .3s ease-in-out;
                     &:hover {
-                        background-color: $cor-terciaria;
-                        color: white;
+                        background-color: $cor-quinternaria;
+                        color: $cor-primaria;
                         border-color: $cor-primaria;
                     }
                 }

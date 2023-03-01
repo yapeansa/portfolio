@@ -2,19 +2,19 @@
 
 footer {
     background-color: $cor-primaria;
-    padding: 7rem 0 5rem;
+    padding: 7rem 0 6rem;
     .titulo__footer {
         font-size: 2rem;
         color: $cor-quaternaria;
         text-align: center;
         &:before {
             content: '( ';
-            color: $cor-terciaria;
+            color: $cor-secundaria;
             font-size: 3.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor-terciaria;
+            color: $cor-secundaria;
             font-size: 3.5rem;
         }
     }
@@ -39,11 +39,11 @@ footer {
         display: block;
         .email__contact {
             color: $cor-quaternaria;
-            border-bottom: 2px solid $cor-terciaria;
+            border-bottom: 2px solid $cor-secundaria;
             padding-bottom: .2rem;
             transition: all .3s ease-in-out;
             &:hover {
-                background-color: $cor-terciaria;
+                background-color: $cor-secundaria;
                 color: $cor-quaternaria;
                 border-color: $cor-primaria;
             }
