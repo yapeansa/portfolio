@@ -25,8 +25,18 @@ header {
             display: flex;
             padding: 2rem 0 2.6rem;
             justify-content: center;
-            .abrir {
+            .open {
                 display: none;
+                width: 80px;
+                height: 80px;
+                background-color: $cor-primaria;
+                border: 2.5px solid $cor-secundaria;
+                margin: 0;
+                .open-line {
+                    width: 60%;
+                    height: 4px;
+                    background: $cor-quaternaria;
+                }
             }
             .menu__principal {
                 display: flex;
@@ -51,8 +61,21 @@ header {
                     }
                 }
             }
-            .fechar {
+            .close {
                 display: none;
+                position: absolute;
+                border: 2px solid $cor-terciaria;
+                width: 100px;
+                height: 100px;
+                margin-left: -40px;
+                left: 50vw; 
+                top: 5%;
+                padding-top: 1px;
+                .close-line {
+                    width: 65%;
+                    height: 4px;
+                    background-color: $cor-quaternaria;
+                }
             }
         }
     }
@@ -89,22 +112,19 @@ header {
                 width: auto;
                 .logo {
                     width: 10rem;
-                    margin: 0 0 0 1rem;
+                    margin: 0 0 0 2rem;
                 }
             }
             nav {
-                padding: 0;
+                padding: 0 2rem 0 0;
                 height: 100%;
                 align-items: center;
-                .abrir {
-                    display: block;
-                    background-color: $cor-primaria;
-                    border: 2.5px solid $cor-terciaria;
-                    color: $branco;
-                    padding: .8rem 1rem;
-                    margin: 1rem 1rem 0 0;
-                    font-size: 1.9rem;
-                    text-transform: uppercase;
+                .open {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    row-gap: 10px;
                 }
                 .menu__mobile {
                     display: none;
@@ -120,7 +140,7 @@ header {
                         flex-flow: column nowrap;
                         width: 80%;
                         align-items: center;
-                        margin-top: -11rem;
+                        margin-top: -12rem;
                         display: block;
                         .menu__link {
                             display: block;
@@ -128,21 +148,26 @@ header {
                             text-align: center;
                             font-size: 2rem;
                             border: none;
-                            border-bottom: 2.5px solid $cor-terciaria;
+                            border-bottom: 2.5px solid $cor-secundaria;
+                            padding-top: 1.4rem;
+                            padding-bottom: 1.4rem;
                         }
                     }
-                    .fechar {
-                        display: block;
-                        position: absolute;
-                        width: 9rem;
-                        margin-left: -4.5rem;
-                        left: 50vw; 
-                        top: 5%;
-                        background-color: $cor-primaria;
-                        color: $cor-terciaria;
-                        padding: .5rem;
-                        font-size: 3.6rem;
-                        text-align: center;
+                    .close {
+                        display: flex;
+                        flex-flow: column nowrap;
+                        align-items: center;
+                        justify-content: center;
+                        .close-line {
+                            position: relative;
+                        }
+                        .close-line:nth-child(1) {
+                            transform: rotate(45deg);
+                        }
+                        .close-line:nth-child(2) {
+                            transform: rotate(-45deg);
+                            top: -4px;
+                        }
                     }
                 }
             }

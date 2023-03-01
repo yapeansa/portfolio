@@ -10,11 +10,11 @@ $(document).ready(function() {
         }
     });
 
-    $('.abrir').on('click', function() {
+    $('.open').on('click', function() {
         $('.menu__mobile').stop().fadeIn('slow');
     });
 
-    $('.fechar').on('click', function() {
+    $('.close').on('click', function() {
         $('.menu__mobile').stop().fadeOut('slow');
     });
 });
