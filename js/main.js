@@ -17,4 +17,5 @@ $(document).ready(function() {
     $('.close').on('click', function() {
         $('.menu__mobile').stop().fadeOut('slow');
     });
+
 });
