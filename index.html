@@ -8,8 +8,6 @@
     <title>Yago Pereira | Desenvolvedor Web Front-end</title>
     <link rel="icon" type="image/x-icon" href="./img/icon.png">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/jquery-3.6.3.js"></script>
-    <script src="./js/main.js"></script>
 </head>
 <body>
     <header>
@@ -95,9 +93,9 @@
             </div>
             <p class="texto__principal alt">Alternativamente, você também pode preencher o formulário a seguir para entrar em contato comigo:</p>
             <form name="contato" method="POST" action="https://formspree.io/f/xnqlkqnk">
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." required>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui..." required>
-                <textarea rows="8" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." required></textarea>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." class="campo-texto" required>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui..." class="campo-texto" required>
+                <textarea rows="8" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." class="campo-texto" required></textarea>
                 <div class="centraliza">
                     <input type="reset" value="Limpar">
                     <input type="submit" value="Enviar">
@@ -123,5 +121,8 @@
         <span class="copyright">Copyright &copy;2023 - Desenvolvido por <a href="mailto:yago.pereira@estudante.ufjf.br" class="email__contact">Yago Pereira</a>.</span>
     </footer>
     <div class="botao__topo"><a href="#">&uarr;</a></div>
+    <script src="./js/jquery-3.6.3.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 </html>
