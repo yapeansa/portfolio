@@ -4,14 +4,16 @@ textos.forEach( (elemento) => {
         this.placeholder = '';
     });
     elemento.addEventListener('blur', function () {
+        let holder;
         if (this.id === 'nome') {
-            this.placeholder = 'Digite seu nome aqui...';
+            holder = 'seu nome';
         }
         else if(this.id === 'email') {
-            this.placeholder = 'Digite seu e-mail aqui...';
+            holder = 'seu e-mail';
         }
         else {
-            this.placeholder = 'Digite sua mensagem aqui...';
+            holder = 'sua mensagem';
         }
+        this.placeholder = `Digite ${holder} aqui...`;
     });
 });
