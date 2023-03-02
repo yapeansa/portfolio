@@ -100,13 +100,16 @@
             </div>
             <p class="texto__principal alt">Alternativamente, você também pode preencher o formulário a seguir para entrar em contato comigo:</p>
             <form name="contato" method="POST" action="https://formspree.io/f/xnqlkqnk">
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." class="campo-texto" required>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui..." class="campo-texto" required>
-                <textarea rows="8" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." class="campo-texto" required></textarea>
-                <div class="centraliza">
-                    <input type="reset" value="Limpar">
-                    <input type="submit" value="Enviar">
-                </div>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." class="campo-texto" required>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui..." class="campo-texto" required>
+                    <textarea rows="8" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." class="campo-texto" required></textarea>
+                    <div class="centraliza">
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
             </form>
             <h3 class="titulo__pessoal">Outras Informações</h3>
             <div class="lattes__info">

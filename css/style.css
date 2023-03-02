@@ -517,7 +517,13 @@ header .banner .banner__texto {
   grid-area: 2/2/3/3;
   display: grid;
 }
-.contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
+.contato .container__contato form fieldset {
+  border: none;
+}
+.contato .container__contato form fieldset legend {
+  display: none;
+}
+.contato .container__contato form fieldset input[type=text], .contato .container__contato form fieldset input[type=email], .contato .container__contato form fieldset textarea {
   display: block;
   width: 100%;
   margin: 0 auto 1rem;
@@ -530,29 +536,29 @@ header .banner .banner__texto {
   background-color: #FFF;
   -webkit-text-fill-color: #0E0B16;
 }
-.contato .container__contato form input[type=text]:focus, .contato .container__contato form input[type=email]:focus, .contato .container__contato form textarea:focus {
+.contato .container__contato form fieldset input[type=text]:focus, .contato .container__contato form fieldset input[type=email]:focus, .contato .container__contato form fieldset textarea:focus {
   background-color: #0E0B16;
   color: #FFF;
   border-color: #4717F6;
   -webkit-text-fill-color: #FFF;
 }
-.contato .container__contato form input[type=text]::-moz-placeholder, .contato .container__contato form input[type=email]::-moz-placeholder, .contato .container__contato form textarea::-moz-placeholder {
+.contato .container__contato form fieldset input[type=text]::-moz-placeholder, .contato .container__contato form fieldset input[type=email]::-moz-placeholder, .contato .container__contato form fieldset textarea::-moz-placeholder {
   opacity: 1;
 }
-.contato .container__contato form input[type=text]::placeholder, .contato .container__contato form input[type=email]::placeholder, .contato .container__contato form textarea::placeholder {
+.contato .container__contato form fieldset input[type=text]::placeholder, .contato .container__contato form fieldset input[type=email]::placeholder, .contato .container__contato form fieldset textarea::placeholder {
   opacity: 1;
 }
-.contato .container__contato form textarea {
+.contato .container__contato form fieldset textarea {
   resize: none;
 }
-.contato .container__contato form .centraliza {
+.contato .container__contato form fieldset .centraliza {
   display: flex;
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   margin-top: 0;
   justify-content: center;
 }
-.contato .container__contato form .centraliza input[type=reset], .contato .container__contato form .centraliza input[type=submit] {
+.contato .container__contato form fieldset .centraliza input[type=reset], .contato .container__contato form fieldset .centraliza input[type=submit] {
   outline: none;
   font-size: 1.1rem;
   width: 9rem;
@@ -564,12 +570,12 @@ header .banner .banner__texto {
   font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
-.contato .container__contato form .centraliza input[type=reset]:hover, .contato .container__contato form .centraliza input[type=submit]:hover {
+.contato .container__contato form fieldset .centraliza input[type=reset]:hover, .contato .container__contato form fieldset .centraliza input[type=submit]:hover {
   color: #FFF;
   border-color: #FFC719;
   background-color: #0E0B16;
 }
-.contato .container__contato form .centraliza input[type=reset]:active, .contato .container__contato form .centraliza input[type=submit]:active {
+.contato .container__contato form fieldset .centraliza input[type=reset]:active, .contato .container__contato form fieldset .centraliza input[type=submit]:active {
   transition: none;
   border-color: #0E0B16;
   background-color: #4717F6;
