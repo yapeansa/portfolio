@@ -85,6 +85,7 @@ header {
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
+        row-gap: 3rem;
         .banner__texto {
             color: $cinza;
             background-color: rgba(0,0,0,.3);
@@ -92,9 +93,8 @@ header {
             padding: .5rem;
             font-size: 2.3rem;
             line-height: 1;
-            margin: 0 0 2.8rem;
-            word-spacing: .5rem;
-            text-align: center;
+            text-align: justify;
+            font-weight: normal;
         }
     }
 }
