@@ -6,9 +6,18 @@
 
 Este projeto foi desenvolvido não apenas para divulgar minhas habilidades e experiências profissionais, mas também colocar em prática tudo o que venho aprendendo constantemente.
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **OptimusTech**
+| :label: Tecnologias | HTML, CSS, Javascript (tecnologias utilizadas)
+| :rocket: URL         | https://yapeansa.github.io/portfolio/
+| :fire: Desafio     | https://yapeansa.vercel.app/
+
+![OptimusTech](img/projeto.png#vitrinedev)
+
 ## Breve Descrição do Projeto
 
-Utilizando as linguagens HTML5 e CSS3, exploro no decorrer do desenvolvimento conceitos importantes de diagramação e posicionamento de elementos no documento, tais como Flexbox e Grid. Além disso, a responsividade também foi trabalhada neste projeto.
+Utilizando as linguagens HTML5, CSS3 e Javascript, exploro no decorrer do desenvolvimento conceitos importantes de diagramação e posicionamento de elementos no documento, tais como Flexbox e Grid. Além disso, a responsividade também foi trabalhada neste projeto.
 
 ## Tecnologias Utilizadas
 
