@@ -2,7 +2,7 @@
 
 .formacao {
     background: $cor-quaternaria;
-    padding: 5rem 3rem 8rem;
+    padding: 5rem 4rem 8rem;
     .titulo__formacao {
         text-align: center;
         margin-bottom: 5rem;
@@ -21,10 +21,11 @@
     .container__cards {
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
         gap: 4rem;
         .card {
             flex-grow: 1;
-            width: 30%;
+            flex-basis: 30%;
             padding: 2rem;
             text-align: center;
             border: 1px solid #333;
