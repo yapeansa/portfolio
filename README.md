@@ -13,7 +13,11 @@ Este projeto foi desenvolvido não apenas para divulgar minhas habilidades e exp
 | :rocket: URL         | https://yapeansa.github.io/portfolio/
 | :fire: Desafio     | https://yapeansa.vercel.app/
 
+---
+
 ![OptimusTech](img/projeto.png#vitrinedev)
+
+---
 
 ## Breve Descrição do Projeto
 
@@ -25,7 +29,7 @@ Utilizando as linguagens HTML5, CSS3 e Javascript, exploro no decorrer do desenv
 
 ## Acesso ao Projeto
 
-Você pode acesar a página do projeto clicando nos seguintes links:
+> Você pode acesar a página do projeto clicando nos seguintes links:
 
 - [https://yapeansa.github.io/portfolio/](https://yapeansa.github.io/portfolio/)
 - [https://yapeansa.vercel.app/](https://yapeansa.vercel.app/)
@@ -37,6 +41,6 @@ Você pode acesar a página do projeto clicando nos seguintes links:
 
 ## Contato
 
-Não se esqueça de me seguir em minhas redes sociais
+> Não se esqueça de me seguir em minhas redes sociais
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/yapeansa) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/yapeansa) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](http://twitter.com/yapeansa) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yago-pereira-dos-anjos-santos-85976750/)
