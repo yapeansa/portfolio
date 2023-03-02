@@ -446,6 +446,9 @@ header .banner .banner__texto {
     padding: 0 0 2rem;
     border: none;
   }
+  .formacao .container__cards .card:hover {
+    box-shadow: none;
+  }
 }
 /* Contato */
 .contato {
