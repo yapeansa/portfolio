@@ -94,10 +94,10 @@ header {
 header .container__header {
   display: flex;
   flex-flow: column nowrap;
-  background-color: #0E0B16;
+  background-color: #000;
 }
 header .container__header .container__logo {
-  background-color: #0E0B16;
+  background-color: #000;
   display: flex;
   padding: 2rem 0 0;
 }
@@ -107,7 +107,7 @@ header .container__header .container__logo .logo {
   align-self: center;
 }
 header .container__header nav {
-  background-color: #0E0B16;
+  background-color: #000;
   display: flex;
   padding: 2rem 0 2.6rem;
   justify-content: center;
@@ -116,7 +116,7 @@ header .container__header nav .open {
   display: none;
   width: 80px;
   height: 80px;
-  background-color: #0E0B16;
+  background-color: #000;
   border: 2.5px solid #4717F6;
   margin: 0;
 }
@@ -139,15 +139,15 @@ header .container__header nav .menu__principal .menu__link {
   display: block;
   text-transform: uppercase;
   border-bottom: 3px solid #4717F6;
-  background-color: #0E0B16;
+  background-color: #000;
   font-size: 1rem;
   padding: 0.8rem 0.5rem;
   transition: all 0.3s ease-in-out;
 }
 header .container__header nav .menu__principal .menu__link:hover {
   background-color: #FFC719;
-  color: #0E0B16;
-  border-color: #0E0B16;
+  color: #000;
+  border-color: #000;
 }
 header .container__header nav .close {
   display: none;
@@ -221,7 +221,7 @@ header .banner .banner__texto {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #0E0B16;
+    background: #000;
   }
   header .container__header nav .menu__mobile .menu__principal {
     position: relative;
@@ -274,7 +274,7 @@ header .banner .banner__texto {
 }
 .introducao .titulo__intro {
   text-align: center;
-  color: #0E0B16;
+  color: #000;
 }
 .introducao .titulo__intro:before {
   content: "( ";
@@ -325,7 +325,7 @@ header .banner .banner__texto {
 .sobre {
   display: grid;
   grid-template-areas: "titulo titulo titulo" "titulo titulo titulo" "texto texto imagem";
-  background-color: #0E0B16;
+  background-color: #000;
   padding: 6rem 0 6rem 3rem;
 }
 .sobre .titulo__sobre {
@@ -347,13 +347,13 @@ header .banner .banner__texto {
   border: 2px solid #4717F6;
   display: inline-block;
   color: #FFF;
-  background: #0E0B16;
+  background: #000;
   padding: 0 3px;
   transition: all 0.3s ease-in-out;
 }
 .sobre .texto__sobre .link__sobre:hover {
-  border-color: #0E0B16;
-  color: #0E0B16;
+  border-color: #000;
+  color: #000;
   background-color: #DE354C;
 }
 .sobre .container__foto {
@@ -394,7 +394,7 @@ header .banner .banner__texto {
 .formacao .titulo__formacao {
   text-align: center;
   margin-bottom: 5rem;
-  color: #0E0B16;
+  color: #000;
 }
 .formacao .titulo__formacao:before {
   content: "( ";
@@ -427,7 +427,7 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__titulo {
   font: 1.5rem "Inter Semibold";
-  color: #0E0B16;
+  color: #000;
   margin: 1rem 0;
 }
 .formacao .container__cards .card .card__subtitulo {
@@ -439,13 +439,13 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__texto .link__tcc {
   color: #000;
-  border-bottom: 2px solid #0E0B16;
+  border-bottom: 2px solid #000;
   transition: all 0.3s ease-in-out;
 }
 .formacao .container__cards .card .card__texto .link__tcc:hover {
   color: #FFF;
-  background-color: #0E0B16;
-  border-color: #0E0B16;
+  background-color: #000;
+  border-color: #000;
 }
 .formacao .container__cards .card .card__texto .link__tcc strong {
   font-weight: normal;
@@ -477,7 +477,7 @@ header .banner .banner__texto {
 /* Contato */
 .contato {
   width: 100%;
-  background: #0E0B16 url("../img/bg3.png") top center/13.5rem repeat-x;
+  background: #000 url("../img/bg3.png") top center/13.5rem repeat-x;
   padding: 12rem 3rem 0;
 }
 .contato .titulo__contato {
@@ -526,7 +526,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link {
   color: #FFF;
-  background-color: #0E0B16;
+  background-color: #000;
   font-size: 1.1rem;
   border: 2px solid #4717F6;
   padding: 0.2rem 1rem;
@@ -535,7 +535,7 @@ header .banner .banner__texto {
 .contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link:hover {
   background-color: #4717F6;
   color: white;
-  border-color: #0E0B16;
+  border-color: #000;
 }
 .contato .container__contato form {
   grid-area: 2/2/3/3;
@@ -553,15 +553,15 @@ header .banner .banner__texto {
   margin: 0 auto 1rem;
   font-size: 1rem;
   padding: 1.2rem 1.6rem;
-  border: 5px solid #0E0B16;
+  border: 5px solid #000;
   outline: none;
   transition: all 0.3s ease-in-out;
-  color: #0E0B16;
+  color: #000;
   background-color: #FFF;
-  -webkit-text-fill-color: #0E0B16;
+  -webkit-text-fill-color: #000;
 }
 .contato .container__contato form fieldset input[type=text]:focus, .contato .container__contato form fieldset input[type=email]:focus, .contato .container__contato form fieldset textarea:focus {
-  background-color: #0E0B16;
+  background-color: #000;
   color: #FFF;
   border-color: #4717F6;
   -webkit-text-fill-color: #FFF;
@@ -589,7 +589,7 @@ header .banner .banner__texto {
   padding: 1.1rem 0;
   background-color: #4717F6;
   color: #FFF;
-  border: 4px solid #0E0B16;
+  border: 4px solid #000;
   cursor: pointer;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
@@ -597,11 +597,11 @@ header .banner .banner__texto {
 .contato .container__contato form fieldset .centraliza input[type=reset]:hover, .contato .container__contato form fieldset .centraliza input[type=submit]:hover {
   color: #FFF;
   border-color: #FFC719;
-  background-color: #0E0B16;
+  background-color: #000;
 }
 .contato .container__contato form fieldset .centraliza input[type=reset]:active, .contato .container__contato form fieldset .centraliza input[type=submit]:active {
   transition: none;
-  border-color: #0E0B16;
+  border-color: #000;
   background-color: #4717F6;
 }
 .contato .container__contato .titulo__pessoal {
@@ -625,7 +625,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link {
   color: #FFF;
-  background-color: #0E0B16;
+  background-color: #000;
   font-size: 1.1rem;
   display: inline-block;
   margin-top: 1rem;
@@ -636,7 +636,7 @@ header .banner .banner__texto {
 .contato .container__contato .lattes__info .lattes__link:hover {
   background-color: #4717F6;
   color: white;
-  border-color: #0E0B16;
+  border-color: #000;
 }
 
 @media screen and (max-width: 1023px) {
@@ -677,7 +677,7 @@ header .banner .banner__texto {
 }
 /* Footer */
 footer {
-  background-color: #0E0B16;
+  background-color: #000;
   padding: 7rem 0 6rem;
 }
 footer .titulo__footer {
@@ -724,7 +724,7 @@ footer .copyright .email__contact {
 footer .copyright .email__contact:hover {
   background-color: #4717F6;
   color: #FFF;
-  border-color: #0E0B16;
+  border-color: #000;
 }
 
 @media screen and (max-width: 1023px) {
