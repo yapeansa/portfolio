@@ -11,6 +11,22 @@
   src: url("../fonts/Inter-Medium.ttf");
   font-family: "Inter Medium";
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -47,12 +63,19 @@ ul, ol {
   bottom: 1rem;
   right: 1rem;
   display: none;
+  animation-name: fadeIn;
+  animation-duration: 2s;
 }
 .botao__topo a {
   color: #FFF;
   display: block;
   font-size: 1.6rem;
   padding: 0.8rem 1rem;
+}
+
+.desaparecer {
+  animation-name: fadeOut;
+  animation-duration: 2s;
 }
 
 @media screen and (max-width: 1023px) {

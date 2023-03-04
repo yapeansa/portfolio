@@ -9,7 +9,7 @@ $(document).ready(function() {
             $('.botao__topo').fadeOut('slow');
         }
     });
-
+    
     $('.open').on('click', function() {
         $('.menu__mobile').stop().fadeIn('slow');
     });
@@ -19,3 +19,25 @@ $(document).ready(function() {
     });
 
 });
+
+// const botao = document.getElementById('to-top');
+
+// window.addEventListener('scroll', function(e) {
+//     console.log(e);
+//     if (document.documentElement.scrollTop > screen.availHeight) {
+//         botao.style.display = 'block';
+//     }
+//     else {
+//         botao.classList.add('desaparecer');
+//         setTimeout(removerClasse, 2000);
+//         setTimeout(desaparecerSuave, 2000);
+//     }
+// });
+
+// function desaparecerSuave() {
+//     botao.style.display = 'none';
+// }
+
+// function removerClasse() {
+//     botao.classList.remove('desaparecer');
+// }
