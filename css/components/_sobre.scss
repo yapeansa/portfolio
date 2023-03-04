@@ -50,7 +50,7 @@
 @media screen and (max-width: 1023px) {
     .sobre {
         display: block;
-        padding: 2rem 2rem 3rem;
+        padding: 2rem 1.5rem 3rem;
         .titulo__sobre {
             font-size: 1.8rem;
             text-align: center;
@@ -58,6 +58,9 @@
             &:before {
                 font-size: 2.5rem;
             }
+        }
+        .texto__sobre {
+            text-align: center;
         }
         .container__foto {
             .foto__perfil {
