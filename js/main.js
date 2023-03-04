@@ -1,14 +1,14 @@
 $(document).ready(function() {
     
-    $(window).on('scroll', function() {
-        const altura = screen.availHeight - 100;
-        if ($(this).scrollTop() > altura) {
-            $('.botao__topo').fadeIn('slow');
-        }
-        else {
-            $('.botao__topo').fadeOut('slow');
-        }
-    });
+    // $(window).on('scroll', function() {
+    //     const altura = screen.availHeight - 100;
+    //     if ($(this).scrollTop() > altura) {
+    //         $('.botao__topo').fadeIn('slow');
+    //     }
+    //     else {
+    //         $('.botao__topo').fadeOut('slow');
+    //     }
+    // });
     
     $('.open').on('click', function() {
         $('.menu__mobile').stop().fadeIn('slow');
@@ -20,24 +20,28 @@ $(document).ready(function() {
 
 });
 
-// const botao = document.getElementById('to-top');
+const botao = document.getElementById('to-top');
+const altura = screen.availHeight - 110;
 
-// window.addEventListener('scroll', function(e) {
-//     console.log(e);
-//     if (document.documentElement.scrollTop > screen.availHeight) {
-//         botao.style.display = 'block';
-//     }
-//     else {
-//         botao.classList.add('desaparecer');
-//         setTimeout(removerClasse, 2000);
-//         setTimeout(desaparecerSuave, 2000);
-//     }
-// });
+document.addEventListener('scroll', function() {
+    if (document.documentElement.scrollTop > altura) {
+        clearInterval(window.scrollEndTimer);
+        window.scrollEndTimer = setTimeout(aparecer, 100);
+    } else {
+        botao.classList.add('fade-out');
+        setTimeout(removeClasse, 300);
+        setTimeout(desaparecer, 300);
+    }
+});
 
-// function desaparecerSuave() {
-//     botao.style.display = 'none';
-// }
+function aparecer() {
+    botao.style.display = 'block';
+}
 
-// function removerClasse() {
-//     botao.classList.remove('desaparecer');
-// }
+function removeClasse() {
+    botao.classList.remove('fade-out');
+}
+
+function desaparecer() {
+    botao.style.display = 'none';
+}

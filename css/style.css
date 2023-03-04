@@ -64,7 +64,7 @@ ul, ol {
   right: 1rem;
   display: none;
   animation-name: fadeIn;
-  animation-duration: 2s;
+  animation-duration: 0.3s;
 }
 .botao__topo a {
   color: #FFF;
@@ -73,9 +73,9 @@ ul, ol {
   padding: 0.8rem 1rem;
 }
 
-.desaparecer {
+.fade-out {
   animation-name: fadeOut;
-  animation-duration: 2s;
+  animation-duration: 0.3s;
 }
 
 @media screen and (max-width: 1023px) {
