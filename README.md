@@ -8,7 +8,7 @@ Este projeto foi desenvolvido não apenas para divulgar minhas habilidades e exp
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **OptimusTech**
+| :sparkles: Nome        | **Portfolio**
 | :label: Tecnologias | HTML, CSS, Javascript (tecnologias utilizadas)
 | :rocket: URL         | https://yapeansa.github.io/portfolio/
 | :fire: Desafio     | https://yapeansa.vercel.app/
