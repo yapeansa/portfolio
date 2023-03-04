@@ -9,12 +9,12 @@
         color: $cor-primaria;
         &:before {
             content: '( ';
-            color: $cor-secundaria;
+            color: $cor-terciaria;
             font-size: 3.6rem;
         }
         &:after {
             content: ' )';
-            color: $cor-secundaria;
+            color: $cor-terciaria;
             font-size: 3.6rem;
         }
     }
