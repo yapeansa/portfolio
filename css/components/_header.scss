@@ -27,13 +27,13 @@ header {
             justify-content: center;
             .open {
                 display: none;
-                width: 80px;
-                height: 80px;
+                width: 5rem;
+                height: 5rem;
                 background-color: $cor-primaria;
                 border: 2.5px solid $cor-secundaria;
                 margin: 0;
                 .open-line {
-                    width: 60%;
+                    width: 55%;
                     height: 4px;
                     background: $cor-quaternaria;
                 }
@@ -63,14 +63,9 @@ header {
             }
             .close {
                 display: none;
-                position: absolute;
                 border: 2px solid $cor-terciaria;
-                width: 100px;
-                height: 100px;
-                margin-left: -40px;
-                left: 50vw; 
-                top: 5%;
-                padding-top: 1px;
+                width: 7rem;
+                height: 7rem;
                 .close-line {
                     width: 65%;
                     height: 4px;
@@ -134,39 +129,44 @@ header {
                     width: 100%;
                     height: 100vh;
                     background: $cor-primaria;
-                    .menu__principal {
-                        position: relative;
-                        top: 50vh;
-                        flex-flow: column nowrap;
-                        width: 80%;
-                        align-items: center;
-                        margin-top: -12rem;
-                        display: block;
-                        .menu__link {
-                            display: block;
-                            width: 100%;
-                            text-align: center;
-                            font-size: 2rem;
-                            border: none;
-                            border-bottom: 2.5px solid $cor-secundaria;
-                            padding-top: 1.4rem;
-                            padding-bottom: 1.4rem;
-                        }
-                    }
-                    .close {
+                    .container__responsivo {
                         display: flex;
+                        height: 100vh;
                         flex-flow: column nowrap;
                         align-items: center;
                         justify-content: center;
-                        .close-line {
+                        .close {
+                            display: flex;
+                            flex-flow: column nowrap;
+                            align-items: center;
+                            justify-content: center;
                             position: relative;
+                            top: -10vh;
+                            .close-line {
+                                position: relative;
+                            }
+                            .close-line:nth-child(1) {
+                                transform: rotate(45deg);
+                            }
+                            .close-line:nth-child(2) {
+                                transform: rotate(-45deg);
+                                top: -4px;
+                            }
                         }
-                        .close-line:nth-child(1) {
-                            transform: rotate(45deg);
-                        }
-                        .close-line:nth-child(2) {
-                            transform: rotate(-45deg);
-                            top: -4px;
+                        .menu__principal {
+                            flex-flow: column nowrap;
+                            width: 80%;
+                            display: block;
+                            .menu__link {
+                                display: block;
+                                width: 100%;
+                                text-align: center;
+                                font-size: 2rem;
+                                border: none;
+                                border-bottom: 2.5px solid $cor-secundaria;
+                                padding-top: 1.4rem;
+                                padding-bottom: 1.4rem;
+                            }
                         }
                     }
                 }

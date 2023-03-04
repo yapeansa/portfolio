@@ -114,14 +114,14 @@ header .container__header nav {
 }
 header .container__header nav .open {
   display: none;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background-color: #000;
   border: 2.5px solid #FFC719;
   margin: 0;
 }
 header .container__header nav .open .open-line {
-  width: 60%;
+  width: 55%;
   height: 4px;
   background: #FFF;
 }
@@ -151,14 +151,9 @@ header .container__header nav .menu__principal .menu__link:hover {
 }
 header .container__header nav .close {
   display: none;
-  position: absolute;
   border: 2px solid #DE354C;
-  width: 100px;
-  height: 100px;
-  margin-left: -40px;
-  left: 50vw;
-  top: 5%;
-  padding-top: 1px;
+  width: 7rem;
+  height: 7rem;
 }
 header .container__header nav .close .close-line {
   width: 65%;
@@ -223,16 +218,37 @@ header .banner .banner__texto {
     height: 100vh;
     background: #000;
   }
-  header .container__header nav .menu__mobile .menu__principal {
+  header .container__header nav .menu__mobile .container__responsivo {
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  header .container__header nav .menu__mobile .container__responsivo .close {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    top: 50vh;
+    top: -10vh;
+  }
+  header .container__header nav .menu__mobile .container__responsivo .close .close-line {
+    position: relative;
+  }
+  header .container__header nav .menu__mobile .container__responsivo .close .close-line:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  header .container__header nav .menu__mobile .container__responsivo .close .close-line:nth-child(2) {
+    transform: rotate(-45deg);
+    top: -4px;
+  }
+  header .container__header nav .menu__mobile .container__responsivo .menu__principal {
     flex-flow: column nowrap;
     width: 80%;
-    align-items: center;
-    margin-top: -12rem;
     display: block;
   }
-  header .container__header nav .menu__mobile .menu__principal .menu__link {
+  header .container__header nav .menu__mobile .container__responsivo .menu__principal .menu__link {
     display: block;
     width: 100%;
     text-align: center;
@@ -241,22 +257,6 @@ header .banner .banner__texto {
     border-bottom: 2.5px solid #FFC719;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
-  }
-  header .container__header nav .menu__mobile .close {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-  }
-  header .container__header nav .menu__mobile .close .close-line {
-    position: relative;
-  }
-  header .container__header nav .menu__mobile .close .close-line:nth-child(1) {
-    transform: rotate(45deg);
-  }
-  header .container__header nav .menu__mobile .close .close-line:nth-child(2) {
-    transform: rotate(-45deg);
-    top: -4px;
   }
   header .banner {
     background-size: 8rem;
