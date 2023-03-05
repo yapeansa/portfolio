@@ -33,7 +33,7 @@
 
 html, body {
   font-family: "Inter Regular";
-  background: url("../img/bg.jpg") bottom center/cover no-repeat fixed;
+  background: url("../img/bg.jpg") center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
 
@@ -180,7 +180,6 @@ header .banner .banner__texto {
   padding: 0.5rem;
   font-size: 2.3rem;
   line-height: 1;
-  text-align: justify;
   font-weight: normal;
 }
 
@@ -431,7 +430,7 @@ header .banner .banner__texto {
   padding: 2rem;
   text-align: center;
   border: 1px solid #333;
-  box-shadow: 0.5rem 0.5rem 0px 1px #000;
+  box-shadow: 0.5rem 0.5rem 0px 0px #000;
   transition: all 0.3s ease-in-out;
 }
 .formacao .container__cards .card:hover {
@@ -452,8 +451,11 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__texto .link__tcc {
   color: #000;
-  border-bottom: 2px solid #000;
+  border: 2px solid #000;
   transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
 }
 .formacao .container__cards .card .card__texto .link__tcc:hover {
   color: #FFF;

@@ -29,7 +29,7 @@
             padding: 2rem;
             text-align: center;
             border: 1px solid #333;
-            box-shadow: .5rem .5rem 0px 1px $preto;
+            box-shadow: .5rem .5rem 0px 0px $preto;
             transition: all .3s ease-in-out;
             &:hover {
                 box-shadow: none;
@@ -49,8 +49,11 @@
                 line-height: 1.5;
                 .link__tcc {
                     color: $preto;
-                    border-bottom: 2px solid $cor-primaria;
+                    border: 2px solid $cor-primaria;
                     transition: all .3s ease-in-out;
+                    margin-top: 1rem;
+                    display: inline-block;
+                    padding: .3rem .5rem;
                     &:hover {
                         color: $cor-quaternaria;
                         background-color: $cor-primaria;
