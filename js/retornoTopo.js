@@ -1,5 +1,5 @@
 const botao = document.getElementById('to-top');
-const altura = screen.availHeight;
+const altura = screen.availHeight - 80;
 
 document.addEventListener('scroll', () => {
     if (document.documentElement.scrollTop > altura) {
