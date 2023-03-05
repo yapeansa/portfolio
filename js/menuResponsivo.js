@@ -6,16 +6,12 @@ open.addEventListener('click', () => {
     menu.style.display = 'block';
 });
 
-close.addEventListener('click', function() {
+close.addEventListener('click', () => {
     menu.classList.add('sumir_menu');
     setTimeout(removeClasseMenu, 1000);
     setTimeout(sumirMenu, 1000);
 });
 
-function removeClasseMenu() {
-    menu.classList.remove('sumir_menu');
-}
+const removeClasseMenu = () => menu.classList.remove('sumir_menu');
 
-function sumirMenu() {
-    menu.style.display = 'none';
-}
+const sumirMenu = () => menu.style.display = 'none';
