@@ -123,7 +123,10 @@ html .fade-out, body .fade-out {
 }
 
 @media screen and (max-width: 1023px) {
-  .texto__principal {
+  html #conteudo__principal .titulo__principal, body #conteudo__principal .titulo__principal {
+    font-size: 1.8rem;
+  }
+  html #conteudo__principal .texto__principal, body #conteudo__principal .texto__principal {
     font-size: 1rem;
   }
 }
