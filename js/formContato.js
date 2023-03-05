@@ -1,5 +1,5 @@
 const textos = document.querySelectorAll('.campo-texto');
-textos.forEach( (elemento) => {
+textos.forEach((elemento) => {
     elemento.addEventListener('focus', function () {
         this.placeholder = '';
     });
@@ -8,7 +8,7 @@ textos.forEach( (elemento) => {
         if (this.id === 'nome') {
             holder = 'seu nome';
         }
-        else if(this.id === 'email') {
+        else if (this.id === 'email') {
             holder = 'seu e-mail';
         }
         else {

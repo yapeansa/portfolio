@@ -1,4 +1,4 @@
-const botao = document.getElementById('to-top');
+const botao = document.querySelector('#to-top');
 const altura = screen.availHeight - 80;
 
 document.addEventListener('scroll', () => {

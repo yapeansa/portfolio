@@ -1,6 +1,6 @@
-const open = document.getElementById('open__menu');
-const close = document.getElementById('close__menu');
-const menu = document.getElementById('menu__m');
+const open = document.querySelector('#open__menu');
+const close = document.querySelector('#close__menu');
+const menu = document.querySelector('#menu__m');
 
 open.addEventListener('click', () => {
     menu.style.display = 'block';
