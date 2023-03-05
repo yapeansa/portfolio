@@ -51,7 +51,6 @@
 
 html, body {
   font-family: "Inter Regular";
-  background: url("../img/bg.jpg") center/cover no-repeat fixed;
   scroll-behavior: smooth;
 }
 html #conteudo__principal, body #conteudo__principal {
@@ -107,6 +106,20 @@ html .botao__topo a, body .botao__topo a {
 html .fade-out, body .fade-out {
   animation-name: desaparecerBotao;
   animation-duration: 0.3s;
+}
+
+.imagem-de-fundo:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg.jpg") center/cover no-repeat fixed;
+  opacity: 1;
+  animation-name: aparecerBotao;
+  animation-duration: 2s;
 }
 
 @media screen and (max-width: 1023px) {
