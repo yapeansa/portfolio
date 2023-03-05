@@ -595,7 +595,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link:hover {
   background-color: #DE354C;
-  color: white;
+  color: #000;
   border-color: #000;
 }
 .contato .container__contato form {
@@ -697,7 +697,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .lattes__info .lattes__link:hover {
   background-color: #DE354C;
-  color: white;
+  color: #000;
   border-color: #000;
 }
 
@@ -780,13 +780,13 @@ footer .copyright {
 }
 footer .copyright .email__contact {
   color: #FFF;
-  border-bottom: 2px solid #FFC719;
+  border-bottom: 2px solid #DE354C;
   padding-bottom: 0.2rem;
   transition: all 0.3s ease-in-out;
   display: inline-block;
 }
 footer .copyright .email__contact:hover {
-  background-color: #FFC719;
+  background-color: #DE354C;
   color: #000;
   border-color: #000;
 }

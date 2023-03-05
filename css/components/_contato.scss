@@ -53,7 +53,7 @@
                         transition: all .3s ease-in-out;
                         &:hover {
                             background-color: $cor-terciaria;
-                            color: white;
+                            color: $preto;
                             border-color: $cor-primaria;
                         }
                     }
@@ -153,7 +153,7 @@
                 transition: all .3s ease-in-out;
                 &:hover {
                     background-color: $cor-terciaria;
-                    color: white;
+                    color: $preto;
                     border-color: $cor-primaria;
                 }
             }

@@ -40,12 +40,12 @@ footer {
         display: block;
         .email__contact {
             color: $cor-quaternaria;
-            border-bottom: 2px solid $cor-secundaria;
+            border-bottom: 2px solid $cor-terciaria;
             padding-bottom: .2rem;
             transition: all .3s ease-in-out;
             display: inline-block;
             &:hover {
-                background-color: $cor-secundaria;
+                background-color: $cor-terciaria;
                 color: $cor-primaria;
                 border-color: $cor-primaria;
             }
