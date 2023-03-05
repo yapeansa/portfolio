@@ -1,5 +1,4 @@
 @import './variaveis';
-
 @import './fontes';
 
 @mixin raio($valor) {
@@ -16,6 +15,16 @@
     to { opacity: 0; }
 }
 
+@keyframes rotacao {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes mostrarPagina {
+    from { opacity: 0; top: -5rem; }
+    to { opacity: 1; top: 0; }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -24,36 +33,61 @@ html, body {
     font-family: $fonte-texto;
     background: url('../img/bg.jpg') center / cover no-repeat fixed;
     scroll-behavior: smooth;
-}
-
-.titulo__principal {
-    font: 2.5rem $fonte-titulo;
-}
-
-.texto__principal {
-    font-size: 1.1rem;
-    line-height: 1.5;
-}
-
-.botao__topo {
-    background-color: $cor-terciaria;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    display: none;
-    animation-name: aparecerBotao;
-    animation-duration: .3s;
-    a {
-        color: $cor-quaternaria;
-        display: block;
-        font-size: 1.6rem;
-        padding: .8rem 1rem;
+    #conteudo__principal {
+        display: none;
+        position: relative;
+        animation-name: mostrarPagina;
+        animation-duration: 2s;
+        .titulo__principal {
+            font: 2.5rem $fonte-titulo;
+        }
+        
+        .texto__principal {
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
     }
-}
-
-.fade-out {
-    animation-name: desaparecerBotao;
-    animation-duration: .3s;
+    #loader {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: $branco;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .animation__loader {
+            width: 7rem;
+            height: 7rem;
+            border: 15px solid $cinza;
+            border-top-color: $cor-terciaria;
+            @include raio(100%);
+            animation-name: rotacao;
+            animation-duration: 1.5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+    }
+    .botao__topo {
+        background-color: $cor-terciaria;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        display: none;
+        animation-name: aparecerBotao;
+        animation-duration: .3s;
+        a {
+            color: $cor-quaternaria;
+            display: block;
+            font-size: 1.6rem;
+            padding: .8rem 1rem;
+        }
+    }
+    .fade-out {
+        animation-name: desaparecerBotao;
+        animation-duration: .3s;
+    }
 }
 
 @media screen and (max-width: 1023px) {
