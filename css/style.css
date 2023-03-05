@@ -100,8 +100,12 @@ html .botao__topo, body .botao__topo {
 html .botao__topo a, body .botao__topo a {
   color: #FFF;
   display: block;
-  font-size: 1.6rem;
-  padding: 0.8rem 1rem;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 html .fade-out, body .fade-out {
   animation-name: desaparecerBotao;
