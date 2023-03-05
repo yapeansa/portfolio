@@ -24,12 +24,12 @@
             font-size: 1.5rem;
             &:before {
                 content: '[ ';
-                color: $cor-secundaria;
+                color: $cor-terciaria;
                 font-size: 1.7rem;
             }
             &:after {
                 content: ' ]';
-                color: $cor-secundaria;
+                color: $cor-terciaria;
                 font-size: 1.7rem;
             }
         }
@@ -48,11 +48,11 @@
                         color: $cor-quaternaria;
                         background-color: $cor-primaria;
                         font-size: 1.1rem;
-                        border: 2px solid $cor-secundaria;
+                        border: 2px solid $cor-terciaria;
                         padding: .2rem 1rem;
                         transition: all .3s ease-in-out;
                         &:hover {
-                            background-color: $cor-secundaria;
+                            background-color: $cor-terciaria;
                             color: white;
                             border-color: $cor-primaria;
                         }
@@ -111,7 +111,7 @@
                         transition: all .3s ease-in-out;
                         &:hover {
                             color: $cor-quaternaria;
-                            border-color: $cor-secundaria;
+                            border-color: $cor-terciaria;
                             background-color: $cor-primaria;
                         }
                         &:active {
@@ -129,12 +129,12 @@
             font-size: 1.4rem;
             &:before {
                 content: '[ ';
-                color: $cor-secundaria;
+                color: $cor-terciaria;
                 font-size: 1.7rem;
             }
             &:after {
                 content: ' ]';
-                color: $cor-secundaria;
+                color: $cor-terciaria;
                 font-size: 1.7rem;
             }
         }
@@ -148,10 +148,10 @@
                 display: inline-block;
                 margin-top: 1rem;
                 padding: .2rem 1rem;
-                border: 2px solid $cor-secundaria;
+                border: 2px solid $cor-terciaria;
                 transition: all .3s ease-in-out;
                 &:hover {
-                    background-color: $cor-secundaria;
+                    background-color: $cor-terciaria;
                     color: white;
                     border-color: $cor-primaria;
                 }

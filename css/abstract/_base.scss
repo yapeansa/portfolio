@@ -1,37 +1,22 @@
 @import './variaveis';
 
+@import './fontes';
+
 @mixin raio($valor) {
     border-radius: $valor;
 }
 
-@font-face {
-    src: url('../fonts/Inter-Regular.ttf');
-    font-family: 'Inter Regular';
-}
-
-@font-face {
-    src: url('../fonts/Inter-SemiBold.ttf');
-    font-family: 'Inter Semibold';
-}
-
-@font-face {
-    src: url('../fonts/Inter-Medium.ttf');
-    font-family: 'Inter Medium';
-}
-
-@keyframes fadeIn {
+@keyframes aparecer {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-@keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
+@keyframes desaparecer {
+    from { opacity: 1; margin-top: 0; }
+    to { opacity: 0; margin-top: 30px; }
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -39,15 +24,6 @@ html, body {
     font-family: $fonte-texto;
     background: url('../img/bg.jpg') bottom center / cover no-repeat fixed;
     scroll-behavior: smooth;
-}
-
-a {
-    text-decoration: none;
-    outline: none;
-}
-
-ul, ol {
-    list-style-type: none;
 }
 
 .titulo__principal {
@@ -65,7 +41,7 @@ ul, ol {
     bottom: 1rem;
     right: 1rem;
     display: none;
-    animation-name: fadeIn;
+    animation-name: aparecer;
     animation-duration: .3s;
     a {
         color: $cor-quaternaria;
@@ -76,8 +52,8 @@ ul, ol {
 }
 
 .fade-out {
-    animation-name: fadeOut;
-    animation-duration: .3s;
+    animation-name: desaparecer;
+    animation-duration: 1s;
 }
 
 @media screen and (max-width: 1023px) {
