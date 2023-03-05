@@ -82,7 +82,7 @@ html #loader .animation__loader, body #loader .animation__loader {
   width: 7rem;
   height: 7rem;
   border: 15px solid #CCC;
-  border-top-color: #DE354C;
+  border-top-color: #000;
   border-radius: 100%;
   animation-name: rotacao;
   animation-duration: 1.5s;

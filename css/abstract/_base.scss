@@ -61,7 +61,7 @@ html, body {
             width: 7rem;
             height: 7rem;
             border: 15px solid $cinza;
-            border-top-color: $cor-terciaria;
+            border-top-color: $preto;
             @include raio(100%);
             animation-name: rotacao;
             animation-duration: 1.5s;
