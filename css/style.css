@@ -456,6 +456,7 @@ header .banner .banner__texto {
   margin-top: 1rem;
   display: inline-block;
   padding: 0.5rem 1rem;
+  font-family: "Inter Medium";
 }
 .formacao .container__cards .card .card__texto .link__tcc:hover {
   color: #FFF;

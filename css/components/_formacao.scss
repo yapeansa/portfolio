@@ -35,7 +35,6 @@
                 box-shadow: none;
                 border-color: #333;
             }
-            //@include raio(12px);
             .card__titulo {
                 font: 1.5rem $fonte-titulo ;
                 color: $cor-primaria;
@@ -54,6 +53,7 @@
                     margin-top: 1rem;
                     display: inline-block;
                     padding: .5rem 1rem;
+                    font-family: $fonte-subtitulo;
                     &:hover {
                         color: $cor-quaternaria;
                         background-color: $cor-primaria;
