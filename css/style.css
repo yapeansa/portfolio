@@ -613,6 +613,7 @@ header .banner .banner__texto {
   background-color: #000;
 }
 .contato .container__contato form fieldset .centraliza input[type=reset]:active, .contato .container__contato form fieldset .centraliza input[type=submit]:active {
+  color: #000;
   transition: none;
   border-color: #000;
   background-color: #FFC719;
