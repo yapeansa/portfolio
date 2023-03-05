@@ -8,8 +8,8 @@ open.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
     menu.classList.add('sumir_menu');
-    setTimeout(removeClasseMenu, 1000);
-    setTimeout(sumirMenu, 1000);
+    setTimeout(removeClasseMenu, 600);
+    setTimeout(sumirMenu, 600);
 });
 
 const removeClasseMenu = () => menu.classList.remove('sumir_menu');
