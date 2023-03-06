@@ -58,6 +58,8 @@ html #conteudo__principal, body #conteudo__principal {
   position: relative;
   animation-name: mostrarPagina;
   animation-duration: 1s;
+  -webkit-animation-name: mostrarPagina;
+  -webkit-animation-duration: 1s;
 }
 html #conteudo__principal .titulo__principal, body #conteudo__principal .titulo__principal {
   font: 2.5rem "Inter Semibold";
@@ -87,6 +89,10 @@ html #loader .animation__loader, body #loader .animation__loader {
   animation-duration: 1.5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  -webkit-animation-name: rotacao;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 }
 html .botao__topo, body .botao__topo {
   background-color: #DE354C;
@@ -96,6 +102,8 @@ html .botao__topo, body .botao__topo {
   display: none;
   animation-name: fadeIn;
   animation-duration: 0.3s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.3s;
 }
 html .botao__topo a, body .botao__topo a {
   color: #FFF;
@@ -110,6 +118,8 @@ html .botao__topo a, body .botao__topo a {
 html .fade-out, body .fade-out {
   animation-name: fadeOut;
   animation-duration: 0.3s;
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-duration: 0.3s;
 }
 
 .imagem-de-fundo:before {
@@ -124,6 +134,8 @@ html .fade-out, body .fade-out {
   opacity: 1;
   animation-name: aparecerBotao;
   animation-duration: 2s;
+  -webkit-animation-name: aparecerBotao;
+  -webkit-animation-duration: 2s;
 }
 
 @media screen and (max-width: 1023px) {
@@ -269,6 +281,8 @@ header .banner .banner__texto {
     background: #000;
     animation-name: fadeIn;
     animation-duration: 0.6s;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.6s;
   }
   header .container__header nav .menu__mobile .container__responsivo {
     display: flex;
@@ -313,6 +327,8 @@ header .banner .banner__texto {
   header .container__header nav .sumir_menu {
     animation-name: fadeOut;
     animation-duration: 0.6s;
+    -webkit-animation-name: fadeOut;
+    -webkit-animation-duration: 0.6s;
   }
   header .banner {
     background-size: 8rem;

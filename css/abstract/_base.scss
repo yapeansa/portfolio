@@ -38,6 +38,8 @@ html, body {
         position: relative;
         animation-name: mostrarPagina;
         animation-duration: 1s;
+        -webkit-animation-name: mostrarPagina;
+        -webkit-animation-duration: 1s;
         .titulo__principal {
             font: 2.5rem $fonte-titulo;
         }
@@ -67,6 +69,10 @@ html, body {
             animation-duration: 1.5s;
             animation-timing-function: linear;
             animation-iteration-count: infinite;
+            -webkit-animation-name: rotacao;
+            -webkit-animation-duration: 1.5s;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
         }
     }
     .botao__topo {
@@ -77,6 +83,8 @@ html, body {
         display: none;
         animation-name: fadeIn;
         animation-duration: .3s;
+        -webkit-animation-name: fadeIn;
+        -webkit-animation-duration: .3s;
         a {
             color: $cor-quaternaria;
             display: block;
@@ -91,6 +99,8 @@ html, body {
     .fade-out {
         animation-name: fadeOut;
         animation-duration: .3s;
+        -webkit-animation-name: fadeOut;
+        -webkit-animation-duration: .3s;
     }
 }
 
@@ -106,6 +116,8 @@ html, body {
     opacity: 1;
     animation-name: aparecerBotao;
     animation-duration: 2s;
+    -webkit-animation-name: aparecerBotao;
+    -webkit-animation-duration: 2s;
 }
 
 @media screen and (max-width: 1023px) {

@@ -131,6 +131,8 @@ header {
                     background: $cor-primaria;
                     animation-name: fadeIn;
                     animation-duration: .6s;
+                    -webkit-animation-name: fadeIn;
+                    -webkit-animation-duration: .6s;
                     .container__responsivo {
                         display: flex;
                         height: 100vh;
@@ -175,6 +177,8 @@ header {
                 .sumir_menu {
                     animation-name: fadeOut;
                     animation-duration: .6s;
+                    -webkit-animation-name: fadeOut;
+                    -webkit-animation-duration: .6s;
                 }
             }
         }
