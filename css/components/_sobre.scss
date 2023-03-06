@@ -20,12 +20,13 @@
         grid-area: texto;
         align-self: center;
         .link__sobre {
-            border: 2px solid $cor-secundaria;
+            border-bottom: 2px solid $cor-secundaria;
             display: inline-block;
             color: $cor-quaternaria;
             background: $cor-primaria;
             padding: 0 3px;
             transition: all .3s ease-in-out;
+            font-weight: bold;
             &:hover {
                 border-color: $cor-primaria;
                 color: $cor-primaria;
