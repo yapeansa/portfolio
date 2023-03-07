@@ -199,3 +199,52 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+    .contato {
+        .container__contato {
+            display: grid;
+            grid-template-areas: 'titulo1 titulo1 titulo1' 'pessoal pessoal pessoal' 'texto1 texto1 texto1' 'formulario formulario formulario' 'titulo2 titulo2 titulo2' 'texto2 texto2 texto2';
+            row-gap: 1rem;
+            .titulo__info {
+                grid-area: titulo1;
+                text-align: center;
+            }
+            .alt {
+                grid-area: texto1;
+                text-align: center;
+            }
+            .info__pessoal {
+                grid-area: pessoal;
+                text-align: center;
+                margin-top: 2rem;
+            }
+            form {
+                grid-area: formulario;
+                fieldset {
+                    input[type=text], input[type=email] {
+                        width: 49.4%;
+                        display: inline-block;
+                        margin: 0;
+                    }
+                    input[type=email] {
+                        float: right;
+                    }
+                    textarea {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+            .titulo__pessoal {
+                grid-area: titulo2;
+                text-align: center;
+                margin-top: 2rem;
+            }
+            .lattes__info {
+                grid-area: texto2;
+                text-align: center;
+                margin-top: 2rem;
+            }
+        }
+    }
+}

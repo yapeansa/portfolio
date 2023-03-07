@@ -73,3 +73,9 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+    footer {
+        padding-top: 4rem;
+    }
+}

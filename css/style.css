@@ -754,6 +754,50 @@ header .banner .banner__texto {
     width: 100%;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+  .contato .container__contato {
+    display: grid;
+    grid-template-areas: "titulo1 titulo1 titulo1" "pessoal pessoal pessoal" "texto1 texto1 texto1" "formulario formulario formulario" "titulo2 titulo2 titulo2" "texto2 texto2 texto2";
+    row-gap: 1rem;
+  }
+  .contato .container__contato .titulo__info {
+    grid-area: titulo1;
+    text-align: center;
+  }
+  .contato .container__contato .alt {
+    grid-area: texto1;
+    text-align: center;
+  }
+  .contato .container__contato .info__pessoal {
+    grid-area: pessoal;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .contato .container__contato form {
+    grid-area: formulario;
+  }
+  .contato .container__contato form fieldset input[type=text], .contato .container__contato form fieldset input[type=email] {
+    width: 49.4%;
+    display: inline-block;
+    margin: 0;
+  }
+  .contato .container__contato form fieldset input[type=email] {
+    float: right;
+  }
+  .contato .container__contato form fieldset textarea {
+    margin-top: 1rem;
+  }
+  .contato .container__contato .titulo__pessoal {
+    grid-area: titulo2;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .contato .container__contato .lattes__info {
+    grid-area: texto2;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
 /* Footer */
 footer {
   background-color: #000;
@@ -826,5 +870,10 @@ footer .copyright .email__contact:hover {
   }
   footer .social__list img {
     max-width: 5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+  footer {
+    padding-top: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */
