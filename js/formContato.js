@@ -1,4 +1,5 @@
 const textos = document.querySelectorAll('.campo-texto');
+
 textos.forEach((elemento) => {
     elemento.addEventListener('focus', function () {
         this.placeholder = '';
