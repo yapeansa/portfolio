@@ -95,7 +95,7 @@ html #loader .animation__loader, body #loader .animation__loader {
   -webkit-animation-iteration-count: infinite;
 }
 html .botao__topo, body .botao__topo {
-  background-color: #DE354C;
+  background-color: #FB2576;
   position: fixed;
   bottom: 1rem;
   right: 1rem;
@@ -214,7 +214,7 @@ header .container__header nav .menu__principal .menu__link:hover {
 }
 header .container__header nav .close {
   display: none;
-  border: 2px solid #DE354C;
+  border: 2px solid #FB2576;
   width: 7rem;
   height: 7rem;
 }
@@ -350,12 +350,12 @@ header .banner .banner__texto {
 }
 .introducao .titulo__intro:before {
   content: "( ";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 3.5rem;
 }
 .introducao .titulo__intro:after {
   content: " )";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 3.5rem;
 }
 .introducao .texto__intro {
@@ -367,15 +367,15 @@ header .banner .banner__texto {
 }
 .introducao .texto__intro .user_name:before {
   content: "@";
-  color: #DE354C;
+  color: #FB2576;
 }
 .introducao .texto__intro .enfase:before {
   content: "(";
-  color: #DE354C;
+  color: #FB2576;
 }
 .introducao .texto__intro .enfase:after {
   content: ")";
-  color: #DE354C;
+  color: #FB2576;
 }
 
 @media screen and (max-width: 1023px) {
@@ -426,7 +426,7 @@ header .banner .banner__texto {
 .sobre .texto__sobre .link__sobre:hover {
   border-color: #000;
   color: #000;
-  background-color: #DE354C;
+  background-color: #FB2576;
 }
 .sobre .container__foto {
   align-self: center;
@@ -436,7 +436,7 @@ header .banner .banner__texto {
   max-width: 55%;
   display: block;
   border-radius: 100%;
-  border: 4px solid #DE354C;
+  border: 4px solid #FB2576;
   padding: 0.8rem;
   margin: 0 auto;
 }
@@ -473,12 +473,12 @@ header .banner .banner__texto {
 }
 .formacao .titulo__formacao:before {
   content: "( ";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 3.6rem;
 }
 .formacao .titulo__formacao:after {
   content: " )";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 3.6rem;
 }
 .formacao .container__cards {
@@ -580,12 +580,12 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__info:before {
   content: "[ ";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 1.7rem;
 }
 .contato .container__contato .titulo__info:after {
   content: " ]";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 1.7rem;
 }
 .contato .container__contato .alt {
@@ -606,12 +606,12 @@ header .banner .banner__texto {
   color: #FFF;
   background-color: #000;
   font-size: 1.1rem;
-  border: 2px solid #DE354C;
+  border: 2px solid #FB2576;
   padding: 0.2rem 1rem;
   transition: all 0.3s ease-in-out;
 }
 .contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link:hover {
-  background-color: #DE354C;
+  background-color: #FB2576;
   color: #000;
   border-color: #000;
 }
@@ -674,7 +674,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato form fieldset .centraliza input[type=reset]:hover, .contato .container__contato form fieldset .centraliza input[type=submit]:hover {
   color: #FFF;
-  border-color: #DE354C;
+  border-color: #FB2576;
   background-color: #000;
 }
 .contato .container__contato form fieldset .centraliza input[type=reset]:active, .contato .container__contato form fieldset .centraliza input[type=submit]:active {
@@ -690,12 +690,12 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__pessoal:before {
   content: "[ ";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 1.7rem;
 }
 .contato .container__contato .titulo__pessoal:after {
   content: " ]";
-  color: #DE354C;
+  color: #FB2576;
   font-size: 1.7rem;
 }
 .contato .container__contato .lattes__info {
@@ -709,11 +709,11 @@ header .banner .banner__texto {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.2rem 1rem;
-  border: 2px solid #DE354C;
+  border: 2px solid #FB2576;
   transition: all 0.3s ease-in-out;
 }
 .contato .container__contato .lattes__info .lattes__link:hover {
-  background-color: #DE354C;
+  background-color: #FB2576;
   color: #000;
   border-color: #000;
 }
@@ -841,13 +841,13 @@ footer .copyright {
 }
 footer .copyright .email__contact {
   color: #FFF;
-  border-bottom: 2px solid #DE354C;
+  border-bottom: 2px solid #FB2576;
   padding-bottom: 0.2rem;
   transition: all 0.3s ease-in-out;
   display: inline-block;
 }
 footer .copyright .email__contact:hover {
-  background-color: #DE354C;
+  background-color: #FB2576;
   color: #000;
   border-color: #000;
 }
