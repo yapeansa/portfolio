@@ -31,8 +31,18 @@
 
 html, body {
     font-family: $fonte-texto;
-    //background: url('../img/bg.jpg') center / cover no-repeat fixed;
     scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        width: 14px;
+    }
+    ::-webkit-scrollbar-track {
+        @include raio(2.18rem);
+        background-color: $cinza;
+    }
+    ::-webkit-scrollbar-thumb {
+        @include raio(2.18rem);
+        background-color: $cor-terciaria;
+    }
     #conteudo__principal {
         display: none;
         position: relative;
