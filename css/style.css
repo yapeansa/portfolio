@@ -69,8 +69,10 @@ html #conteudo__principal, body #conteudo__principal {
   position: relative;
   animation-name: mostrarPagina;
   animation-duration: 1s;
+  animation-timing-function: ease-out;
   -webkit-animation-name: mostrarPagina;
   -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
 }
 html #conteudo__principal .titulo__principal, body #conteudo__principal .titulo__principal {
   font: 2.5rem "Inter Semibold";
@@ -91,9 +93,9 @@ html #loader, body #loader {
   align-items: center;
 }
 html #loader .animation__loader, body #loader .animation__loader {
-  width: 7rem;
-  height: 7rem;
-  border: 15px solid #CCC;
+  width: 6rem;
+  height: 6rem;
+  border: 13px solid #DDD;
   border-top-color: #000;
   border-radius: 100%;
   animation-name: rotacao;
@@ -144,9 +146,9 @@ html .fade-out, body .fade-out {
   background: url("../img/bg.jpg") center/cover no-repeat fixed;
   opacity: 1;
   animation-name: fadeIn;
-  animation-duration: 2s;
+  animation-duration: 1s;
   -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
 }
 
 @media screen and (max-width: 1023px) {

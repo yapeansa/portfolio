@@ -48,8 +48,10 @@ html, body {
         position: relative;
         animation-name: mostrarPagina;
         animation-duration: 1s;
+        animation-timing-function: ease-out;
         -webkit-animation-name: mostrarPagina;
         -webkit-animation-duration: 1s;
+        -webkit-animation-timing-function: ease-out;
         .titulo__principal {
             font: 2.5rem $fonte-titulo;
         }
@@ -70,9 +72,9 @@ html, body {
         justify-content: center;
         align-items: center;
         .animation__loader {
-            width: 7rem;
-            height: 7rem;
-            border: 15px solid $cinza;
+            width: 6rem;
+            height: 6rem;
+            border: 13px solid #DDD;
             border-top-color: $preto;
             @include raio(100%);
             animation-name: rotacao;
@@ -125,9 +127,9 @@ html, body {
     background: url('../img/bg.jpg') center / cover no-repeat fixed;
     opacity: 1;
     animation-name: fadeIn;
-    animation-duration: 2s;
+    animation-duration: 1s;
     -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
 }
 
 @media screen and (max-width: 1023px) {
