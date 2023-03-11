@@ -1,8 +1,8 @@
-<h1 align="center">Yago Pereira | Desenvolvedor Web Front-end</h1>
-
 <div align="center">
-  <img src="./img/logo3.png" alt="Logo Yago" width="30%">
+  <img src="./img/logo3.png" alt="Logo Yago" width="25%">
 </div>
+
+<h1 align="center">Yago Pereira | Desenvolvedor Web Front-end</h1>
 
 Este projeto foi desenvolvido não apenas para divulgar minhas habilidades e experiências profissionais, mas também colocar em prática tudo o que venho aprendendo constantemente.
 
