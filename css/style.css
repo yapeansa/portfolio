@@ -38,7 +38,7 @@
 @keyframes mostrarPagina {
   from {
     opacity: 0;
-    top: -5rem;
+    top: -6.25rem;
   }
   to {
     opacity: 1;
@@ -143,9 +143,9 @@ html .fade-out, body .fade-out {
   height: 100vh;
   background: url("../img/bg.jpg") center/cover no-repeat fixed;
   opacity: 1;
-  animation-name: aparecerBotao;
+  animation-name: fadeIn;
   animation-duration: 2s;
-  -webkit-animation-name: aparecerBotao;
+  -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 2s;
 }
 
