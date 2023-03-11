@@ -10,7 +10,7 @@
         margin-bottom: 3rem;
         &:before {
             content: '/ ';
-            color: $cor-secundaria;
+            color: $cor-terciaria;
             font-size: 3.5rem;
         }
     }
@@ -24,13 +24,13 @@
             font-size: 1.5rem;
             &:before {
                 content: '[ ';
-                color: $cor-terciaria;
-                font-size: 1.7rem;
+                color: $cor-secundaria;
+                font-size: 2rem;
             }
             &:after {
                 content: ' ]';
-                color: $cor-terciaria;
-                font-size: 1.7rem;
+                color: $cor-secundaria;
+                font-size: 2rem;
             }
         }
         .alt {
@@ -48,12 +48,12 @@
                         color: $cor-quaternaria;
                         background-color: $cor-primaria;
                         font-size: 1.1rem;
-                        border: 2px solid $cor-terciaria;
-                        padding: .2rem 1rem;
+                        border: 2px solid $cor-secundaria;
+                        padding: .3rem 1rem;
                         transition: all .3s ease-in-out;
                         &:hover {
-                            background-color: $cor-terciaria;
-                            color: $preto;
+                            background-color: $cor-secundaria;
+                            color: $cor-quaternaria;
                             border-color: $cor-primaria;
                         }
                     }
@@ -103,7 +103,7 @@
                         font-size: 1.1rem;
                         width: 9rem;
                         padding: 1.1rem 0;
-                        background-color: $cor-secundaria;
+                        background-color: $cor-terciaria;
                         color: $preto;
                         border: 4px solid $cor-primaria;
                         cursor: pointer;
@@ -118,7 +118,7 @@
                             color: $preto;
                             transition: none;
                             border-color: $cor-primaria;
-                            background-color: $cor-secundaria;
+                            background-color: $cor-terciaria;
                         }
                     }
                 }
@@ -130,13 +130,13 @@
             font-size: 1.4rem;
             &:before {
                 content: '[ ';
-                color: $cor-terciaria;
-                font-size: 1.7rem;
+                color: $cor-secundaria;
+                font-size: 2rem;
             }
             &:after {
                 content: ' ]';
-                color: $cor-terciaria;
-                font-size: 1.7rem;
+                color: $cor-secundaria;
+                font-size: 2rem;
             }
         }
         .lattes__info {
@@ -148,12 +148,12 @@
                 font-size: 1.1rem;
                 display: inline-block;
                 margin-top: 1rem;
-                padding: .2rem 1rem;
-                border: 2px solid $cor-terciaria;
+                padding: .3rem 1rem;
+                border: 2px solid $cor-secundaria;
                 transition: all .3s ease-in-out;
                 &:hover {
-                    background-color: $cor-terciaria;
-                    color: $preto;
+                    background-color: $cor-secundaria;
+                    color: $cor-quaternaria;
                     border-color: $cor-primaria;
                 }
             }

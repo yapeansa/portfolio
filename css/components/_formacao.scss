@@ -9,12 +9,12 @@
         color: $cor-primaria;
         &:before {
             content: '( ';
-            color: $cor-terciaria;
+            color: $cinza-escuro;
             font-size: 3.6rem;
         }
         &:after {
             content: ' )';
-            color: $cor-terciaria;
+            color: $cinza-escuro;
             font-size: 3.6rem;
         }
     }
@@ -28,12 +28,12 @@
             flex-basis: 30%;
             padding: 2rem;
             text-align: center;
-            border: 1px solid #333;
-            box-shadow: .5rem .5rem 0px 0px $preto;
+            border: 1px solid $cinza-escuro;
             transition: all .3s ease-in-out;
             &:hover {
-                box-shadow: none;
-                border-color: #333;
+                box-shadow: .5rem .5rem 0px 0px $cinza-escuro;
+                border-color: $cinza-escuro;
+                cursor: pointer;
             }
             .card__titulo {
                 font: 1.5rem $fonte-titulo ;
@@ -48,7 +48,7 @@
                 line-height: 1.5;
                 .link__tcc {
                     color: $preto;
-                    border: 2px solid $cor-primaria;
+                    border: 3px solid $cor-secundaria;
                     transition: all .3s ease-in-out;
                     margin-top: 1rem;
                     display: inline-block;
@@ -56,8 +56,8 @@
                     font-family: $fonte-subtitulo;
                     &:hover {
                         color: $cor-quaternaria;
-                        background-color: $cor-primaria;
-                        border-color: $cor-primaria;
+                        background-color: $cor-secundaria;
+                        border-color: $cor-secundaria;
                     }
                     strong {
                         font-weight: normal;

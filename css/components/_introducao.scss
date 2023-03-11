@@ -8,12 +8,12 @@
         color: $cor-primaria;
         &:before {
             content: '( ';
-            color: $cor-terciaria;
+            color: $cinza-escuro;
             font-size: 3.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor-terciaria;
+            color: $cinza-escuro;
             font-size: 3.5rem;
         }
     }
@@ -24,17 +24,19 @@
             font-size: 1.5em;
             &:before {
                 content: '@';
-                color: $cor-terciaria;
+                color: $cor-secundaria;
             }
         }
         .enfase {
             &:before {
-                content: '(';
-                color: $cor-terciaria;
+                content: '[';
+                font-size: 1.5rem;
+                color: $cor-secundaria;
             }
             &:after {
-                content: ')';
-                color: $cor-terciaria;
+                content: ']';
+                font-size: 1.5rem;
+                color: $cor-secundaria;
             }
         }
     }

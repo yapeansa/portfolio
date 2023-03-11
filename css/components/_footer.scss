@@ -40,8 +40,8 @@ footer {
         display: block;
         .email__contact {
             color: $cor-quaternaria;
-            border-bottom: 2px solid $cor-terciaria;
-            padding-bottom: .2rem;
+            border-bottom: 2px solid $cor-secundaria;
+            padding: .2rem 0;
             transition: all .3s ease-in-out;
             display: inline-block;
             &:hover {

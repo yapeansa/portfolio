@@ -41,7 +41,7 @@ html, body {
     }
     ::-webkit-scrollbar-thumb {
         @include raio(2.18rem);
-        background-color: $cor-terciaria;
+        background-color: $cor-secundaria;
     }
     #conteudo__principal {
         display: none;
@@ -88,7 +88,7 @@ html, body {
         }
     }
     .botao__topo {
-        background-color: $cor-terciaria;
+        background-color: $cor-secundaria;
         position: fixed;
         bottom: 1rem;
         right: 1rem;

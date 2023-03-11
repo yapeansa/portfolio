@@ -62,7 +62,7 @@ html ::-webkit-scrollbar-track, body ::-webkit-scrollbar-track {
 }
 html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
   border-radius: 2.18rem;
-  background-color: #EC576B;
+  background-color: #9400D3;
 }
 html #conteudo__principal, body #conteudo__principal {
   display: none;
@@ -108,7 +108,7 @@ html #loader .animation__loader, body #loader .animation__loader {
   -webkit-animation-iteration-count: infinite;
 }
 html .botao__topo, body .botao__topo {
-  background-color: #EC576B;
+  background-color: #9400D3;
   position: fixed;
   bottom: 1rem;
   right: 1rem;
@@ -193,7 +193,7 @@ header .container__header nav .open {
   width: 5rem;
   height: 5rem;
   background-color: #000;
-  border: 2.5px solid #FFC719;
+  border: 2.5px solid #9400D3;
   margin: 0;
 }
 header .container__header nav .open .open-line {
@@ -214,7 +214,7 @@ header .container__header nav .menu__principal .menu__link {
   color: #FFF;
   display: block;
   text-transform: uppercase;
-  border-bottom: 3px solid #FFC719;
+  border-bottom: 3px solid #9400D3;
   background-color: #000;
   font-size: 1rem;
   padding: 0.8rem 0.5rem;
@@ -227,7 +227,7 @@ header .container__header nav .menu__principal .menu__link:hover {
 }
 header .container__header nav .close {
   display: none;
-  border: 2px solid #EC576B;
+  border: 2px solid #FFC719;
   width: 7rem;
   height: 7rem;
 }
@@ -333,7 +333,7 @@ header .banner .banner__texto {
     text-align: center;
     font-size: 2rem;
     border: none;
-    border-bottom: 2.5px solid #FFC719;
+    border-bottom: 2.5px solid #9400D3;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
   }
@@ -363,12 +363,12 @@ header .banner .banner__texto {
 }
 .introducao .titulo__intro:before {
   content: "( ";
-  color: #EC576B;
+  color: #333;
   font-size: 3.5rem;
 }
 .introducao .titulo__intro:after {
   content: " )";
-  color: #EC576B;
+  color: #333;
   font-size: 3.5rem;
 }
 .introducao .texto__intro {
@@ -380,15 +380,17 @@ header .banner .banner__texto {
 }
 .introducao .texto__intro .user_name:before {
   content: "@";
-  color: #EC576B;
+  color: #9400D3;
 }
 .introducao .texto__intro .enfase:before {
-  content: "(";
-  color: #EC576B;
+  content: "[";
+  font-size: 1.5rem;
+  color: #9400D3;
 }
 .introducao .texto__intro .enfase:after {
-  content: ")";
-  color: #EC576B;
+  content: "]";
+  font-size: 1.5rem;
+  color: #9400D3;
 }
 
 @media screen and (max-width: 1023px) {
@@ -426,6 +428,7 @@ header .banner .banner__texto {
   text-align: justify;
   grid-area: texto;
   align-self: center;
+  padding: 2rem 0;
 }
 .sobre .texto__sobre .link__sobre {
   border-bottom: 2px solid #FFC719;
@@ -439,18 +442,18 @@ header .banner .banner__texto {
 .sobre .texto__sobre .link__sobre:hover {
   border-color: #000;
   color: #000;
-  background-color: #EC576B;
+  background-color: #FFC719;
 }
 .sobre .container__foto {
   align-self: center;
   grid-area: imagem;
 }
 .sobre .container__foto .foto__perfil {
-  max-width: 55%;
+  max-width: 60%;
   display: block;
   border-radius: 100%;
-  border: 4px solid #FFC719;
-  padding: 0.8rem;
+  border: 3px solid #9400D3;
+  padding: 1rem;
   margin: 0 auto;
 }
 
@@ -486,12 +489,12 @@ header .banner .banner__texto {
 }
 .formacao .titulo__formacao:before {
   content: "( ";
-  color: #EC576B;
+  color: #333;
   font-size: 3.6rem;
 }
 .formacao .titulo__formacao:after {
   content: " )";
-  color: #EC576B;
+  color: #333;
   font-size: 3.6rem;
 }
 .formacao .container__cards {
@@ -506,12 +509,12 @@ header .banner .banner__texto {
   padding: 2rem;
   text-align: center;
   border: 1px solid #333;
-  box-shadow: 0.5rem 0.5rem 0px 0px #000;
   transition: all 0.3s ease-in-out;
 }
 .formacao .container__cards .card:hover {
-  box-shadow: none;
+  box-shadow: 0.5rem 0.5rem 0px 0px #333;
   border-color: #333;
+  cursor: pointer;
 }
 .formacao .container__cards .card .card__titulo {
   font: 1.5rem "Inter Semibold";
@@ -527,7 +530,7 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__texto .link__tcc {
   color: #000;
-  border: 2px solid #000;
+  border: 3px solid #9400D3;
   transition: all 0.3s ease-in-out;
   margin-top: 1rem;
   display: inline-block;
@@ -536,8 +539,8 @@ header .banner .banner__texto {
 }
 .formacao .container__cards .card .card__texto .link__tcc:hover {
   color: #FFF;
-  background-color: #000;
-  border-color: #000;
+  background-color: #9400D3;
+  border-color: #9400D3;
 }
 .formacao .container__cards .card .card__texto .link__tcc strong {
   font-weight: normal;
@@ -593,13 +596,13 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__info:before {
   content: "[ ";
-  color: #EC576B;
-  font-size: 1.7rem;
+  color: #9400D3;
+  font-size: 2rem;
 }
 .contato .container__contato .titulo__info:after {
   content: " ]";
-  color: #EC576B;
-  font-size: 1.7rem;
+  color: #9400D3;
+  font-size: 2rem;
 }
 .contato .container__contato .alt {
   grid-area: 1/2/2/3;
@@ -619,13 +622,13 @@ header .banner .banner__texto {
   color: #FFF;
   background-color: #000;
   font-size: 1.1rem;
-  border: 2px solid #EC576B;
-  padding: 0.2rem 1rem;
+  border: 2px solid #9400D3;
+  padding: 0.3rem 1rem;
   transition: all 0.3s ease-in-out;
 }
 .contato .container__contato .info__pessoal .lista__pessoal li .pessoal__link:hover {
-  background-color: #EC576B;
-  color: #000;
+  background-color: #9400D3;
+  color: #FFF;
   border-color: #000;
 }
 .contato .container__contato form {
@@ -654,7 +657,7 @@ header .banner .banner__texto {
 .contato .container__contato form fieldset input[type=text]:focus, .contato .container__contato form fieldset input[type=email]:focus, .contato .container__contato form fieldset textarea:focus {
   background-color: #000;
   color: #FFF;
-  border-color: #FFC719;
+  border-color: #9400D3;
   -webkit-text-fill-color: #FFF;
 }
 .contato .container__contato form fieldset input[type=text]::-moz-placeholder, .contato .container__contato form fieldset input[type=email]::-moz-placeholder, .contato .container__contato form fieldset textarea::-moz-placeholder {
@@ -687,7 +690,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato form fieldset .centraliza input[type=reset]:hover, .contato .container__contato form fieldset .centraliza input[type=submit]:hover {
   color: #FFF;
-  border-color: #EC576B;
+  border-color: #FFC719;
   background-color: #000;
 }
 .contato .container__contato form fieldset .centraliza input[type=reset]:active, .contato .container__contato form fieldset .centraliza input[type=submit]:active {
@@ -703,13 +706,13 @@ header .banner .banner__texto {
 }
 .contato .container__contato .titulo__pessoal:before {
   content: "[ ";
-  color: #EC576B;
-  font-size: 1.7rem;
+  color: #9400D3;
+  font-size: 2rem;
 }
 .contato .container__contato .titulo__pessoal:after {
   content: " ]";
-  color: #EC576B;
-  font-size: 1.7rem;
+  color: #9400D3;
+  font-size: 2rem;
 }
 .contato .container__contato .lattes__info {
   grid-area: 2/3/3/4;
@@ -721,13 +724,13 @@ header .banner .banner__texto {
   font-size: 1.1rem;
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.2rem 1rem;
-  border: 2px solid #EC576B;
+  padding: 0.3rem 1rem;
+  border: 2px solid #9400D3;
   transition: all 0.3s ease-in-out;
 }
 .contato .container__contato .lattes__info .lattes__link:hover {
-  background-color: #EC576B;
-  color: #000;
+  background-color: #9400D3;
+  color: #FFF;
   border-color: #000;
 }
 
@@ -823,12 +826,12 @@ footer .titulo__footer {
 }
 footer .titulo__footer:before {
   content: "( ";
-  color: #FFC719;
+  color: #9400D3;
   font-size: 3.5rem;
 }
 footer .titulo__footer:after {
   content: " )";
-  color: #FFC719;
+  color: #9400D3;
   font-size: 3.5rem;
 }
 footer .rodape__texto {
@@ -854,13 +857,13 @@ footer .copyright {
 }
 footer .copyright .email__contact {
   color: #FFF;
-  border-bottom: 2px solid #EC576B;
-  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #9400D3;
+  padding: 0.2rem 0;
   transition: all 0.3s ease-in-out;
   display: inline-block;
 }
 footer .copyright .email__contact:hover {
-  background-color: #EC576B;
+  background-color: #FFC719;
   color: #000;
   border-color: #000;
 }
