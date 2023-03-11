@@ -565,6 +565,8 @@ header .banner .banner__texto {
     width: 100%;
     padding: 0 0 2rem;
     border: none;
+  }
+  .formacao .container__cards .card:hover {
     box-shadow: none;
   }
 }
