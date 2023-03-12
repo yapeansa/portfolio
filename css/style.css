@@ -157,7 +157,6 @@ header .container__header {
   background-color: #000;
 }
 header .container__header .container__logo {
-  background-color: #000;
   display: flex;
   padding: 2rem 0 0;
 }
@@ -167,7 +166,6 @@ header .container__header .container__logo .logo {
   align-self: center;
 }
 header .container__header nav {
-  background-color: #000;
   display: flex;
   padding: 2rem 0 2.6rem;
   justify-content: center;
@@ -199,15 +197,16 @@ header .container__header nav .menu__principal .menu__link {
   display: block;
   text-transform: uppercase;
   border-bottom: 3px solid #9400D3;
-  background-color: #000;
   font-size: 1rem;
   padding: 0.8rem 0.5rem;
   transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
 }
 header .container__header nav .menu__principal .menu__link:hover {
-  background-color: #FFC719;
   color: #000;
   border-color: #000;
+  background-color: #FFC719;
 }
 header .container__header nav .close {
   display: none;

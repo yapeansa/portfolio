@@ -11,7 +11,6 @@ header {
         flex-flow: column nowrap;
         background-color: $cor-primaria;
         .container__logo {
-            background-color: $cor-primaria;
             display: flex;
             padding: 2rem 0 0;
             .logo {
@@ -21,7 +20,6 @@ header {
             }
         }
         nav {
-            background-color: $cor-primaria;
             display: flex;
             padding: 2rem 0 2.6rem;
             justify-content: center;
@@ -50,14 +48,15 @@ header {
                     display: block;
                     text-transform: uppercase;
                     border-bottom: 3px solid $cor-secundaria;
-                    background-color: $cor-primaria;
                     font-size: 1rem;
                     padding: .8rem .5rem;
                     transition: all .3s ease-in-out;
+                    position: relative;
+                    overflow: hidden;
                     &:hover {
-                        background-color: $cor-terciaria;
                         color: $cor-primaria;
                         border-color: $cor-primaria;
+                        background-color: $cor-terciaria;
                     }
                 }
             }

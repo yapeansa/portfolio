@@ -1,28 +1,9 @@
 @import './variaveis';
 @import './fontes';
+@import './animacoes';
 
 @mixin raio($valor) {
     border-radius: $valor;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
-}
-
-@keyframes rotacao {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-@keyframes mostrarPagina {
-    from { opacity: 0; top: -6.25rem; }
-    to { opacity: 1; top: 0; }
 }
 
 * {
