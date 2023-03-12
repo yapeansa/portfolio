@@ -7,6 +7,5 @@ window.addEventListener('load', () => {
 
 const desapareceLoader = () => {
     loader.style.display = 'none';
-    document.body.classList.add('imagem-de-fundo');
     main.style.display = 'block';
 }
