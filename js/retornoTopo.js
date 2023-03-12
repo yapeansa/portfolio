@@ -1,3 +1,18 @@
+// Criando o botão de retornar ao topo
+
+const retornarAoTopo = document.createElement('div');
+retornarAoTopo.classList.add('botao__topo');
+retornarAoTopo.id = 'to-top';
+retornarAoTopo.innerHTML = `
+    <a href="#">&uarr;</a>
+`;
+
+// Adicionando ao body o botão de retornar ao topo
+
+document.body.appendChild(retornarAoTopo);
+
+// Pegando o botão de retornar ao topo pelo id e aplicando os efeitos de scroll
+
 const botao = document.querySelector('#to-top');
 const altura = screen.availHeight - 80;
 
