@@ -75,7 +75,7 @@ header {
         }
     }
     .banner {
-        background: url('../img/bg1.png') top center / 13.5rem repeat-x, url('../img/bg.jpg') center / cover no-repeat fixed;
+        background: url('../img/bg1.png') top center / 13.5rem repeat-x, url('../img/bg.jpg') bottom center / cover no-repeat fixed;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
