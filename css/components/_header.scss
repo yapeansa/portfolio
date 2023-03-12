@@ -75,12 +75,13 @@ header {
         }
     }
     .banner {
-        background: url('../img/bg1.png') top center / 13.5rem repeat-x;
+        background: url('../img/bg1.png') top center / 13.5rem repeat-x, url('../img/bg.jpg') center / cover no-repeat fixed;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
         row-gap: 3rem;
+        z-index: -1;
         .banner__texto {
             color: $cinza;
             background-color: rgba(0,0,0,.3);
@@ -95,7 +96,7 @@ header {
 
 @media screen and (max-width: 1023px) {
     header {
-        background-size: 8rem;
+        background-size: 10rem;
         position: relative;
         .container__header {
             padding-bottom: 2rem;
@@ -182,7 +183,7 @@ header {
             }
         }
         .banner {
-            background-size: 8rem;
+            background-size: 10rem, cover;
             .banner__texto {
                 font-size: 1.3rem;
                 margin: 0 1.5rem 2rem;
