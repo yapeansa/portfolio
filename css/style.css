@@ -335,6 +335,7 @@ header .banner .banner__texto {
     font-size: 1.3rem;
     margin: 0 1.5rem 2rem;
     word-spacing: normal;
+    text-align: center;
   }
 }
 /* Introdução */
