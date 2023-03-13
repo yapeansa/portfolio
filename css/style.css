@@ -735,6 +735,7 @@ header .banner .banner__texto {
   }
   .contato .titulo__contato {
     font-size: 1.8rem;
+    margin-bottom: 3rem;
   }
   .contato .titulo__contato:before {
     font-size: 2.5rem;
@@ -745,7 +746,7 @@ header .banner .banner__texto {
   .contato .container__contato .titulo__info {
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .contato .container__contato .info__pessoal {
     text-align: center;
@@ -760,6 +761,9 @@ header .banner .banner__texto {
   }
   .contato .container__contato .lattes__info {
     text-align: center;
+  }
+  .contato .container__contato .alt {
+    margin-top: 3rem;
   }
   .contato .container__contato form input[type=text], .contato .container__contato form input[type=email], .contato .container__contato form textarea {
     width: 100%;
@@ -864,7 +868,7 @@ footer .copyright .email__contact:hover {
 
 @media screen and (max-width: 1023px) {
   footer {
-    padding: 2rem 2rem 5rem;
+    padding: 3rem 2rem 5rem;
   }
   footer .titulo__footer:before, footer .titulo__footer:after {
     font-size: 2.3rem;
