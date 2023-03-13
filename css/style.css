@@ -38,11 +38,9 @@
 @keyframes mostrarPagina {
   from {
     opacity: 0;
-    top: -6.25rem;
   }
   to {
     opacity: 1;
-    top: 0;
   }
 }
 * {
@@ -69,10 +67,10 @@ html #conteudo__principal, body #conteudo__principal {
   position: relative;
   animation-name: mostrarPagina;
   animation-duration: 1s;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in;
   -webkit-animation-name: mostrarPagina;
   -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-in;
 }
 html #conteudo__principal .titulo__principal, body #conteudo__principal .titulo__principal {
   font: 2.5rem "Inter Semibold";
@@ -146,7 +144,7 @@ html .fade-out, body .fade-out {
 /* Header */
 header {
   width: 100%;
-  background: url("../img/bg2.png") bottom center/13.5rem repeat-x;
+  background: url("../img/bg2.png") center bottom/13.5rem repeat-x;
   height: 100vh;
   display: grid;
   grid-template-rows: auto 3fr;
@@ -234,7 +232,7 @@ header .container__header nav .close .close-line {
   background-color: #FFF;
 }
 header .banner {
-  background: url("../img/bg1.png") top center/13.5rem repeat-x, url("../img/bg.jpg") bottom center/cover no-repeat fixed;
+  background: url("../img/bg1.png") center top/13.5rem repeat-x, url("../img/bg.jpg") center bottom/cover no-repeat fixed;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;

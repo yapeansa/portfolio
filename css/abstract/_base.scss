@@ -29,10 +29,10 @@ html, body {
         position: relative;
         animation-name: mostrarPagina;
         animation-duration: 1s;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-in;
         -webkit-animation-name: mostrarPagina;
         -webkit-animation-duration: 1s;
-        -webkit-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-in;
         .titulo__principal {
             font: 2.5rem $fonte-titulo;
         }
