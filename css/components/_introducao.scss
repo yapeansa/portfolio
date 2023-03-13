@@ -53,6 +53,11 @@
         }
         .texto__intro {
             margin: 3rem 1.5rem 0;
+            .enfase {
+                &:before, &:after {
+                    font-size: 1.1rem;
+                }
+            }
         }
     }
 }
