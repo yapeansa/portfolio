@@ -50,7 +50,7 @@ Você pode acesar a página do projeto clicando nos seguintes links:
 
 </div>
 
-### Contato
+<h2 align="center">Contato</h2>
 
 Não se esqueça de me seguir em minhas redes sociais:
 
