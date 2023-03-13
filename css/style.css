@@ -198,7 +198,7 @@ header .container__header nav .menu__principal .menu__link {
   text-transform: uppercase;
   border-bottom: 3px solid #9400D3;
   font-size: 1rem;
-  padding: 0.8rem 0.5rem;
+  padding: 1rem 0.5rem 0.8rem;
   transition: all 0.3s ease-in-out;
   position: relative;
   overflow: hidden;
