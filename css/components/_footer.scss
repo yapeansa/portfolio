@@ -4,18 +4,17 @@ footer {
     background-color: $cor-primaria;
     padding: 7rem 0 4rem;
     .titulo__footer {
-        font-size: 2rem;
         color: $cor-quaternaria;
         text-align: center;
         &:before {
             content: '( ';
             color: $cor-secundaria;
-            font-size: 3.5rem;
+            font-size: 4.5rem;
         }
         &:after {
             content: ' )';
             color: $cor-secundaria;
-            font-size: 3.5rem;
+            font-size: 4.5rem;
         }
     }
     .rodape__texto {
@@ -57,7 +56,6 @@ footer {
     footer {
         padding: 2rem 2rem 5rem;
         .titulo__footer {
-            font-size: 1.4rem;
             &:before, &:after {
                 font-size: 2.3rem;
             }

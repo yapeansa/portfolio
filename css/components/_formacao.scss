@@ -10,12 +10,12 @@
         &:before {
             content: '( ';
             color: $cinza-escuro;
-            font-size: 3.6rem;
+            font-size: 4.5rem;
         }
         &:after {
             content: ' )';
             color: $cinza-escuro;
-            font-size: 3.6rem;
+            font-size: 4.5rem;
         }
     }
     .container__cards {
@@ -28,13 +28,7 @@
             flex-basis: 30%;
             padding: 2rem;
             text-align: center;
-            border: 1px solid $cinza-escuro;
-            transition: all .3s ease-in-out;
-            &:hover {
-                box-shadow: .5rem .5rem 0px 0px $cinza-escuro;
-                border-color: $cinza-escuro;
-                cursor: pointer;
-            }
+            box-shadow: 0 0 15px 0 $cinza;
             .card__titulo {
                 font: 1.5rem $fonte-titulo ;
                 color: $cor-primaria;
@@ -84,10 +78,7 @@
             .card {
                 width: 100%;
                 padding: 0 0 2rem;
-                border: none;
-                &:hover {
-                    box-shadow: none;
-                }
+                box-shadow: none;
             }
         }
     }

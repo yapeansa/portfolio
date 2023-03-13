@@ -363,12 +363,12 @@ header .banner .banner__texto {
 .introducao .titulo__intro:before {
   content: "( ";
   color: #333;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .introducao .titulo__intro:after {
   content: " )";
   color: #333;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .introducao .texto__intro {
   margin: 3rem 11rem 0;
@@ -423,7 +423,7 @@ header .banner .banner__texto {
 .sobre .titulo__sobre:before {
   content: "/ ";
   color: #FFC719;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .sobre .texto__sobre {
   color: #FFF;
@@ -492,12 +492,12 @@ header .banner .banner__texto {
 .formacao .titulo__formacao:before {
   content: "( ";
   color: #333;
-  font-size: 3.6rem;
+  font-size: 4.5rem;
 }
 .formacao .titulo__formacao:after {
   content: " )";
   color: #333;
-  font-size: 3.6rem;
+  font-size: 4.5rem;
 }
 .formacao .container__cards {
   display: flex;
@@ -510,13 +510,7 @@ header .banner .banner__texto {
   flex-basis: 30%;
   padding: 2rem;
   text-align: center;
-  border: 1px solid #333;
-  transition: all 0.3s ease-in-out;
-}
-.formacao .container__cards .card:hover {
-  box-shadow: 0.5rem 0.5rem 0px 0px #333;
-  border-color: #333;
-  cursor: pointer;
+  box-shadow: 0 0 15px 0 #CCC;
 }
 .formacao .container__cards .card .card__titulo {
   font: 1.5rem "Inter Semibold";
@@ -566,9 +560,6 @@ header .banner .banner__texto {
   .formacao .container__cards .card {
     width: 100%;
     padding: 0 0 2rem;
-    border: none;
-  }
-  .formacao .container__cards .card:hover {
     box-shadow: none;
   }
 }
@@ -586,7 +577,7 @@ header .banner .banner__texto {
 .contato .titulo__contato:before {
   content: "/ ";
   color: #FFC719;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .contato .container__contato {
   display: grid;
@@ -824,19 +815,18 @@ footer {
   padding: 7rem 0 4rem;
 }
 footer .titulo__footer {
-  font-size: 2rem;
   color: #FFF;
   text-align: center;
 }
 footer .titulo__footer:before {
   content: "( ";
   color: #9400D3;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 footer .titulo__footer:after {
   content: " )";
   color: #9400D3;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 footer .rodape__texto {
   color: #FFF;
@@ -875,9 +865,6 @@ footer .copyright .email__contact:hover {
 @media screen and (max-width: 1023px) {
   footer {
     padding: 2rem 2rem 5rem;
-  }
-  footer .titulo__footer {
-    font-size: 1.4rem;
   }
   footer .titulo__footer:before, footer .titulo__footer:after {
     font-size: 2.3rem;
