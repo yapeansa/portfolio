@@ -21,11 +21,11 @@ Este projeto foi desenvolvido não apenas para divulgar minhas habilidades e exp
 
 ![OptimusTech](img/projeto.png#vitrinedev)
 
-### Breve Descrição do Projeto
+<h2 align="center">Breve Descrição do Projeto</h2>
 
 Utilizando as linguagens HTML5, CSS3 e Javascript, exploro no decorrer do desenvolvimento conceitos importantes de diagramação e posicionamento de elementos no documento, tais como Flexbox e Grid. Além disso, a responsividade também foi trabalhada neste projeto.
 
-### Tecnologias Utilizadas
+<h2 align="center">Tecnologias Utilizadas</h2>
 
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="50" height="50"/>&nbsp;
@@ -34,14 +34,14 @@ Utilizando as linguagens HTML5, CSS3 e Javascript, exploro no decorrer do desenv
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="50" height="50"/>
 </div>
 
-### Acesso ao Projeto
+<h2 align="center">Acesso ao Projeto</h2>
 
 Você pode acesar a página do projeto clicando nos seguintes links:
 
 - [https://yapeansa.github.io/portfolio/](https://yapeansa.github.io/portfolio/)
 - [https://yapeansa.vercel.app/](https://yapeansa.vercel.app/)
 
-### Desenvolvedor do Projeto
+<h2 align="center">Desenvolvedor do Projeto</h2>
 
 <div align="center">
 
