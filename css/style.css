@@ -199,7 +199,7 @@ header .container__header nav .menu__principal .menu__link {
   border-bottom: 3px solid #9400D3;
   font-size: 1rem;
   padding: 0.8rem 0.5rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -213,7 +213,7 @@ header .container__header nav .menu__principal .menu__link .animate {
   display: block;
   background-color: #FFC719;
   z-index: -1;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 header .container__header nav .menu__principal .menu__link:hover {
   color: #000;

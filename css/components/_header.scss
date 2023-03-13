@@ -50,7 +50,7 @@ header {
                     border-bottom: 3px solid $cor-secundaria;
                     font-size: 1rem;
                     padding: .8rem .5rem;
-                    transition: all .5s ease-in-out;
+                    transition: all .3s ease-in-out;
                     position: relative;
                     overflow: hidden;
                     z-index: 1;
@@ -63,7 +63,7 @@ header {
                         display: block;
                         background-color: $cor-terciaria;
                         z-index: -1;
-                        transition: all .5s ease-in-out;
+                        transition: all .3s ease-in-out;
                     }
                     &:hover {
                         color: $cor-primaria;
