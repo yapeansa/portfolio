@@ -52,7 +52,7 @@ Você pode acesar a página do projeto clicando nos seguintes links:
 
 <h2 align="center">Contato</h2>
 
-Não se esqueça de me seguir em minhas redes sociais:
+<p align="center">Não se esqueça de me seguir em minhas redes sociais.</p>
 
 <div align="center">
 
