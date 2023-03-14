@@ -35,16 +35,7 @@
     transform: rotate(360deg);
   }
 }
-@keyframes mostrarPagina {
-  from {
-    opacity: 0;
-    top: -100px;
-  }
-  to {
-    opacity: 1;
-    top: 0;
-  }
-}
+/* Fim das animações */
 * {
   box-sizing: border-box;
 }
@@ -67,10 +58,10 @@ html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
 html #conteudo__principal, body #conteudo__principal {
   display: none;
   position: relative;
-  animation-name: mostrarPagina;
+  animation-name: fadeIn;
   animation-duration: 1s;
   animation-timing-function: ease-in;
-  -webkit-animation-name: mostrarPagina;
+  -webkit-animation-name: fadeIn;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: ease-in;
 }
