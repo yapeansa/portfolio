@@ -27,10 +27,10 @@ html, body {
     #conteudo__principal {
         display: none;
         position: relative;
-        animation-name: mostrarPagina;
+        animation-name: fadeIn;
         animation-duration: 1s;
         animation-timing-function: ease-in;
-        -webkit-animation-name: mostrarPagina;
+        -webkit-animation-name: fadeIn;
         -webkit-animation-duration: 1s;
         -webkit-animation-timing-function: ease-in;
         .titulo__principal {

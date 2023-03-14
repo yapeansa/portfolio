@@ -14,8 +14,3 @@
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
-
-@keyframes mostrarPagina {
-    from { opacity: 0; top: -100px; }
-    to { opacity: 1; top: 0; }
-}
