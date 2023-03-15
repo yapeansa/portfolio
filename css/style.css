@@ -229,15 +229,15 @@ header .banner {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  row-gap: 3rem;
+  row-gap: 2rem;
   z-index: -1;
 }
 header .banner .banner__texto {
   color: #CCC;
   background-color: rgba(0, 0, 0, 0.3);
   display: inline-block;
-  padding: 0.5rem;
-  font-size: 2.3rem;
+  padding: 1rem 0.5rem;
+  font-size: 2rem;
   line-height: 1;
   font-weight: normal;
 }
