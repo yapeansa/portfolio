@@ -2,12 +2,13 @@
 
 .sobre {
     background-color: $cor-primaria;
-    padding: 6rem 0 6rem 3rem;
+    padding: 6rem 0 6rem 0;
     .titulo__sobre {
         color: $cor-quaternaria;
         position: relative;
         display: inline-block;
         padding-bottom: 1rem;
+        margin-left: 6rem;
         &:before {
             content: '';
             position: absolute;
@@ -27,6 +28,7 @@
             grid-area: texto;
             align-self: center;
             padding: 2rem 0;
+            margin-left: 3rem;
             .link__sobre {
                 border-bottom: 2px solid $cor-terciaria;
                 display: inline-block;
@@ -65,11 +67,13 @@
         .titulo__sobre {
             font-size: 1.8rem;
             margin-bottom: 2rem;
+            margin-left: 0;
         }
         .container__sobre {
             display: block;
             .texto__sobre {
                 text-align: center;
+                margin: 0;
             }
             .container__foto {
                 .foto__perfil {

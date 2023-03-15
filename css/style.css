@@ -404,13 +404,14 @@ header .banner .banner__texto {
 /* Sobre mim */
 .sobre {
   background-color: #000;
-  padding: 6rem 0 6rem 3rem;
+  padding: 6rem 0 6rem 0;
 }
 .sobre .titulo__sobre {
   color: #FFF;
   position: relative;
   display: inline-block;
   padding-bottom: 1rem;
+  margin-left: 6rem;
 }
 .sobre .titulo__sobre:before {
   content: "";
@@ -431,6 +432,7 @@ header .banner .banner__texto {
   grid-area: texto;
   align-self: center;
   padding: 2rem 0;
+  margin-left: 3rem;
 }
 .sobre .container__sobre .texto__sobre .link__sobre {
   border-bottom: 2px solid #FFC719;
@@ -468,12 +470,14 @@ header .banner .banner__texto {
   .sobre .titulo__sobre {
     font-size: 1.8rem;
     margin-bottom: 2rem;
+    margin-left: 0;
   }
   .sobre .container__sobre {
     display: block;
   }
   .sobre .container__sobre .texto__sobre {
     text-align: center;
+    margin: 0;
   }
   .sobre .container__sobre .container__foto .foto__perfil {
     margin: 2rem auto 0;
