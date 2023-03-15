@@ -403,14 +403,11 @@ header .banner .banner__texto {
 }
 /* Sobre mim */
 .sobre {
-  display: grid;
-  grid-template-areas: "titulo titulo titulo" "titulo titulo titulo" "texto texto imagem";
   background-color: #000;
   padding: 6rem 0 6rem 3rem;
 }
 .sobre .titulo__sobre {
   color: #FFF;
-  grid-area: titulo;
   position: relative;
   display: inline-block;
   padding-bottom: 1rem;
@@ -420,18 +417,22 @@ header .banner .banner__texto {
   position: absolute;
   left: -3rem;
   bottom: 0;
-  width: 7%;
+  width: 50%;
   height: 3px;
   background-color: #FFC719;
 }
-.sobre .texto__sobre {
+.sobre .container__sobre {
+  display: grid;
+  grid-template-areas: "texto texto imagem";
+}
+.sobre .container__sobre .texto__sobre {
   color: #FFF;
   text-align: justify;
   grid-area: texto;
   align-self: center;
   padding: 2rem 0;
 }
-.sobre .texto__sobre .link__sobre {
+.sobre .container__sobre .texto__sobre .link__sobre {
   border-bottom: 2px solid #FFC719;
   display: inline-block;
   color: #FFF;
@@ -440,16 +441,16 @@ header .banner .banner__texto {
   transition: all 0.3s ease-in-out;
   font-weight: bold;
 }
-.sobre .texto__sobre .link__sobre:hover {
+.sobre .container__sobre .texto__sobre .link__sobre:hover {
   border-color: #000;
   color: #000;
   background-color: #FFC719;
 }
-.sobre .container__foto {
+.sobre .container__sobre .container__foto {
   align-self: center;
   grid-area: imagem;
 }
-.sobre .container__foto .foto__perfil {
+.sobre .container__sobre .container__foto .foto__perfil {
   max-width: 60%;
   display: block;
   border-radius: 100%;
@@ -462,19 +463,19 @@ header .banner .banner__texto {
   .sobre {
     display: block;
     padding: 2rem 1.5rem 3rem;
+    text-align: center;
   }
   .sobre .titulo__sobre {
     font-size: 1.8rem;
-    text-align: center;
     margin-bottom: 2rem;
   }
-  .sobre .titulo__sobre:before {
-    font-size: 2.5rem;
+  .sobre .container__sobre {
+    display: block;
   }
-  .sobre .texto__sobre {
+  .sobre .container__sobre .texto__sobre {
     text-align: center;
   }
-  .sobre .container__foto .foto__perfil {
+  .sobre .container__sobre .container__foto .foto__perfil {
     margin: 2rem auto 0;
   }
 }

@@ -1,13 +1,10 @@
 /* Sobre mim */
 
 .sobre {
-    display: grid;
-    grid-template-areas: 'titulo titulo titulo' 'titulo titulo titulo' 'texto texto imagem';
     background-color: $cor-primaria;
     padding: 6rem 0 6rem 3rem;
     .titulo__sobre {
         color: $cor-quaternaria;
-        grid-area: titulo;
         position: relative;
         display: inline-block;
         padding-bottom: 1rem;
@@ -16,42 +13,46 @@
             position: absolute;
             left: -3rem;
             bottom: 0;
-            width: 7%;
+            width: 50%;
             height: 3px;
             background-color: $cor-terciaria;
         }
     }
-    .texto__sobre {
-        color: $cor-quaternaria;
-        text-align: justify;
-        grid-area: texto;
-        align-self: center;
-        padding: 2rem 0;
-        .link__sobre {
-            border-bottom: 2px solid $cor-terciaria;
-            display: inline-block;
+    .container__sobre {
+        display: grid;
+        grid-template-areas: 'texto texto imagem';
+        .texto__sobre {
             color: $cor-quaternaria;
-            background: $cor-primaria;
-            padding: 0 3px;
-            transition: all .3s ease-in-out;
-            font-weight: bold;
-            &:hover {
-                border-color: $cor-primaria;
-                color: $cor-primaria;
-                background-color: $cor-terciaria;
+            text-align: justify;
+            grid-area: texto;
+            align-self: center;
+            padding: 2rem 0;
+            .link__sobre {
+                border-bottom: 2px solid $cor-terciaria;
+                display: inline-block;
+                color: $cor-quaternaria;
+                background: $cor-primaria;
+                padding: 0 3px;
+                transition: all .3s ease-in-out;
+                font-weight: bold;
+                &:hover {
+                    border-color: $cor-primaria;
+                    color: $cor-primaria;
+                    background-color: $cor-terciaria;
+                }
             }
         }
-    }
-    .container__foto {
-        align-self: center;
-        grid-area: imagem;
-        .foto__perfil {
-            max-width: 60%;
-            display: block;
-            @include raio(100%);
-            border: 3px solid $cor-secundaria;
-            padding: 1rem;
-            margin: 0 auto;
+        .container__foto {
+            align-self: center;
+            grid-area: imagem;
+            .foto__perfil {
+                max-width: 60%;
+                display: block;
+                @include raio(100%);
+                border: 3px solid $cor-secundaria;
+                padding: 1rem;
+                margin: 0 auto;
+            }
         }
     }
 }
@@ -60,20 +61,20 @@
     .sobre {
         display: block;
         padding: 2rem 1.5rem 3rem;
+        text-align: center;
         .titulo__sobre {
             font-size: 1.8rem;
-            text-align: center;
             margin-bottom: 2rem;
-            &:before {
-                font-size: 2.5rem;
+        }
+        .container__sobre {
+            display: block;
+            .texto__sobre {
+                text-align: center;
             }
-        }
-        .texto__sobre {
-            text-align: center;
-        }
-        .container__foto {
-            .foto__perfil {
-                margin: 2rem auto 0;
+            .container__foto {
+                .foto__perfil {
+                    margin: 2rem auto 0;
+                }
             }
         }
     }
