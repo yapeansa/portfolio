@@ -3,19 +3,21 @@
 .formacao {
     background: $cor-quaternaria;
     padding: 5rem 4rem 8rem;
+    text-align: center;
     .titulo__formacao {
-        text-align: center;
         margin-bottom: 5rem;
         color: $cor-primaria;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 1rem;
         &:before {
-            content: '( ';
-            color: $cinza-escuro;
-            font-size: 4.5rem;
-        }
-        &:after {
-            content: ' )';
-            color: $cinza-escuro;
-            font-size: 4.5rem;
+            content: '';
+            position: absolute;
+            left: -3rem;
+            bottom: 0;
+            width: 50%;
+            height: 3px;
+            background-color: $cinza-escuro;
         }
     }
     .container__cards {

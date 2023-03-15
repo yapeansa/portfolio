@@ -8,10 +8,17 @@
     .titulo__sobre {
         color: $cor-quaternaria;
         grid-area: titulo;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 1rem;
         &:before {
-            content: '/ ';
-            color: $cor-terciaria;
-            font-size: 4.5rem;
+            content: '';
+            position: absolute;
+            left: -3rem;
+            bottom: 0;
+            width: 7%;
+            height: 3px;
+            background-color: $cor-terciaria;
         }
     }
     .texto__sobre {

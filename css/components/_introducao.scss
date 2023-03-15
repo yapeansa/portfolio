@@ -3,18 +3,20 @@
 .introducao {
     padding: 6rem 0;
     background-color: $cor-quaternaria;
+    text-align: center;
     .titulo__intro {
-        text-align: center;
         color: $cor-primaria;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 1rem;
         &:before {
-            content: '( ';
-            color: $cinza-escuro;
-            font-size: 4.5rem;
-        }
-        &:after {
-            content: ' )';
-            color: $cinza-escuro;
-            font-size: 4.5rem;
+            content: '';
+            position: absolute;
+            left: -3rem;
+            bottom: 0;
+            width: 50%;
+            height: 3px;
+            background-color: $cinza-escuro;
         }
     }
     .texto__intro {

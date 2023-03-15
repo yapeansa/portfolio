@@ -4,14 +4,21 @@
     width: 100%;
     background: $cor-primaria url('../img/bg3.png') top center / 13.5rem repeat-x;
     padding: 12rem 3rem 0;
+    text-align: center;
     .titulo__contato {
         color: $cor-quaternaria;
-        text-align: center;
         margin-bottom: 3rem;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 1rem;
         &:before {
-            content: '/ ';
-            color: $cor-terciaria;
-            font-size: 4.5rem;
+            content: '';
+            position: absolute;
+            left: -3rem;
+            bottom: 0;
+            width: 50%;
+            height: 3px;
+            background-color: $cor-terciaria;
         }
     }
     .container__contato {
@@ -22,6 +29,7 @@
         .titulo__info {
             grid-area: 1/1/2/2;
             font-size: 1.5rem;
+            text-align: left;
             &:before {
                 content: '[ ';
                 color: $cor-secundaria;
@@ -40,6 +48,7 @@
         }
         .info__pessoal {
             grid-area: 2/1/3/2;
+            text-align: left;
             .lista__pessoal {
                 font-size: 1.1rem;
                 li {

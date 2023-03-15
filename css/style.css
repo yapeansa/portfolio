@@ -345,20 +345,22 @@ header .banner .banner__texto {
 .introducao {
   padding: 6rem 0;
   background-color: #FFF;
+  text-align: center;
 }
 .introducao .titulo__intro {
-  text-align: center;
   color: #000;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
 }
 .introducao .titulo__intro:before {
-  content: "( ";
-  color: #333;
-  font-size: 4.5rem;
-}
-.introducao .titulo__intro:after {
-  content: " )";
-  color: #333;
-  font-size: 4.5rem;
+  content: "";
+  position: absolute;
+  left: -3rem;
+  bottom: 0;
+  width: 50%;
+  height: 3px;
+  background-color: #333;
 }
 .introducao .texto__intro {
   margin: 3rem 11rem 0;
@@ -409,11 +411,18 @@ header .banner .banner__texto {
 .sobre .titulo__sobre {
   color: #FFF;
   grid-area: titulo;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
 }
 .sobre .titulo__sobre:before {
-  content: "/ ";
-  color: #FFC719;
-  font-size: 4.5rem;
+  content: "";
+  position: absolute;
+  left: -3rem;
+  bottom: 0;
+  width: 7%;
+  height: 3px;
+  background-color: #FFC719;
 }
 .sobre .texto__sobre {
   color: #FFF;
@@ -473,21 +482,23 @@ header .banner .banner__texto {
 .formacao {
   background: #FFF;
   padding: 5rem 4rem 8rem;
+  text-align: center;
 }
 .formacao .titulo__formacao {
-  text-align: center;
   margin-bottom: 5rem;
   color: #000;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
 }
 .formacao .titulo__formacao:before {
-  content: "( ";
-  color: #333;
-  font-size: 4.5rem;
-}
-.formacao .titulo__formacao:after {
-  content: " )";
-  color: #333;
-  font-size: 4.5rem;
+  content: "";
+  position: absolute;
+  left: -3rem;
+  bottom: 0;
+  width: 50%;
+  height: 3px;
+  background-color: #333;
 }
 .formacao .container__cards {
   display: flex;
@@ -558,16 +569,23 @@ header .banner .banner__texto {
   width: 100%;
   background: #000 url("../img/bg3.png") top center/13.5rem repeat-x;
   padding: 12rem 3rem 0;
+  text-align: center;
 }
 .contato .titulo__contato {
   color: #FFF;
-  text-align: center;
   margin-bottom: 3rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
 }
 .contato .titulo__contato:before {
-  content: "/ ";
-  color: #FFC719;
-  font-size: 4.5rem;
+  content: "";
+  position: absolute;
+  left: -3rem;
+  bottom: 0;
+  width: 50%;
+  height: 3px;
+  background-color: #FFC719;
 }
 .contato .container__contato {
   display: grid;
@@ -578,6 +596,7 @@ header .banner .banner__texto {
 .contato .container__contato .titulo__info {
   grid-area: 1/1/2/2;
   font-size: 1.5rem;
+  text-align: left;
 }
 .contato .container__contato .titulo__info:before {
   content: "[ ";
@@ -596,6 +615,7 @@ header .banner .banner__texto {
 }
 .contato .container__contato .info__pessoal {
   grid-area: 2/1/3/2;
+  text-align: left;
 }
 .contato .container__contato .info__pessoal .lista__pessoal {
   font-size: 1.1rem;
