@@ -9,7 +9,7 @@
         color: $cor-primaria;
         position: relative;
         display: inline-block;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
         &:before {
             content: '';
             position: absolute;
@@ -30,7 +30,7 @@
             flex-basis: 30%;
             padding: 2rem;
             text-align: center;
-            box-shadow: 0 0 15px 0 $cinza;
+            box-shadow: 0 0 15px 0 #ddd;
             .card__titulo {
                 font: 1.5rem $fonte-titulo ;
                 color: $cor-primaria;

@@ -7,7 +7,7 @@
         color: $cor-quaternaria;
         position: relative;
         display: inline-block;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
         margin-left: 6rem;
         &:before {
             content: '';
@@ -28,7 +28,7 @@
             grid-area: texto;
             align-self: center;
             padding: 2rem 0;
-            margin-left: 3rem;
+            margin-left: 6rem;
             .link__sobre {
                 border-bottom: 2px solid $cor-terciaria;
                 display: inline-block;

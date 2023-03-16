@@ -351,7 +351,7 @@ header .banner .banner__texto {
   color: #000;
   position: relative;
   display: inline-block;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .introducao .titulo__intro:before {
   content: "";
@@ -410,7 +410,7 @@ header .banner .banner__texto {
   color: #FFF;
   position: relative;
   display: inline-block;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   margin-left: 6rem;
 }
 .sobre .titulo__sobre:before {
@@ -432,7 +432,7 @@ header .banner .banner__texto {
   grid-area: texto;
   align-self: center;
   padding: 2rem 0;
-  margin-left: 3rem;
+  margin-left: 6rem;
 }
 .sobre .container__sobre .texto__sobre .link__sobre {
   border-bottom: 2px solid #FFC719;
@@ -494,7 +494,7 @@ header .banner .banner__texto {
   color: #000;
   position: relative;
   display: inline-block;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .formacao .titulo__formacao:before {
   content: "";
@@ -516,7 +516,7 @@ header .banner .banner__texto {
   flex-basis: 30%;
   padding: 2rem;
   text-align: center;
-  box-shadow: 0 0 15px 0 #CCC;
+  box-shadow: 0 0 15px 0 #ddd;
 }
 .formacao .container__cards .card .card__titulo {
   font: 1.5rem "Inter Semibold";
@@ -581,7 +581,7 @@ header .banner .banner__texto {
   margin-bottom: 3rem;
   position: relative;
   display: inline-block;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .contato .titulo__contato:before {
   content: "";
