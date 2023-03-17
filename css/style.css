@@ -657,7 +657,7 @@ header .banner .banner__texto {
   margin: 0 auto 1rem;
   font-size: 1rem;
   padding: 1.2rem 1.6rem;
-  border: 5px solid #000;
+  border: 3px solid #000;
   outline: none;
   transition: all 0.3s ease-in-out;
   color: #000;
