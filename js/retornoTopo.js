@@ -3,9 +3,7 @@
 const retornarAoTopo = document.createElement('div');
 retornarAoTopo.classList.add('botao__topo');
 retornarAoTopo.id = 'to-top';
-retornarAoTopo.innerHTML = `
-    <a href="#">&uarr;</a>
-`;
+retornarAoTopo.innerHTML = '<a href="#">&uarr;</a>';
 
 // Adicionando ao body o botão de retornar ao topo
 

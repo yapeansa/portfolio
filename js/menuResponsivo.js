@@ -8,11 +8,8 @@ elementoAbrir.classList.add('open');
 elementoAbrir.id = 'open__menu';
 navegacao[0].appendChild(elementoAbrir);
 
-for (let i = 0; i < 3; i++) {
-    elementoAbrir.innerHTML += `
-        <div class="open-line"></div>
-    `;
-}
+for (let i = 0; i < 3; i++)
+    elementoAbrir.innerHTML += '<div class="open-line"></div>';
 
 // Criando o elemento botão fechar do menu responsivo
 
@@ -22,20 +19,15 @@ elementoFechar.classList.add('close');
 elementoFechar.id = 'close__menu';
 menuResponsivo.prepend(elementoFechar);
 
-for (let j = 0; j < 2; j++) {
-    elementoFechar.innerHTML += `
-        <div class="close-line"></div>
-    `;
-}
+for (let j = 0; j < 2; j++)
+    elementoFechar.innerHTML += '<div class="close-line"></div>';
 
 // Pegando os botões pelo id e inserindo as ações de clique/toque
 
 const open = document.querySelector('#open__menu');
 const close = document.querySelector('#close__menu');
 
-open.addEventListener('click', () => {
-    menu.style.display = 'block';
-});
+open.addEventListener('click', () => menu.style.display = 'block');
 
 close.addEventListener('click', () => {
     menu.classList.add('sumir_menu');

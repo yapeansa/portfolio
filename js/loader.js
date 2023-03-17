@@ -2,9 +2,7 @@
 
 const loaderContainer = document.createElement('div');
 loaderContainer.id = 'loader';
-loaderContainer.innerHTML = `
-    <div class="animation__loader"></div>
-`;
+loaderContainer.innerHTML = '<div class="animation__loader"></div>';
 
 // Inserindo loader container no body
 
@@ -15,9 +13,7 @@ document.body.prepend(loaderContainer);
 const loader = document.querySelector('#loader');
 const main = document.querySelector('#conteudo__principal');
 
-window.addEventListener('load', () => {
-    setTimeout(desapareceLoader, 3000);
-});
+window.addEventListener('load', () => setTimeout(desapareceLoader, 3000));
 
 const desapareceLoader = () => {
     loader.style.display = 'none';
