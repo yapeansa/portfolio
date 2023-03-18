@@ -15,7 +15,7 @@ const main = document.querySelector('#conteudo__principal');
 
 window.addEventListener('load', () => setTimeout(desapareceLoader, 3000));
 
-const desapareceLoader = () => {
+function desapareceLoader() {
     loader.style.display = 'none';
     main.style.display = 'block';
 }

@@ -24,13 +24,13 @@ document.addEventListener('scroll', () => {
     }
 });
 
-const aparecer = () => botao.style.display = 'block';
+function aparecer () { botao.style.display = 'block' }
 
-const removeClasse = () => botao.classList.remove('fade-out');
+function removeClasse () { botao.classList.remove('fade-out') }
 
-const desaparecer = () => botao.style.display = 'none';
+function desaparecer () { botao.style.display = 'none' }
 
-const efeito = () => {
+function efeito () {
     botao.classList.add('fade-out');
     setTimeout(removeClasse, 300);
     setTimeout(desaparecer, 300);

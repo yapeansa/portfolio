@@ -35,6 +35,6 @@ close.addEventListener('click', () => {
     setTimeout(sumirMenu, 600);
 });
 
-const removeClasseMenu = () => menu.classList.remove('sumir_menu');
+function removeClasseMenu() { menu.classList.remove('sumir_menu') }
 
-const sumirMenu = () => menu.style.display = 'none';
+function sumirMenu() { menu.style.display = 'none' }
