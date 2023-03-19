@@ -13,9 +13,9 @@ document.body.prepend(loaderContainer);
 const loader = document.querySelector('#loader');
 const main = document.querySelector('#conteudo__principal');
 
-window.addEventListener('load', () => setTimeout(desapareceLoader, 3000));
+window.addEventListener('load', () => setTimeout(desaparecerLoader, 3000));
 
-function desapareceLoader() {
+function desaparecerLoader () {
     loader.style.display = 'none';
     main.style.display = 'block';
 }

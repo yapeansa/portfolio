@@ -14,24 +14,26 @@ document.body.appendChild(retornarAoTopo);
 const botao = document.querySelector('#to-top');
 const altura = screen.availHeight - 80;
 
-document.addEventListener('scroll', () => {
+document.addEventListener('scroll', rolagem);
+
+function rolagem () {
     if (document.documentElement.scrollTop > altura) {
         clearInterval(window.scrollEndTimer);
-        window.scrollEndTimer = setTimeout(aparecer, 300);
+        window.scrollEndTimer = setTimeout(aparecerBotao, 300);
     } else {
         clearInterval(window.scrollEndTimer);
         window.scrollEndTimer = setTimeout(efeito, 300);
     }
-});
+}
 
-function aparecer () { botao.style.display = 'block' }
+function aparecerBotao () { botao.style.display = 'block' }
 
-function removeClasse () { botao.classList.remove('fade-out') }
+function removerClasse () { botao.classList.remove('fade-out') }
 
-function desaparecer () { botao.style.display = 'none' }
+function desaparecerBotao () { botao.style.display = 'none' }
 
 function efeito () {
     botao.classList.add('fade-out');
-    setTimeout(removeClasse, 300);
-    setTimeout(desaparecer, 300);
+    setTimeout(removerClasse, 300);
+    setTimeout(desaparecerBotao, 300);
 }
