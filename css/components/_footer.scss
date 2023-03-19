@@ -8,12 +8,12 @@ footer {
         text-align: center;
         &:before {
             content: '( ';
-            color: $cor-secundaria;
+            color: $cor-terciaria;
             font-size: 4.5rem;
         }
         &:after {
             content: ' )';
-            color: $cor-secundaria;
+            color: $cor-terciaria;
             font-size: 4.5rem;
         }
     }
