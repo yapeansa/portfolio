@@ -229,7 +229,7 @@ header .banner {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  row-gap: 2rem;
+  row-gap: 2.5rem;
   z-index: -1;
 }
 header .banner .banner__texto {
@@ -237,7 +237,7 @@ header .banner .banner__texto {
   background-color: rgba(0, 0, 0, 0.3);
   display: inline-block;
   padding: 1rem 0.5rem;
-  font-size: 2rem;
+  font-size: 2vw;
   line-height: 1;
   font-weight: normal;
 }
