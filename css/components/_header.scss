@@ -49,11 +49,11 @@ header {
                     text-transform: uppercase;
                     border-bottom: 3px solid $cor-secundaria;
                     font-size: 1rem;
-                    padding: 1rem .5rem .8rem;
+                    padding: 1.1rem .5rem .8rem;
                     transition: all .3s ease-in-out;
                     position: relative;
                     overflow: hidden;
-                    z-index: 1;
+                    z-index: 1000;
                     .animate {
                         position: absolute;
                         width: 100%;

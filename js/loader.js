@@ -2,7 +2,9 @@
 
 const loaderContainer = document.createElement('div');
 loaderContainer.id = 'loader';
-loaderContainer.innerHTML = '<div class="animation__loader"></div>';
+const divisao = document.createElement('div');
+divisao.classList.add('animation__loader');
+loaderContainer.append(divisao);
 
 // Inserindo loader container no body
 
