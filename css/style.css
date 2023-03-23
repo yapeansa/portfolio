@@ -509,12 +509,12 @@ header .banner .banner__texto {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 4rem;
+  gap: 2.8rem;
 }
 .formacao .container__cards .card {
   flex-grow: 1;
   flex-basis: 30%;
-  padding: 2rem;
+  padding: 2.5rem;
   text-align: center;
   box-shadow: 0 0 15px 0 #ddd;
 }
