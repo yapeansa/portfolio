@@ -77,7 +77,6 @@ html #loader, body #loader {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,8 +84,8 @@ html #loader, body #loader {
 html #loader .animation__loader, body #loader .animation__loader {
   width: 6rem;
   height: 6rem;
-  border: 13px solid #333;
-  border-top-color: #FFC719;
+  border: 13px solid #DDD;
+  border-top-color: #000;
   border-radius: 100%;
   animation-name: rotacao;
   animation-duration: 1.5s;

@@ -48,15 +48,14 @@ html, body {
         left: 0;
         width: 100%;
         height: 100vh;
-        background-color: $preto;
         display: flex;
         justify-content: center;
         align-items: center;
         .animation__loader {
             width: 6rem;
             height: 6rem;
-            border: 13px solid #333;
-            border-top-color: $cor-terciaria;
+            border: 13px solid #DDD;
+            border-top-color: $cor-primaria;
             @include raio(100%);
             animation-name: rotacao;
             animation-duration: 1.5s;
