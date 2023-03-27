@@ -270,6 +270,7 @@ header .banner .banner__texto {
     justify-content: center;
     align-items: center;
     row-gap: 10px;
+    margin-top: 1.8rem;
   }
   header .container__header nav .menu__mobile {
     display: none;
