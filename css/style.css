@@ -374,13 +374,11 @@ header .banner .banner__texto {
   color: #9400D3;
 }
 .introducao .texto__intro .enfase:before {
-  content: "[";
-  font-size: 1.5rem;
+  content: "(";
   color: #9400D3;
 }
 .introducao .texto__intro .enfase:after {
-  content: "]";
-  font-size: 1.5rem;
+  content: ")";
   color: #9400D3;
 }
 
@@ -396,9 +394,6 @@ header .banner .banner__texto {
   }
   .introducao .texto__intro {
     margin: 3rem 1.5rem 0;
-  }
-  .introducao .texto__intro .enfase:before, .introducao .texto__intro .enfase:after {
-    font-size: 1.1rem;
   }
 }
 /* Sobre mim */

@@ -31,13 +31,11 @@
         }
         .enfase {
             &:before {
-                content: '[';
-                font-size: 1.5rem;
+                content: '(';
                 color: $cor-secundaria;
             }
             &:after {
-                content: ']';
-                font-size: 1.5rem;
+                content: ')';
                 color: $cor-secundaria;
             }
         }
@@ -55,11 +53,6 @@
         }
         .texto__intro {
             margin: 3rem 1.5rem 0;
-            .enfase {
-                &:before, &:after {
-                    font-size: 1.1rem;
-                }
-            }
         }
     }
 }

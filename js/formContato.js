@@ -1,4 +1,4 @@
-const textos = document.querySelectorAll('.campo-texto');
+const textos = document.querySelectorAll('[data-texto]');
 
 textos.forEach(elemento => {
     elemento.addEventListener('focus', esvaziarPlaceholder);
