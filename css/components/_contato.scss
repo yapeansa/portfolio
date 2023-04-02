@@ -52,13 +52,13 @@
             .lista__pessoal {
                 font-size: 1.1rem;
                 li {
-                    margin-bottom: 1.5rem;
+                    margin-bottom: 2rem;
                     .pessoal__link {
                         color: $cor-quaternaria;
                         background-color: $cor-primaria;
                         font-size: 1.1rem;
                         border: 2px solid $cor-secundaria;
-                        padding: .3rem 1rem;
+                        padding: .5rem 1rem;
                         transition: all .3s ease-in-out;
                         &:hover {
                             background-color: $cor-secundaria;
@@ -158,7 +158,7 @@
                 font-size: 1.1rem;
                 display: inline-block;
                 margin-top: 1rem;
-                padding: .3rem 1rem;
+                padding: .5rem 1rem;
                 border: 2px solid $cor-secundaria;
                 transition: all .3s ease-in-out;
                 &:hover {

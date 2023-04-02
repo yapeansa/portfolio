@@ -30,13 +30,12 @@
             padding: 2rem 0;
             margin-left: 6rem;
             .link__sobre {
-                border-bottom: 2px solid $cor-terciaria;
+                border: 2px solid $cor-terciaria;
                 display: inline-block;
                 color: $cor-quaternaria;
                 background: $cor-primaria;
                 padding: 0 3px;
                 transition: all .3s ease-in-out;
-                font-weight: bold;
                 &:hover {
                     border-color: $cor-primaria;
                     color: $cor-primaria;
