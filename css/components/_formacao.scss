@@ -2,7 +2,7 @@
 
 .formacao {
     background: $cor-quaternaria;
-    padding: 5rem 4rem 8rem;
+    padding: 5rem 0 8rem;
     text-align: center;
     .titulo__formacao {
         margin-bottom: 5rem;
@@ -20,48 +20,99 @@
             background-color: $cinza-escuro;
         }
     }
-    .container__cards {
+    .cards__area {
+        text-align: left;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         justify-content: center;
-        gap: 2.8rem;
-        .card {
-            flex-grow: 1;
-            flex-basis: 30%;
-            padding: 2.5rem;
-            text-align: center;
-            box-shadow: 0 0 15px 0 #ddd;
-            .card__titulo {
-                font: 1.5rem $fonte-titulo ;
-                color: $cor-primaria;
-                margin: 1rem 0;
-            }
-            .card__subtitulo {
-                font: 1.07rem $fonte-subtitulo;
-            }
-            .card__texto {
-                font-size: 1.02rem;
-                line-height: 1.5;
-                .link__tcc {
-                    color: $preto;
-                    border: 3px solid $cor-secundaria;
-                    transition: all .3s ease-in-out;
-                    margin-top: 1rem;
-                    display: inline-block;
-                    padding: .5rem 1rem;
-                    font-family: $fonte-subtitulo;
-                    &:hover {
-                        color: $cor-quaternaria;
-                        background-color: $cor-secundaria;
-                        border-color: $cor-secundaria;
+        gap: 5%;
+        .container__card {
+            position: relative;
+            flex-basis: 20%;
+            perspective: 1000px;
+            height: 320px;
+            .inner__card {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                transform-style: preserve-3d;
+                transition: all .5s ease-out;
+                .front__card, .back__card {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    backface-visibility: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    border: 4px solid $preto;
+                    .institution {
+                        font-family: $fonte-titulo;
+                        font-size: 2rem;
                     }
-                    strong {
-                        font-weight: normal;
+                    .course { font-size: 1.2rem; }
+                    .to_front, .to_back {
+                        background-color: $preto;
+                        color: $branco;
+                        font-size: 1rem;
+                        padding: 1.2rem 2rem;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                }
+                .front__card {
+                    background-color: $branco;
+                    padding-bottom: 3rem;
+                    .to_back {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        border: 2px solid transparent;
+                        border-top-left-radius: 30px;
+                    }
+                    .function, .brackets {
+                        max-width: 25%;
+                    }
+                    .container__imagens {
+                        display: flex;
+                        justify-content: center;
+                        gap: 2rem;
+                        .html5, .css3 {
+                            max-width: 25%;
+                        }
+                    }
+                }
+                .back__card {
+                    transform: rotateY(180deg);
+                    background-color: $preto;
+                    color: $branco;
+                    text-align: center;
+                    .to_front {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        border: 2px solid $branco;
+                        background-color: $branco;
+                        color: $preto;
+                        border-top-right-radius: 30px;
+                    }
+                    .description__course {
+                        padding: 0 1.8rem;
+                        font-size: 1.2rem;
+                        line-height: 1.5;
                     }
                 }
             }
+            .spin__card {
+                transform: rotateY(-180deg);
+            }
         }
     }
+    
 }
 
 @media screen and (max-width: 1023px) {
@@ -74,14 +125,6 @@
                 font-size: 2.5rem;
             }
         }
-        .container__cards {
-            flex-flow: column nowrap;
-            gap: 0;
-            .card {
-                width: 100%;
-                padding: 0 0 2rem;
-                box-shadow: none;
-            }
-        }
+        
     }
 }

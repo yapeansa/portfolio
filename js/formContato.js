@@ -7,4 +7,11 @@ textos.forEach(elemento => {
 
 function esvaziarPlaceholder () { this.placeholder = '' }
 
-function preencherPlaceholder () { this.placeholder = `${this.name} aqui...` }
+function preencherPlaceholder () {
+    if (this.name == 'nome' || this.name == 'e-mail') {
+        this.placeholder = ` Digite seu ${this.name} aqui...`;
+    }
+    else {
+        this.placeholder = `Digite sua ${this.name} aqui...`;
+    }
+}
