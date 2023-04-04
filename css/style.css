@@ -546,6 +546,7 @@ header .banner .banner__texto {
 .formacao .cards__area .container__card .inner__card .front__card .to_front, .formacao .cards__area .container__card .inner__card .front__card .to_back, .formacao .cards__area .container__card .inner__card .back__card .to_front, .formacao .cards__area .container__card .inner__card .back__card .to_back {
   color: #FFF;
   font-size: 1rem;
+  outline: none;
   width: 100px;
   height: 100px;
   cursor: pointer;
