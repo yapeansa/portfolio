@@ -472,6 +472,7 @@ header .banner .banner__texto {
   .sobre .container__sobre .texto__sobre {
     text-align: center;
     margin: 0;
+    padding: 0;
   }
   .sobre .container__sobre .container__foto .foto__perfil {
     margin: 2rem auto 0;
@@ -614,6 +615,13 @@ header .banner .banner__texto {
   }
   .formacao .cards__area .container__card {
     margin-bottom: 3.5vh;
+    height: 350px;
+  }
+  .formacao .cards__area .container__card .inner__card .front__card, .formacao .cards__area .container__card .inner__card .back__card {
+    height: 350px;
+  }
+  .formacao .cards__area .container__card .inner__card .back__card {
+    padding-bottom: 2.5rem;
   }
 }
 /* Contato */

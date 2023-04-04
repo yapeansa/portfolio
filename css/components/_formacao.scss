@@ -136,6 +136,15 @@
             display: block;
             .container__card {
                 margin-bottom: 3.5vh;
+                height: 350px;
+                .inner__card {
+                    .front__card, .back__card {
+                        height: 350px;
+                    }
+                    .back__card {
+                        padding-bottom: 2.5rem;
+                    }
+                }
             }
         }
     }
