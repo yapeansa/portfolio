@@ -128,3 +128,14 @@
         
     }
 }
+
+@media screen and (max-width: 700px) {
+    .formacao {
+        .cards__area {
+            display: block;
+            .container__card {
+                margin-bottom: 3.5vh;
+            }
+        }
+    }
+}
