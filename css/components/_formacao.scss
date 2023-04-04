@@ -57,10 +57,11 @@
                     }
                     .course { font-size: 1.2rem; }
                     .to_front, .to_back {
-                        background-color: $preto;
                         color: $branco;
                         font-size: 1rem;
-                        padding: 1.2rem 2rem;
+                        //padding: 2rem;
+                        width: 100px;
+                        height: 100px;
                         cursor: pointer;
                         text-transform: uppercase;
                     }
@@ -70,10 +71,11 @@
                     padding-bottom: 3rem;
                     .to_back {
                         position: absolute;
-                        bottom: 0;
-                        right: 0;
-                        border: 2px solid transparent;
-                        border-top-left-radius: 30px;
+                        bottom: -4px;
+                        color: transparent;
+                        right: -4px;
+                        border: none;
+                        background: url('../img/leaf.png') center / contain no-repeat;
                     }
                     .function, .brackets {
                         max-width: 25%;
@@ -94,12 +96,13 @@
                     text-align: center;
                     .to_front {
                         position: absolute;
-                        left: 0;
-                        bottom: 0;
-                        border: 2px solid $branco;
-                        background-color: $branco;
-                        color: $preto;
-                        border-top-right-radius: 30px;
+                        left: -4px;
+                        bottom: -4px;
+                        width: 100px;
+                        height: 100px;
+                        border: none;
+                        background: $branco url('../img/leaf-back.png') center / contain no-repeat;
+                        color: transparent;
                     }
                     .description__course {
                         padding: 0 1.8rem;

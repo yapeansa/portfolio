@@ -544,10 +544,10 @@ header .banner .banner__texto {
   font-size: 1.2rem;
 }
 .formacao .cards__area .container__card .inner__card .front__card .to_front, .formacao .cards__area .container__card .inner__card .front__card .to_back, .formacao .cards__area .container__card .inner__card .back__card .to_front, .formacao .cards__area .container__card .inner__card .back__card .to_back {
-  background-color: #000;
   color: #FFF;
   font-size: 1rem;
-  padding: 1.2rem 2rem;
+  width: 100px;
+  height: 100px;
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -557,10 +557,11 @@ header .banner .banner__texto {
 }
 .formacao .cards__area .container__card .inner__card .front__card .to_back {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  border: 2px solid transparent;
-  border-top-left-radius: 30px;
+  bottom: -4px;
+  color: transparent;
+  right: -4px;
+  border: none;
+  background: url("../img/leaf.png") center/contain no-repeat;
 }
 .formacao .cards__area .container__card .inner__card .front__card .function, .formacao .cards__area .container__card .inner__card .front__card .brackets {
   max-width: 25%;
@@ -581,12 +582,13 @@ header .banner .banner__texto {
 }
 .formacao .cards__area .container__card .inner__card .back__card .to_front {
   position: absolute;
-  left: 0;
-  bottom: 0;
-  border: 2px solid #FFF;
-  background-color: #FFF;
-  color: #000;
-  border-top-right-radius: 30px;
+  left: -4px;
+  bottom: -4px;
+  width: 100px;
+  height: 100px;
+  border: none;
+  background: #FFF url("../img/leaf-back.png") center/contain no-repeat;
+  color: transparent;
 }
 .formacao .cards__area .container__card .inner__card .back__card .description__course {
   padding: 0 1.8rem;
