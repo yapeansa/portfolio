@@ -2,7 +2,7 @@ const textos = document.querySelectorAll('[data-texto]');
 
 textos.forEach(elemento => {
     elemento.addEventListener('focus', esvaziarPlaceholder);
-    elemento.addEventListener('blur', preencherPlaceholder);
+    elemento.addEventListener('blur', preencherPlaceholder)
 });
 
 function esvaziarPlaceholder () { this.placeholder = '' }

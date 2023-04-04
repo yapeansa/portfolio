@@ -510,7 +510,7 @@ header .banner .banner__texto {
   position: relative;
   flex-basis: 20%;
   perspective: 1000px;
-  height: 320px;
+  height: 400px;
 }
 .formacao .cards__area .container__card .inner__card {
   position: relative;
@@ -533,6 +533,7 @@ header .banner .banner__texto {
   align-items: center;
   gap: 1rem;
   border: 4px solid #000;
+  height: 400px;
 }
 .formacao .cards__area .container__card .inner__card .front__card .institution, .formacao .cards__area .container__card .inner__card .back__card .institution {
   font-family: "Inter Semibold";
