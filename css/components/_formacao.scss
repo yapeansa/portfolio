@@ -119,7 +119,7 @@
     
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 701px) and (max-width: 1023px) {
     .formacao {
         padding: 2rem 2rem 3rem;
         .titulo__formacao {
@@ -137,12 +137,14 @@
     .formacao {
         .cards__area {
             display: block;
+            width: 78%;
+            margin: 0 auto;
             .container__card {
                 margin-bottom: 3.5vh;
-                height: 350px;
+                height: 400px;
                 .inner__card {
                     .front__card, .back__card {
-                        height: 350px;
+                        height: 400px;
                     }
                     .back__card {
                         padding-bottom: 2.5rem;

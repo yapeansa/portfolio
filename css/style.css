@@ -600,7 +600,7 @@ header .banner .banner__texto {
   transform: rotateY(-180deg);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 701px) and (max-width: 1023px) {
   .formacao {
     padding: 2rem 2rem 3rem;
   }
@@ -615,13 +615,15 @@ header .banner .banner__texto {
 @media screen and (max-width: 700px) {
   .formacao .cards__area {
     display: block;
+    width: 78%;
+    margin: 0 auto;
   }
   .formacao .cards__area .container__card {
     margin-bottom: 3.5vh;
-    height: 350px;
+    height: 400px;
   }
   .formacao .cards__area .container__card .inner__card .front__card, .formacao .cards__area .container__card .inner__card .back__card {
-    height: 350px;
+    height: 400px;
   }
   .formacao .cards__area .container__card .inner__card .back__card {
     padding-bottom: 2.5rem;
