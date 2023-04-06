@@ -60,8 +60,8 @@
                         color: $branco;
                         font-size: 1rem;
                         outline: none;
-                        width: 100px;
-                        height: 100px;
+                        width: 80px;
+                        height: 80px;
                         cursor: pointer;
                         text-transform: uppercase;
                     }
@@ -76,6 +76,11 @@
                         right: -4px;
                         border: none;
                         background: url('../img/leaf.png') center / contain no-repeat;
+                        transition: all .5s ease-in-out;
+                        &:hover {
+                            width: 100px;
+                            height: 100px;
+                        }
                     }
                     .function, .brackets {
                         max-width: 25%;
@@ -98,11 +103,16 @@
                         position: absolute;
                         left: -4px;
                         bottom: -4px;
-                        width: 100px;
-                        height: 100px;
+                        width: 80px;
+                        height: 80px;
                         border: none;
                         background: $branco url('../img/leaf-back.png') center / contain no-repeat;
                         color: transparent;
+                        transition: all .5s ease-in-out;
+                        &:hover {
+                            width: 100px;
+                            height: 100px;
+                        }
                     }
                     .description__course {
                         padding: 0 1.8rem;
