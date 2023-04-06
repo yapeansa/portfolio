@@ -81,19 +81,21 @@
                     display: block;
                     width: 100%;
                     margin: 0 auto 1rem;
-                    font-size: 1rem;
-                    padding: 1.2rem 1.6rem;
-                    border: 3px solid $cor-primaria;
+                    font-family: $fonte-texto;
+                    font-size: 1.1rem;
+                    padding: 1.2rem 1rem;
+                    border: none;
+                    border: 3px solid $preto;
                     outline: none;
                     transition: all .3s ease-in-out;
-                    color: $cor-primaria;
-                    background-color: $cor-quaternaria;
-                    -webkit-text-fill-color: $cor-primaria;
+                    color: $preto;
+                    background-color: $branco;
+                    -webkit-text-fill-color: $preto;
                     &:focus {
-                        background-color: $cor-primaria;
-                        color: $cor-quaternaria;
+                        background-color: $preto;
                         border-color: $cor-secundaria;
-                        -webkit-text-fill-color: $cor-quaternaria;
+                        color: $branco;
+                        -webkit-text-fill-color: $branco;
                     }
                     &::placeholder {
                         opacity: 1;
@@ -236,13 +238,13 @@
             form {
                 grid-area: formulario;
                 fieldset {
-                    input[type=text], input[type=email] {
-                        width: 49.4%;
-                        display: inline-block;
-                        margin: 0;
-                    }
-                    input[type=email] {
-                        float: right;
+                    .split {
+                        display: flex;
+                        justify-content: space-between;
+                        input[type=text], input[type=email] {
+                            width: 49.4%;
+                            margin: 0;
+                        }
                     }
                     textarea {
                         margin-top: 1rem;

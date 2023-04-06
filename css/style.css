@@ -725,8 +725,10 @@ header .banner .banner__texto {
   display: block;
   width: 100%;
   margin: 0 auto 1rem;
-  font-size: 1rem;
-  padding: 1.2rem 1.6rem;
+  font-family: "Inter Regular";
+  font-size: 1.1rem;
+  padding: 1.2rem 1rem;
+  border: none;
   border: 3px solid #000;
   outline: none;
   transition: all 0.3s ease-in-out;
@@ -736,8 +738,8 @@ header .banner .banner__texto {
 }
 .contato .container__contato form fieldset input[type=text]:focus, .contato .container__contato form fieldset input[type=email]:focus, .contato .container__contato form fieldset textarea:focus {
   background-color: #000;
-  color: #FFF;
   border-color: #9400D3;
+  color: #FFF;
   -webkit-text-fill-color: #FFF;
 }
 .contato .container__contato form fieldset input[type=text]::-moz-placeholder, .contato .container__contato form fieldset input[type=email]::-moz-placeholder, .contato .container__contato form fieldset textarea::-moz-placeholder {
@@ -877,13 +879,13 @@ header .banner .banner__texto {
   .contato .container__contato form {
     grid-area: formulario;
   }
-  .contato .container__contato form fieldset input[type=text], .contato .container__contato form fieldset input[type=email] {
-    width: 49.4%;
-    display: inline-block;
-    margin: 0;
+  .contato .container__contato form fieldset .split {
+    display: flex;
+    justify-content: space-between;
   }
-  .contato .container__contato form fieldset input[type=email] {
-    float: right;
+  .contato .container__contato form fieldset .split input[type=text], .contato .container__contato form fieldset .split input[type=email] {
+    width: 49.4%;
+    margin: 0;
   }
   .contato .container__contato form fieldset textarea {
     margin-top: 1rem;

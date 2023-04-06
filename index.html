@@ -121,8 +121,10 @@
                 <form name="contato" method="POST" action="https://formspree.io/f/xnqlkqnk">
                     <fieldset>
                         <legend>Contato</legend>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." data-texto required>
-                        <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail aqui..." data-texto required>
+                        <div class="split">
+                            <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." data-texto required>
+                            <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail aqui..." data-texto required>
+                        </div>
                         <textarea rows="8" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." data-texto required></textarea>
                         <div class="centraliza">
                             <input type="reset" value="Limpar">
