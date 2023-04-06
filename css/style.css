@@ -223,7 +223,7 @@ header .container__header nav .close .close-line {
   background-color: #FFF;
 }
 header .banner {
-  background: url("../img/bg1.png") center top/12.5rem repeat-x, url("../img/bg.jpg") center bottom/cover no-repeat fixed;
+  background: url("../img/bg1.png") center top/12.5rem repeat-x, url("../img/bg.jpg") center/cover no-repeat fixed;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
