@@ -208,8 +208,14 @@
                 margin-top: 3rem;
             }
             form {
-                input[type=text], input[type=email], textarea {
-                    width: 100%;
+                fieldset {
+                    input[type=text], input[type=email], textarea {
+                        width: 100%;
+                    }
+                    .centraliza {
+                        width: 100%;
+                        justify-content: space-between;
+                    }
                 }
             }
         }
