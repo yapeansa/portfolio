@@ -547,8 +547,8 @@ header .banner .banner__texto {
   color: #FFF;
   font-size: 1rem;
   outline: none;
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -563,11 +563,6 @@ header .banner .banner__texto {
   right: -4px;
   border: none;
   background: url("../img/leaf.png") center/contain no-repeat;
-  transition: all 0.5s ease-in-out;
-}
-.formacao .cards__area .container__card .inner__card .front__card .to_back:hover {
-  width: 100px;
-  height: 100px;
 }
 .formacao .cards__area .container__card .inner__card .front__card .function, .formacao .cards__area .container__card .inner__card .front__card .brackets {
   max-width: 25%;
@@ -590,16 +585,11 @@ header .banner .banner__texto {
   position: absolute;
   left: -4px;
   bottom: -4px;
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
   border: none;
   background: #FFF url("../img/leaf-back.png") center/contain no-repeat;
   color: transparent;
-  transition: all 0.5s ease-in-out;
-}
-.formacao .cards__area .container__card .inner__card .back__card .to_front:hover {
-  width: 100px;
-  height: 100px;
 }
 .formacao .cards__area .container__card .inner__card .back__card .description__course {
   padding: 0 1.8rem;
