@@ -846,10 +846,6 @@ header .banner .banner__texto {
   .contato .container__contato form fieldset input[type=text], .contato .container__contato form fieldset input[type=email], .contato .container__contato form fieldset textarea {
     width: 100%;
   }
-  .contato .container__contato form fieldset .centraliza {
-    width: 100%;
-    justify-content: space-between;
-  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1190px) {
   .contato .container__contato {
